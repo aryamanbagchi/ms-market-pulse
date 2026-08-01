@@ -16,19 +16,25 @@
   }
   @media (prefers-color-scheme: dark) {
     body, .canvas { background:#0f1720 !important; }
-    .paper { background:#161f2a !important; }
-    .masthead-title, .t-ink { color:#e8eef5 !important; }
-    .t-soft { color:#b3c2d2 !important; }
+    .paper        { background:#161f2a !important; }
+    .card         { background:#1e2937 !important; }
+    .card-ink     { background:#1b2b3d !important; }
+    .masthead-title, .t-ink, .t-ink a { color:#e8eef5 !important; }
+    .t-soft, .t-soft a { color:#c3d0de !important; }
+    .t-muted      { color:#94a5b8 !important; }
+    .t-accent, .t-accent a { color:#5fbfb2 !important; }
+    .b-ink        { border-color:#46566b !important; }
+    .b-rule       { border-color:#2b3746 !important; }
   }
 </style>
 </head>
 <body class="canvas" style="margin:0;padding:0;background:#eef1f5;">
 <div style="display:none;max-height:0;overflow:hidden;opacity:0;">
-  MS Market Pulse Issue 1 &mdash; 8 developments across the MS market, 01 August 2026.
-  36 items screened &middot; 8 featured.
+  MS Market Pulse Issue 1 &mdash; 9 developments across the MS market, 01 August 2026.
+  36 items screened &middot; 9 featured.
 </div>
 
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+<table role="presentation" class="canvas" width="100%" cellpadding="0" cellspacing="0" border="0"
        style="background:#eef1f5;padding:28px 12px;">
   <tr><td align="center">
     <table role="presentation" class="wrap paper" width="680" cellpadding="0" cellspacing="0" border="0"
@@ -38,21 +44,21 @@
       <!-- Masthead -->
       <tr><td style="padding:38px 0 0;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-          <tr><td style="border-bottom:3px solid #12263f;padding-bottom:16px;">
-            <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.18em;
+          <tr><td class="b-ink" style="border-bottom:3px solid #12263f;padding-bottom:16px;">
+            <div class="t-accent" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.18em;
                  text-transform:uppercase;color:#0b6b63;margin-bottom:8px;">
               Competitive Intelligence Briefing</div>
             <div class="masthead-title" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:37px;line-height:1.1;
                  font-weight:700;color:#12263f;letter-spacing:-.5px;">MS Market Pulse</div>
-            <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;color:#7a8ba0;margin-top:8px;">Weekly competitive intelligence for the Multiple Sclerosis market</div>
+            <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;color:#7a8ba0;margin-top:8px;">Weekly competitive intelligence for the Multiple Sclerosis market</div>
           </td></tr>
           <tr><td style="padding-top:12px;">
             <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
               <tr>
-                <td style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;color:#7a8ba0;">
+                <td class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;color:#7a8ba0;">
                   Issue 1<span style="color:#dfe5ec;"> &middot; </span>25 Jul &ndash; 01 Aug 2026</td>
-                <td style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;color:#7a8ba0;text-align:right;">
-                  36 items screened &middot; 8 featured</td>
+                <td class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;color:#7a8ba0;text-align:right;">
+                  36 items screened &middot; 9 featured</td>
               </tr>
             </table>
           </td></tr>
@@ -61,200 +67,233 @@
 
       
       <tr><td style="padding:30px 0 0;">
-        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+        <table role="presentation" class="card-ink" width="100%" cellpadding="0" cellspacing="0" border="0"
                style="background:#12263f;border-radius:4px;">
           <tr><td style="padding:26px 26px 24px;">
             <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.14em;
                  text-transform:uppercase;color:#8fb8b3;margin-bottom:10px;">Editor's Take</div>
-            <p style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:16px;line-height:1.68;color:#f2f5f8;margin:0;">A major clinical push into progressive multiple sclerosis is underway as BTK inhibitors target non-relapsing populations with high unmet need. Zenas BioPharma initiated dual Phase 3 trials evaluating its CNS-penetrable candidate orelabrutinib in primary and non-active secondary progressive MS, while Novartis launched its own Phase 3 study for remibrutinib in SPMS. Concurrently, the anti-CD20 landscape is shifting as Roche advances a high-dose ocrelizumab regimen to extend product defense against emerging competition like Amgen&#x27;s biosimilar candidate, ABP 692. On the commercial front, Australian policy decisions exempted MS therapies from mandatory price cuts, contrasting with Biogen&#x27;s latest earnings where non-MS revenues eclipsed its declining legacy MS business. Strategy teams must now watch enrollment trajectories across these late-stage BTK trials to see if the mechanism can finally deliver meaningful efficacy in progressive disease.</p>
+            <p style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:16px;line-height:1.68;color:#f2f5f8;margin:0;">The battle for progressive MS is reaching a critical nexus as BTK inhibitors aggressively target non-relapsing disease populations where traditional anti-CD20s face efficacy limits. Zenas BioPharma launched dual Phase 3 trials for its CNS-penetrable candidate orelabrutinib in primary and secondary progressive MS, directly aligning with Novartis&#x27;s Phase 3 initiation of remibrutinib in SPMS. Concurrently, Roche is attempting to entrench its franchise by completing recruitment for a higher-dose ocrelizumab regimen, even as Amgen&#x27;s biosimilar candidate ABP 692 moves closer to market entry. These pipeline shifts coincide with structural commercial pressure on legacy products, highlighted by Biogen&#x27;s MS revenues being overtaken by non-MS assets and pricing friction in Australia. Market observers should watch whether upcoming Phase 3 readout timelines for oral BTK inhibitors validate their disease-modifying potential in progressive populations while BMS tracks real-world PML risks for Zeposia.</p>
           </td></tr>
         </table>
       </td></tr>
       
       <tr><td style="padding:34px 0 0;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-          <tr><td style="border-top:2px solid #12263f;padding-top:10px;">
-            <div style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:21px;font-weight:700;color:#12263f;">Regulatory</div>
-            <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;color:#7a8ba0;margin-top:3px;">Approvals, submissions, labelling and access decisions
+          <tr><td class="b-ink" style="border-top:2px solid #12263f;padding-top:10px;">
+            <div class="t-ink" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:21px;font-weight:700;color:#12263f;">Regulatory</div>
+            <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;color:#7a8ba0;margin-top:3px;">Approvals, submissions, labelling and access decisions
               <span style="color:#dfe5ec;"> &middot; </span>nothing featured</div>
           </td></tr>
         </table>
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
       <tr><td style="padding:18px 0 4px;">
-        <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.6;color:#7a8ba0;
-             font-style:italic;">No FDA actions affecting the MS market in this window. Sources checked: FDA press releases, drugs and MedWatch feeds.</div>
+        <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.6;
+             color:#7a8ba0;font-style:italic;">No FDA actions affecting the MS market in this window. Sources checked: FDA press releases, drugs and MedWatch feeds.</div>
       </td></tr></table>
       </td></tr>
       <tr><td style="padding:34px 0 0;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-          <tr><td style="border-top:2px solid #12263f;padding-top:10px;">
-            <div style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:21px;font-weight:700;color:#12263f;">Clinical</div>
-            <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;color:#7a8ba0;margin-top:3px;">Trial starts, status changes, readouts and pipeline movement
-              <span style="color:#dfe5ec;"> &middot; </span>5 items</div>
+          <tr><td class="b-ink" style="border-top:2px solid #12263f;padding-top:10px;">
+            <div class="t-ink" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:21px;font-weight:700;color:#12263f;">Clinical</div>
+            <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;color:#7a8ba0;margin-top:3px;">Trial starts, status changes, readouts and pipeline movement
+              <span style="color:#dfe5ec;"> &middot; </span>6 items</div>
           </td></tr>
         </table>
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
       <tr>
-        <td style="padding:22px 0;border-bottom:1px solid #dfe5ec;">
+        <td class="b-rule" style="padding:22px 0 22px;border-bottom:1px solid #dfe5ec;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
             <tr>
               <td style="padding:0 14px 8px 0;vertical-align:top;">
-                <a href="https://clinicaltrials.gov/study/NCT07067463" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
+                <a class="t-ink" href="https://clinicaltrials.gov/study/NCT07067463" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
                    font-weight:700;color:#12263f;text-decoration:none;">A Study of Orelabrutinib in Patients With Primary Progressive Multiple Sclerosis</a>
               </td>
               <td style="vertical-align:top;text-align:right;white-space:nowrap;padding-bottom:8px;"><span style="display:inline-block;background:#fdeede;color:#a85b12;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;font-weight:700;letter-spacing:.06em;padding:4px 9px;border-radius:3px;white-space:nowrap;">IMPACT 4/5</span></td>
             </tr>
           </table>
 
-          <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">ClinicalTrials.gov<span style="color:#dfe5ec;"> &middot; </span>31 Jul 2026<span style="color:#dfe5ec;"> &middot; </span>Phase 3<span style="color:#dfe5ec;"> &middot; </span>Recruiting<span style="color:#dfe5ec;"> &middot; </span>Zenas BioPharma (USA), LLC<span style="color:#dfe5ec;"> &middot; </span>NCT07067463</div>
+          <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">ClinicalTrials.gov<span style="color:#dfe5ec;"> &middot; </span>31 Jul 2026<span style="color:#dfe5ec;"> &middot; </span>Phase 3<span style="color:#dfe5ec;"> &middot; </span>Recruiting<span style="color:#dfe5ec;"> &middot; </span>Zenas BioPharma (USA), LLC<span style="color:#dfe5ec;"> &middot; </span>NCT07067463</div>
 
-          <p style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Zenas BioPharma has initiated a global Phase 3, randomized, double-blind study evaluating its CNS-penetrable BTK inhibitor, orelabrutinib, against placebo in patients with primary progressive multiple sclerosis (PPMS). The trial (NCT07067463) aims to enroll approximately 705 subjects randomized 2:1 to receive treatment for 30 to 60 months, with a minimum duration of 12 months.</p>
+          <p class="t-soft" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Zenas BioPharma has initiated a global Phase 3, randomized, double-blind study (NCT07067463) evaluating its CNS-penetrable BTK inhibitor, orelabrutinib, versus placebo in patients with primary progressive multiple sclerosis (PPMS). The trial is currently recruiting approximately 705 subjects randomized 2:1 to receive treatment for 30 to 60 months, with a minimum duration of 12 months.</p>
 
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+          <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
                  style="background:#eef1f5;border-left:3px solid #0b6b63;border-radius:0 3px 3px 0;">
             <tr>
               <td style="padding:11px 14px;">
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
+                <div class="t-accent" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
                      text-transform:uppercase;color:#0b6b63;margin-bottom:4px;">Why it matters</div>
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">Zenas BioPharma&#x27;s advance of orelabrutinib into Phase 3 PPMS trials intensifies competition in the progressive MS space against rival oral BTK inhibitors from Sanofi, Roche, and Merck KGaA.</div>
+                <div class="t-ink" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">The advancement of orelabrutinib into Phase 3 development directly intensifies Phase 3 BTK inhibitor competition in progressive MS, impacting developers like Roche, Sanofi, and Merck KGaA.</div>
               </td>
             </tr>
           </table>
           
           <div style="margin:12px 0 0;">
-            <a href="https://clinicaltrials.gov/study/NCT07067463" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
+            <a class="t-accent" href="https://clinicaltrials.gov/study/NCT07067463" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
                color:#0b6b63;text-decoration:none;">Read the source &rarr;</a>
           </div>
         </td>
       </tr>
       <tr>
-        <td style="padding:22px 0;border-bottom:1px solid #dfe5ec;">
+        <td class="b-rule" style="padding:22px 0 22px;border-bottom:1px solid #dfe5ec;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
             <tr>
               <td style="padding:0 14px 8px 0;vertical-align:top;">
-                <a href="https://clinicaltrials.gov/study/NCT04544436" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
+                <a class="t-ink" href="https://clinicaltrials.gov/study/NCT04544436" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
                    font-weight:700;color:#12263f;text-decoration:none;">A Study to Evaluate the Efficacy, Safety and Pharmacokinetics (PK) of a Higher Dose of Ocrelizumab in Adults With Relapsing Multiple Sclerosis (RMS)</a>
               </td>
               <td style="vertical-align:top;text-align:right;white-space:nowrap;padding-bottom:8px;"><span style="display:inline-block;background:#fdeede;color:#a85b12;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;font-weight:700;letter-spacing:.06em;padding:4px 9px;border-radius:3px;white-space:nowrap;">IMPACT 4/5</span></td>
             </tr>
           </table>
 
-          <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">ClinicalTrials.gov<span style="color:#dfe5ec;"> &middot; </span>30 Jul 2026<span style="color:#dfe5ec;"> &middot; </span>Phase 3<span style="color:#dfe5ec;"> &middot; </span>Active Not Recruiting<span style="color:#dfe5ec;"> &middot; </span>Hoffmann-La Roche<span style="color:#dfe5ec;"> &middot; </span>NCT04544436</div>
+          <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">ClinicalTrials.gov<span style="color:#dfe5ec;"> &middot; </span>30 Jul 2026<span style="color:#dfe5ec;"> &middot; </span>Phase 3<span style="color:#dfe5ec;"> &middot; </span>Active Not Recruiting<span style="color:#dfe5ec;"> &middot; </span>Hoffmann-La Roche<span style="color:#dfe5ec;"> &middot; </span>NCT04544436</div>
 
-          <p style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Hoffmann-La Roche&#x27;s Phase 3 study evaluating a higher dose of intravenous ocrelizumab administered every 24 weeks versus the approved 600 mg dose in adults with relapsing multiple sclerosis is now Active, Not Recruiting. The randomized, double-blind, parallel-group, multicenter trial assesses the efficacy, safety, and pharmacokinetics of the higher-dose regimen in participants with RMS.</p>
+          <p class="t-soft" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Hoffmann-La Roche&#x27;s Phase 3 study evaluating a higher dose of intravenous ocrelizumab administered every 24 weeks versus the approved 600 mg dose in adults with relapsing multiple sclerosis has transitioned to Active, Not Recruiting status (NCT04544436). The randomized, double-blind, multicenter trial is assessing the efficacy, safety, and pharmacokinetics of the elevated dosing regimen.</p>
 
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+          <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
                  style="background:#eef1f5;border-left:3px solid #0b6b63;border-radius:0 3px 3px 0;">
             <tr>
               <td style="padding:11px 14px;">
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
+                <div class="t-accent" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
                      text-transform:uppercase;color:#0b6b63;margin-bottom:4px;">Why it matters</div>
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">Completion of enrollment in this pivotal trial advances Roche&#x27;s efforts to optimize Ocrevus dosing, directly defending its anti-CD20 franchise against emerging high-efficacy competitors.</div>
+                <div class="t-ink" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">Roche&#x27;s progression with a higher-dose ocrelizumab regimen threatens competing anti-CD20 therapies by potentially enhancing clinical efficacy and extending market dominance in relapsing multiple sclerosis.</div>
               </td>
             </tr>
           </table>
           
           <div style="margin:12px 0 0;">
-            <a href="https://clinicaltrials.gov/study/NCT04544436" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
+            <a class="t-accent" href="https://clinicaltrials.gov/study/NCT04544436" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
                color:#0b6b63;text-decoration:none;">Read the source &rarr;</a>
           </div>
         </td>
       </tr>
       <tr>
-        <td style="padding:22px 0;border-bottom:1px solid #dfe5ec;">
+        <td class="b-rule" style="padding:22px 0 22px;border-bottom:1px solid #dfe5ec;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
             <tr>
               <td style="padding:0 14px 8px 0;vertical-align:top;">
-                <a href="https://clinicaltrials.gov/study/NCT07299019" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
+                <a class="t-ink" href="https://clinicaltrials.gov/study/NCT07299019" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
                    font-weight:700;color:#12263f;text-decoration:none;">A Study of Orelabrutinib in Patients With Secondary Progressive Multiple Sclerosis</a>
               </td>
               <td style="vertical-align:top;text-align:right;white-space:nowrap;padding-bottom:8px;"><span style="display:inline-block;background:#fdeede;color:#a85b12;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;font-weight:700;letter-spacing:.06em;padding:4px 9px;border-radius:3px;white-space:nowrap;">IMPACT 4/5</span></td>
             </tr>
           </table>
 
-          <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">ClinicalTrials.gov<span style="color:#dfe5ec;"> &middot; </span>30 Jul 2026<span style="color:#dfe5ec;"> &middot; </span>Phase 3<span style="color:#dfe5ec;"> &middot; </span>Recruiting<span style="color:#dfe5ec;"> &middot; </span>Zenas BioPharma (USA), LLC<span style="color:#dfe5ec;"> &middot; </span>NCT07299019</div>
+          <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">ClinicalTrials.gov<span style="color:#dfe5ec;"> &middot; </span>30 Jul 2026<span style="color:#dfe5ec;"> &middot; </span>Phase 3<span style="color:#dfe5ec;"> &middot; </span>Recruiting<span style="color:#dfe5ec;"> &middot; </span>Zenas BioPharma (USA), LLC<span style="color:#dfe5ec;"> &middot; </span>NCT07299019</div>
 
-          <p style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Zenas BioPharma has initiated a global Phase 3 study (NCT07299019) evaluating orelabrutinib, a CNS-penetrable BTK inhibitor, in patients with non-active secondary progressive multiple sclerosis. The randomized, double-blind, placebo-controlled trial plans to enroll approximately 990 subjects with a 2:1 randomization scheme. Treatment duration will range from 24 to 60 months, with a minimum required treatment period of 12 months.</p>
+          <p class="t-soft" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Zenas BioPharma has initiated a Phase 3, randomized, double-blind study evaluating its CNS-penetrable BTK inhibitor, orelabrutinib, against placebo in non-active secondary progressive multiple sclerosis (spMS). The global trial (NCT07299019) is currently recruiting and plans to enroll approximately 990 subjects with a treatment duration between 12 and 60 months. Patients will be randomized in a 2:1 ratio to evaluate the efficacy and safety profile of the asset in this progressive population.</p>
 
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+          <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
                  style="background:#eef1f5;border-left:3px solid #0b6b63;border-radius:0 3px 3px 0;">
             <tr>
               <td style="padding:11px 14px;">
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
+                <div class="t-accent" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
                      text-transform:uppercase;color:#0b6b63;margin-bottom:4px;">Why it matters</div>
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">This Phase 3 trial establishes Zenas BioPharma as a direct competitor in progressive MS, targeting non-active SPMS where high unmet need remains and competing against other clinical-stage BTK inhibitors developed by Sanofi, Roche, and Merck KGaA.</div>
+                <div class="t-ink" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">This Phase 3 study advances a CNS-penetrant BTK inhibitor into non-active spMS, directly challenging competitors developing therapies for progressive MS populations where disease-modifying treatment options remain limited.</div>
               </td>
             </tr>
           </table>
           
           <div style="margin:12px 0 0;">
-            <a href="https://clinicaltrials.gov/study/NCT07299019" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
+            <a class="t-accent" href="https://clinicaltrials.gov/study/NCT07299019" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
                color:#0b6b63;text-decoration:none;">Read the source &rarr;</a>
           </div>
         </td>
       </tr>
       <tr>
-        <td style="padding:22px 0;border-bottom:1px solid #dfe5ec;">
+        <td class="b-rule" style="padding:22px 0 22px;border-bottom:1px solid #dfe5ec;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
             <tr>
               <td style="padding:0 14px 8px 0;vertical-align:top;">
-                <a href="https://clinicaltrials.gov/study/NCT07225504" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
+                <a class="t-ink" href="https://clinicaltrials.gov/study/NCT07225504" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
                    font-weight:700;color:#12263f;text-decoration:none;">A Study to Evaluate the Efficacy and Safety of Remibrutinib in Secondary Progressive Multiple Sclerosis</a>
               </td>
               <td style="vertical-align:top;text-align:right;white-space:nowrap;padding-bottom:8px;"><span style="display:inline-block;background:#fdeede;color:#a85b12;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;font-weight:700;letter-spacing:.06em;padding:4px 9px;border-radius:3px;white-space:nowrap;">IMPACT 4/5</span></td>
             </tr>
           </table>
 
-          <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">ClinicalTrials.gov<span style="color:#dfe5ec;"> &middot; </span>29 Jul 2026<span style="color:#dfe5ec;"> &middot; </span>Phase 3<span style="color:#dfe5ec;"> &middot; </span>Recruiting<span style="color:#dfe5ec;"> &middot; </span>Novartis Pharmaceuticals<span style="color:#dfe5ec;"> &middot; </span>NCT07225504</div>
+          <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">ClinicalTrials.gov<span style="color:#dfe5ec;"> &middot; </span>29 Jul 2026<span style="color:#dfe5ec;"> &middot; </span>Phase 3<span style="color:#dfe5ec;"> &middot; </span>Recruiting<span style="color:#dfe5ec;"> &middot; </span>Novartis Pharmaceuticals<span style="color:#dfe5ec;"> &middot; </span>NCT07225504</div>
 
-          <p style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Novartis Pharmaceuticals has initiated a Phase 3 clinical study (NCT07225504) evaluating remibrutinib in patients with secondary progressive multiple sclerosis (SPMS). The study is currently actively recruiting participants. It aims to generate primary efficacy and safety data for the asset in this progressive MS population.</p>
+          <p class="t-soft" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Novartis Pharmaceuticals has initiated recruitment for a Phase 3 trial (NCT07225504) evaluating remibrutinib in patients with secondary progressive multiple sclerosis (SPMS). The study aims to generate clinical data on the efficacy and safety profile of the asset in this patient population.</p>
 
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+          <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
                  style="background:#eef1f5;border-left:3px solid #0b6b63;border-radius:0 3px 3px 0;">
             <tr>
               <td style="padding:11px 14px;">
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
+                <div class="t-accent" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
                      text-transform:uppercase;color:#0b6b63;margin-bottom:4px;">Why it matters</div>
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">The progression of Novartis&#x27;s oral BTK inhibitor remibrutinib into Phase 3 trials for SPMS directly intensifies late-stage pipeline competition in progressive MS, challenging rivals like Sanofi and Merck KGaA in the BTKi therapeutic class.</div>
+                <div class="t-ink" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">Novartis&#x27;s advancement of remibrutinib into Phase 3 for SPMS directly intensifies competition in the non-relapsing and progressive MS segments, challenging existing and late-stage pipeline therapies targeted at progressive disease.</div>
               </td>
             </tr>
           </table>
           
           <div style="margin:12px 0 0;">
-            <a href="https://clinicaltrials.gov/study/NCT07225504" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
+            <a class="t-accent" href="https://clinicaltrials.gov/study/NCT07225504" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
                color:#0b6b63;text-decoration:none;">Read the source &rarr;</a>
           </div>
         </td>
       </tr>
       <tr>
-        <td style="padding:22px 0;border-bottom:1px solid #dfe5ec;">
+        <td class="b-rule" style="padding:22px 0 22px;border-bottom:1px solid #dfe5ec;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
             <tr>
               <td style="padding:0 14px 8px 0;vertical-align:top;">
-                <a href="https://clinicaltrials.gov/study/NCT06700343" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
+                <a class="t-ink" href="https://clinicaltrials.gov/study/NCT06700343" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
                    font-weight:700;color:#12263f;text-decoration:none;">Comparison Between ABP 692 and Ocrevus® (Ocrelizumab)</a>
               </td>
               <td style="vertical-align:top;text-align:right;white-space:nowrap;padding-bottom:8px;"><span style="display:inline-block;background:#fdeede;color:#a85b12;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;font-weight:700;letter-spacing:.06em;padding:4px 9px;border-radius:3px;white-space:nowrap;">IMPACT 4/5</span></td>
             </tr>
           </table>
 
-          <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">ClinicalTrials.gov<span style="color:#dfe5ec;"> &middot; </span>27 Jul 2026<span style="color:#dfe5ec;"> &middot; </span>Phase 3<span style="color:#dfe5ec;"> &middot; </span>Active Not Recruiting<span style="color:#dfe5ec;"> &middot; </span>Amgen<span style="color:#dfe5ec;"> &middot; </span>NCT06700343</div>
+          <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">ClinicalTrials.gov<span style="color:#dfe5ec;"> &middot; </span>27 Jul 2026<span style="color:#dfe5ec;"> &middot; </span>Phase 3<span style="color:#dfe5ec;"> &middot; </span>Active Not Recruiting<span style="color:#dfe5ec;"> &middot; </span>Amgen<span style="color:#dfe5ec;"> &middot; </span>NCT06700343</div>
 
-          <p style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Amgen&#x27;s Phase 3 study (NCT06700343) evaluating its biosimilar candidate ABP 692 against Ocrevus (ocrelizumab) is currently active, not recruiting. The trial&#x27;s main objectives are to demonstrate pharmacokinetic (PK) similarity between ABP 692 and both US-sourced and EU-sourced ocrelizumab reference products.</p>
+          <p class="t-soft" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Amgen has reached the Active Not Recruiting stage for its Phase 3 trial (NCT06700343) evaluating ABP 692, a proposed biosimilar to Roche&#x27;s Ocrevus (ocrelizumab). The study&#x27;s main objectives are to demonstrate pharmacokinetic similarity between ABP 692 and both US-sourced and EU-sourced ocrelizumab reference products.</p>
 
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+          <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
                  style="background:#eef1f5;border-left:3px solid #0b6b63;border-radius:0 3px 3px 0;">
             <tr>
               <td style="padding:11px 14px;">
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
+                <div class="t-accent" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
                      text-transform:uppercase;color:#0b6b63;margin-bottom:4px;">Why it matters</div>
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">ABP 692&#x27;s Phase 3 progress threatens Roche&#x27;s Ocrevus franchise by advancing a direct biosimilar competitor that could erode anti-CD20 market share and pricing upon eventual commercialisation.</div>
+                <div class="t-ink" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">Amgen&#x27;s Phase 3 progress with ABP 692 positions it to directly challenge Roche&#x27;s Ocrevus franchise by introducing a biosimilar anti-CD20 alternative upon loss of exclusivity.</div>
               </td>
             </tr>
           </table>
           
           <div style="margin:12px 0 0;">
-            <a href="https://clinicaltrials.gov/study/NCT06700343" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
+            <a class="t-accent" href="https://clinicaltrials.gov/study/NCT06700343" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
+               color:#0b6b63;text-decoration:none;">Read the source &rarr;</a>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="b-rule" style="padding:22px 0 4px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="padding:0 14px 8px 0;vertical-align:top;">
+                <a class="t-ink" href="https://clinicaltrials.gov/study/NCT07732907" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
+                   font-weight:700;color:#12263f;text-decoration:none;">Risk of Progressive Multifocal Leukoencephalopathy Among Patients With Multiple Sclerosis Exposed to Zeposia</a>
+              </td>
+              <td style="vertical-align:top;text-align:right;white-space:nowrap;padding-bottom:8px;"><span style="display:inline-block;background:#dcecea;color:#0b6b63;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;font-weight:700;letter-spacing:.06em;padding:4px 9px;border-radius:3px;white-space:nowrap;">IMPACT 3/5</span></td>
+            </tr>
+          </table>
+
+          <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">ClinicalTrials.gov<span style="color:#dfe5ec;"> &middot; </span>29 Jul 2026<span style="color:#dfe5ec;"> &middot; </span>Observational<span style="color:#dfe5ec;"> &middot; </span>Recruiting<span style="color:#dfe5ec;"> &middot; </span>Bristol-Myers Squibb<span style="color:#dfe5ec;"> &middot; </span>NCT07732907</div>
+
+          <p class="t-soft" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Bristol Myers Squibb has initiated a post-marketing observational trial (NCT07732907) to evaluate the incidence and risk factors of progressive multifocal leukoencephalopathy (PML) in multiple sclerosis patients treated with Zeposia (ozanimod). The study will systematically collect reported PML cases to analyze patient characteristics and estimate occurrence rates. Key covariates under evaluation include age, exposure duration, prior immunosuppressant history, lymphopenia, and anti-JCV antibody status.</p>
+
+          <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
+                 style="background:#eef1f5;border-left:3px solid #0b6b63;border-radius:0 3px 3px 0;">
+            <tr>
+              <td style="padding:11px 14px;">
+                <div class="t-accent" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
+                     text-transform:uppercase;color:#0b6b63;margin-bottom:4px;">Why it matters</div>
+                <div class="t-ink" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">Real-world characterization of PML risk associated with Zeposia could impact its safety profile and prescriber preference relative to competing S1P receptor modulators and high-efficacy MS therapies.</div>
+              </td>
+            </tr>
+          </table>
+          
+          <div style="margin:12px 0 0;">
+            <a class="t-accent" href="https://clinicaltrials.gov/study/NCT07732907" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
                color:#0b6b63;text-decoration:none;">Read the source &rarr;</a>
           </div>
         </td>
@@ -262,276 +301,271 @@
       </td></tr>
       <tr><td style="padding:34px 0 0;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-          <tr><td style="border-top:2px solid #12263f;padding-top:10px;">
-            <div style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:21px;font-weight:700;color:#12263f;">Commercial/Corporate</div>
-            <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;color:#7a8ba0;margin-top:3px;">Deals, earnings, pricing, launches and competitive positioning
+          <tr><td class="b-ink" style="border-top:2px solid #12263f;padding-top:10px;">
+            <div class="t-ink" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:21px;font-weight:700;color:#12263f;">Commercial/Corporate</div>
+            <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;color:#7a8ba0;margin-top:3px;">Deals, earnings, pricing, launches and competitive positioning
               <span style="color:#dfe5ec;"> &middot; </span>3 items</div>
           </td></tr>
         </table>
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
       <tr>
-        <td style="padding:22px 0;border-bottom:1px solid #dfe5ec;">
+        <td class="b-rule" style="padding:22px 0 22px;border-bottom:1px solid #dfe5ec;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
             <tr>
               <td style="padding:0 14px 8px 0;vertical-align:top;">
-                <a href="https://www.theaustralian.com.au/health/ms-drugs-to-stay-on-pbs-after-stoush-over-pricing/news-story/e030f753312ccb1f34fa1b6a7603ca32" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
+                <a class="t-ink" href="https://www.theaustralian.com.au/health/ms-drugs-to-stay-on-pbs-after-stoush-over-pricing/news-story/e030f753312ccb1f34fa1b6a7603ca32" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
                    font-weight:700;color:#12263f;text-decoration:none;">Multiple sclerosis drugs saved from PBS pricing axe</a>
               </td>
               <td style="vertical-align:top;text-align:right;white-space:nowrap;padding-bottom:8px;"><span style="display:inline-block;background:#fdeede;color:#a85b12;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;font-weight:700;letter-spacing:.06em;padding:4px 9px;border-radius:3px;white-space:nowrap;">IMPACT 4/5</span></td>
             </tr>
           </table>
 
-          <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">The Australian<span style="color:#dfe5ec;"> &middot; </span>27 Jul 2026</div>
+          <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">The Australian<span style="color:#dfe5ec;"> &middot; </span>27 Jul 2026</div>
 
-          <p style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Multiple sclerosis therapies have been exempted from scheduled price reductions under Australia&#x27;s Pharmaceutical Benefits Scheme (PBS). The policy decision prevents mandated price cuts for listed MS medications, preserving existing reimbursement terms. No specific sponsors, assets, or trial parameters were detailed in the source.</p>
+          <p class="t-soft" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Multiple sclerosis therapeutics have been exempted from scheduled price reductions under Australia&#x27;s Pharmaceutical Benefits Scheme (PBS). This administrative pricing decision preserves existing government reimbursement rates for marketed MS therapies in the Australian market. The exemption protects revenue streams for pharmaceutical manufacturers supplying disease-modifying treatments through the public subsidy program.</p>
 
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+          <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
                  style="background:#eef1f5;border-left:3px solid #0b6b63;border-radius:0 3px 3px 0;">
             <tr>
               <td style="padding:11px 14px;">
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
+                <div class="t-accent" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
                      text-transform:uppercase;color:#0b6b63;margin-bottom:4px;">Why it matters</div>
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">The exemption protects Australian PBS revenues and pricing margins for pharmaceutical manufacturers marketing approved multiple sclerosis therapies in the country.</div>
+                <div class="t-ink" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">The pricing exemption prevents immediate margin erosion for MS drug manufacturers operating in Australia by maintaining baseline PBS reimbursement levels.</div>
               </td>
             </tr>
           </table>
           
           <div style="margin:12px 0 0;">
-            <a href="https://www.theaustralian.com.au/health/ms-drugs-to-stay-on-pbs-after-stoush-over-pricing/news-story/e030f753312ccb1f34fa1b6a7603ca32" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
+            <a class="t-accent" href="https://www.theaustralian.com.au/health/ms-drugs-to-stay-on-pbs-after-stoush-over-pricing/news-story/e030f753312ccb1f34fa1b6a7603ca32" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
                color:#0b6b63;text-decoration:none;">Read the source &rarr;</a>
           </div>
         </td>
       </tr>
       <tr>
-        <td style="padding:22px 0;border-bottom:1px solid #dfe5ec;">
+        <td class="b-rule" style="padding:22px 0 22px;border-bottom:1px solid #dfe5ec;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
             <tr>
               <td style="padding:0 14px 8px 0;vertical-align:top;">
-                <a href="https://www.theaustralian.com.au/health/medical/stoush-over-archaic-pricing-threatens-access-to-key-drugs/news-story/36e013b731cc9a690c0783af495209c1" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
+                <a class="t-ink" href="https://www.theaustralian.com.au/health/medical/stoush-over-archaic-pricing-threatens-access-to-key-drugs/news-story/36e013b731cc9a690c0783af495209c1" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
                    font-weight:700;color:#12263f;text-decoration:none;">MS patients fear vital drugs may be delisted in fight over pricing</a>
               </td>
               <td style="vertical-align:top;text-align:right;white-space:nowrap;padding-bottom:8px;"><span style="display:inline-block;background:#fdeede;color:#a85b12;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;font-weight:700;letter-spacing:.06em;padding:4px 9px;border-radius:3px;white-space:nowrap;">IMPACT 4/5</span></td>
             </tr>
           </table>
 
-          <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">The Australian<span style="color:#dfe5ec;"> &middot; </span>27 Jul 2026</div>
+          <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">The Australian<span style="color:#dfe5ec;"> &middot; </span>27 Jul 2026</div>
 
-          <p style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Multiple Sclerosis patients in Australia face potential drug delistings amid ongoing pricing disputes. The situation threatens access to key therapies listed on the national pharmaceutical benefits scheme.</p>
+          <p class="t-soft" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Multiple Sclerosis patients in Australia face potential drug delistings from the Pharmaceutical Benefits Scheme due to ongoing pricing disputes. The dispute risks restricting patient access to essential MS therapies across the region.</p>
 
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+          <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
                  style="background:#eef1f5;border-left:3px solid #0b6b63;border-radius:0 3px 3px 0;">
             <tr>
               <td style="padding:11px 14px;">
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
+                <div class="t-accent" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
                      text-transform:uppercase;color:#0b6b63;margin-bottom:4px;">Why it matters</div>
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">Delisting risks disrupting patient access in Australia and impacting local revenues for MS drug manufacturers involved in price negotiations.</div>
+                <div class="t-ink" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">Potential drug delistings threaten commercial revenues for MS drug manufacturers in Australia and could force market share reallocation among competing therapies.</div>
               </td>
             </tr>
           </table>
           
           <div style="margin:12px 0 0;">
-            <a href="https://www.theaustralian.com.au/health/medical/stoush-over-archaic-pricing-threatens-access-to-key-drugs/news-story/36e013b731cc9a690c0783af495209c1" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
+            <a class="t-accent" href="https://www.theaustralian.com.au/health/medical/stoush-over-archaic-pricing-threatens-access-to-key-drugs/news-story/36e013b731cc9a690c0783af495209c1" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
                color:#0b6b63;text-decoration:none;">Read the source &rarr;</a>
           </div>
         </td>
       </tr>
       <tr>
-        <td style="padding:22px 0;border-bottom:1px solid #dfe5ec;">
+        <td class="b-rule" style="padding:22px 0 4px;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
             <tr>
               <td style="padding:0 14px 8px 0;vertical-align:top;">
-                <a href="https://theedgemalaysia.com/node/812539" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
+                <a class="t-ink" href="https://theedgemalaysia.com/node/812539" style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:18px;line-height:1.35;
                    font-weight:700;color:#12263f;text-decoration:none;">Biogen beats estimates as new medicines overtake multiple sclerosis business</a>
               </td>
               <td style="vertical-align:top;text-align:right;white-space:nowrap;padding-bottom:8px;"><span style="display:inline-block;background:#dcecea;color:#0b6b63;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;font-weight:700;letter-spacing:.06em;padding:4px 9px;border-radius:3px;white-space:nowrap;">IMPACT 3/5</span></td>
             </tr>
           </table>
 
-          <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">The Edge Malaysia<span style="color:#dfe5ec;"> &middot; </span>29 Jul 2026</div>
+          <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12px;color:#7a8ba0;margin:0 0 12px;">The Edge Malaysia<span style="color:#dfe5ec;"> &middot; </span>29 Jul 2026</div>
 
-          <p style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Biogen reported financial results beating estimates as revenue from its newer medicinal portfolio surpassed its legacy multiple sclerosis franchise. The shift highlights an evolving product mix for the sponsor as its traditional MS business faces revenue contraction. Further specific financial metrics, asset breakdowns, and population endpoints were not disclosed in the text.</p>
+          <p class="t-soft" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:14.5px;line-height:1.62;color:#48607d;margin:0 0 12px;">Biogen reported quarterly financial results that beat market estimates, driven by growth in its newer portfolio. Revenue from non-MS products surpassed the company&#x27;s core multiple sclerosis franchise during the period.</p>
 
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+          <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
                  style="background:#eef1f5;border-left:3px solid #0b6b63;border-radius:0 3px 3px 0;">
             <tr>
               <td style="padding:11px 14px;">
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
+                <div class="t-accent" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.1em;
                      text-transform:uppercase;color:#0b6b63;margin-bottom:4px;">Why it matters</div>
-                <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">The transition of Biogen&#x27;s revenue driver away from its legacy MS portfolio reflects declining market share for its core therapies, altering competitive dynamics for rival MS manufacturers.</div>
+                <div class="t-ink" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;line-height:1.55;color:#12263f;">The shift highlights declining revenue reliance on Biogen&#x27;s legacy MS franchise as competitors continue to erode its market share in the MS space.</div>
               </td>
             </tr>
           </table>
           
           <div style="margin:12px 0 0;">
-            <a href="https://theedgemalaysia.com/node/812539" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
+            <a class="t-accent" href="https://theedgemalaysia.com/node/812539" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;font-weight:600;
                color:#0b6b63;text-decoration:none;">Read the source &rarr;</a>
           </div>
         </td>
       </tr></table>
       </td></tr>
       <tr><td style="padding:34px 0 0;">
-        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+        <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
                style="background:#eef1f5;border-radius:4px;">
           <tr><td style="padding:20px 22px;">
-            <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.12em;
+            <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.12em;
                  text-transform:uppercase;color:#7a8ba0;margin-bottom:4px;">Also tracked this week</div>
-            <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11.5px;color:#7a8ba0;margin-bottom:10px;">
+            <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11.5px;color:#7a8ba0;margin-bottom:10px;">
               Screened and scored below the impact threshold. Listed for completeness.</div>
             <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT07738978" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT07738978" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
                  color:#48607d;text-decoration:none;">Understanding and Enhancing Human Health and Movement</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Louis Stokes VA Medical Center</span>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Louis Stokes VA Medical Center</span>
             </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT05090033" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">Characterizing the Use of Ofatumumab in a Real World Setting</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Novartis Pharmaceuticals</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT02804594" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">A Study of Oxidative Pathways in MS Fatigue</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · University of California, San Francisco</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT05344469" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">A NIS Evaluating Various Injectable and Oral Treatments in Patients With Relapsing Multiple Sclerosis</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Novartis Pharmaceuticals</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT07732907" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">Risk of Progressive Multifocal Leukoencephalopathy Among Patients With Multiple Sclerosis Exposed to Zeposia</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Bristol-Myers Squibb</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT07609719" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">A Study of Ocrelizumab Administered Subcutaneously in Participants With Multiple Sclerosis Who Switch From an Approved Anti-CD20 Therapy</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Genentech, Inc.</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT07734675" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">Sociocognitive Intervention and Rehabilitation Program in Multiple Sclerosis</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Sonia Batista</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT05269004" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">A Rollover Study to Evaluate the Long-Term Safety and Efficacy of Ocrelizumab In Patients With Multiple Sclerosis</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Hoffmann-La Roche</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT06864936" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">Exploration of Novel Imaging Biomarkers on OCT for Ublituximab Treatment Response in Multiple Sclerosis</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · University of Maryland, Baltimore</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT07735325" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">Effects of Sensorimotor Insoles on Stability and Gait in Patients With Multiple Sclerosis.</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · University of Salamanca</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT06796504" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">The SetPoint System as a Pro-Remyelination Therapy for Relapsing-Remitting Multiple Sclerosis: A Pilot Study</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · SetPoint Medical Corporation</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://multiplesclerosisnewstoday.com/news-posts/2026/07/28/potential-ms-therapy-improves-myelin-repair-cells-mice/" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">Potential MS therapy improves myelin repair in cells and mice</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;Multiple Sclerosis News Today</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT03109288" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">Targeting Residual Activity By Precision, Biomarker-Guided Combination Therapies of Multiple Sclerosis (TRAP-MS)</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · National Institute of Allergy and Infectious Diseases (NIAID)</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT02511028" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">In Vivo Characterization of Inflammation With Ferumoxytol, an Ultrasmall Superparamagnetic Iron Oxide Nanoparticle, on 7 Tesla Magnetic Resonance Imaging</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · National Institute of Neurological Disorders and Stroke (NINDS)</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT03963375" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">Cladribine Tablets: Collaborative Study to Evaluate Impact On Central Nervous System Biomarkers in Multiple Sclerosis</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Gregory Wu</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT07224373" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">An Open-label Study of AZD0120 in Adults With Multiple Sclerosis</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · AstraZeneca</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT07736482" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT07736482" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
                  color:#48607d;text-decoration:none;">Relationship Between Single- and Dual-Task Obstacle Crossing Performance and Fatigue and Disability in Multiple Sclerosis</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Afyonkarahisar Health Sciences University</span>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Afyonkarahisar Health Sciences University</span>
             </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT03816345" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">Testing an Immunotherapy Anti-cancer Drug, Nivolumab, for Advanced Cancers in Patients With Autoimmune Disorders, AIM-NIVO</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · National Cancer Institute (NCI)</span>
-            </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT07501520" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT07501520" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
                  color:#48607d;text-decoration:none;">Effect of Low Histamine-Based Modified Mediterranean Diet in Multiple Sclerosis</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Firat University</span>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Firat University</span>
             </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT07738120" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT05090033" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">Characterizing the Use of Ofatumumab in a Real World Setting</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Novartis Pharmaceuticals</span>
+            </td></tr>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT07738120" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
                  color:#48607d;text-decoration:none;">Immersive Virtual Reality and Exercise Programs in Multiple Sclerosis: ExeRVIEM III</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · University of Vigo</span>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · University of Vigo</span>
             </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT05380856" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT02804594" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">A Study of Oxidative Pathways in MS Fatigue</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · University of California, San Francisco</span>
+            </td></tr>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT05344469" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">A NIS Evaluating Various Injectable and Oral Treatments in Patients With Relapsing Multiple Sclerosis</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Novartis Pharmaceuticals</span>
+            </td></tr>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT07609719" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">A Study of Ocrelizumab Administered Subcutaneously in Participants With Multiple Sclerosis Who Switch From an Approved Anti-CD20 Therapy</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Genentech, Inc.</span>
+            </td></tr>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT05380856" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
                  color:#48607d;text-decoration:none;">Sacral Neuromodulation for Neurogenic Lower Urinary Tract, Bowel and Sexual Dysfunction</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Odense University Hospital</span>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Odense University Hospital</span>
             </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT06925022" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">Educational Programs Based on Healthy Habits to Improve Quality of Life and Psychosocial Profile in Women With Neurodegenerative Diseases: The ADVICE Protocol Study (Phase 1)</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Universidad de Almeria</span>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT07734675" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">Sociocognitive Intervention and Rehabilitation Program in Multiple Sclerosis</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Sonia Batista</span>
             </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT06502015" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT05269004" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">A Rollover Study to Evaluate the Long-Term Safety and Efficacy of Ocrelizumab In Patients With Multiple Sclerosis</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Hoffmann-La Roche</span>
+            </td></tr>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT06864936" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">Exploration of Novel Imaging Biomarkers on OCT for Ublituximab Treatment Response in Multiple Sclerosis</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · University of Maryland, Baltimore</span>
+            </td></tr>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT07735325" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">Effects of Sensorimotor Insoles on Stability and Gait in Patients With Multiple Sclerosis.</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · University of Salamanca</span>
+            </td></tr>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT06502015" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
                  color:#48607d;text-decoration:none;">Biomarkers in Autoimmune Disease of Nervous System</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Tongji Hospital</span>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Tongji Hospital</span>
             </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://www.neurologylive.com/view/advancing-ms-treatment-through-research-integrated-clinical-care" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">Advancing Multiple Sclerosis Treatment Through Research-Integrated Clinical Care</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;neurologylive.com</span>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT06796504" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">The SetPoint System as a Pro-Remyelination Therapy for Relapsing-Remitting Multiple Sclerosis: A Pilot Study</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · SetPoint Medical Corporation</span>
             </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT07411664" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">Objective Longitudinal Assessment of Postural Stability and Gait of Stroke, Parkinson&#x27;s Disease and Multiple Sclerosis Using Instrumented Posturography and Three Dimensional Motion Analysis</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Somogy Megyei Kaposi Mór Teaching Hospital</span>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://multiplesclerosisnewstoday.com/news-posts/2026/07/28/potential-ms-therapy-improves-myelin-repair-cells-mice/" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">Potential MS therapy improves myelin repair in cells and mice</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;Multiple Sclerosis News Today</span>
             </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT00794352" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
-                 color:#48607d;text-decoration:none;">Comprehensive Multimodal Analysis of Neuroimmunological Diseases of the Central Nervous System</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · National Institute of Allergy and Infectious Diseases (NIAID)</span>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT03109288" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">Targeting Residual Activity By Precision, Biomarker-Guided Combination Therapies of Multiple Sclerosis (TRAP-MS)</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · National Institute of Allergy and Infectious Diseases (NIAID)</span>
             </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT07731659" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT02511028" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">In Vivo Characterization of Inflammation With Ferumoxytol, an Ultrasmall Superparamagnetic Iron Oxide Nanoparticle, on 7 Tesla Magnetic Resonance Imaging</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · National Institute of Neurological Disorders and Stroke (NINDS)</span>
+            </td></tr>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT03963375" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">Cladribine Tablets: Collaborative Study to Evaluate Impact On Central Nervous System Biomarkers in Multiple Sclerosis</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Gregory Wu</span>
+            </td></tr>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT07731659" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
                  color:#48607d;text-decoration:none;">Physical Activity Intervention for Individuals Newly Diagnosed With MS</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · University of Illinois at Chicago</span>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · University of Illinois at Chicago</span>
             </td></tr>
-            <tr><td style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
-              <a href="https://clinicaltrials.gov/study/NCT07175792" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT07175792" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
                  color:#48607d;text-decoration:none;">Accuracy of Motor Performance Perception in Multiple Sclerosis</a>
-              <span style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Hasselt University</span>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Hasselt University</span>
+            </td></tr>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT07224373" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">An Open-label Study of AZD0120 in Adults With Multiple Sclerosis</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · AstraZeneca</span>
+            </td></tr>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT03816345" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">Testing an Immunotherapy Anti-cancer Drug, Nivolumab, for Advanced Cancers in Patients With Autoimmune Disorders, AIM-NIVO</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · National Cancer Institute (NCI)</span>
+            </td></tr>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT06925022" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">Educational Programs Based on Healthy Habits to Improve Quality of Life and Psychosocial Profile in Women With Neurodegenerative Diseases: The ADVICE Protocol Study (Phase 1)</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Universidad de Almeria</span>
+            </td></tr>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://www.neurologylive.com/view/advancing-ms-treatment-through-research-integrated-clinical-care" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">Advancing Multiple Sclerosis Treatment Through Research-Integrated Clinical Care</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;neurologylive.com</span>
+            </td></tr>
+            <tr><td class="b-rule" style="padding:7px 0;border-bottom:1px solid #dfe5ec;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT07411664" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">Objective Longitudinal Assessment of Postural Stability and Gait of Stroke, Parkinson&#x27;s Disease and Multiple Sclerosis Using Instrumented Posturography and Three Dimensional Motion Analysis</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · Somogy Megyei Kaposi Mór Teaching Hospital</span>
+            </td></tr>
+            <tr><td class="b-rule" style="padding:7px 0;">
+              <a class="t-soft" href="https://clinicaltrials.gov/study/NCT00794352" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:12.5px;line-height:1.5;
+                 color:#48607d;text-decoration:none;">Comprehensive Multimodal Analysis of Neuroimmunological Diseases of the Central Nervous System</a>
+              <span class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11px;color:#7a8ba0;"> &nbsp;ClinicalTrials.gov · National Institute of Allergy and Infectious Diseases (NIAID)</span>
             </td></tr></table>
           </td></tr>
         </table>
       </td></tr>
 
       <!-- Footer -->
-      <tr><td style="padding:36px 0 0;">
+      <tr><td style="padding:26px 0 0;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-          <tr><td style="border-top:1px solid #dfe5ec;padding-top:18px;">
-            <div style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11.5px;line-height:1.7;color:#7a8ba0;">
-              <strong style="color:#48607d;">MS Market Pulse</strong> is generated automatically each Monday
+          <tr><td class="b-rule" style="border-top:1px solid #dfe5ec;padding-top:18px;">
+            <div class="t-muted" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:11.5px;line-height:1.7;color:#7a8ba0;">
+              <strong class="t-soft" style="color:#48607d;">MS Market Pulse</strong> is generated automatically each Monday
               from public sources: ClinicalTrials.gov API v2, three U.S. FDA RSS feeds
               (press releases, drugs, MedWatch), and curated news.<br>
               Summaries, categories and impact scores generated by Google Gemini (gemini-3.6-flash).<br>
-              Compiled 2026-08-01 18:04 UTC. This briefing summarises public information for competitive
+              Compiled 2026-08-01 19:07 UTC. This briefing summarises public information for competitive
               intelligence purposes and is not medical, investment or regulatory advice.
             </div>
           </td></tr>

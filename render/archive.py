@@ -14,7 +14,8 @@ from typing import Any, Dict, List, Optional
 
 import config
 from render.html import (
-    ACCENT, CANVAS, FONT_BODY, FONT_DISPLAY, INK, INK_SOFT, MUTED, PAPER, RULE, e,
+    ACCENT, CANVAS, DARK_CSS, FONT_BODY, FONT_DISPLAY, INK, INK_SOFT, MUTED, PAPER,
+    RULE, e,
 )
 
 log = logging.getLogger(__name__)
@@ -94,7 +95,7 @@ def record_issue(
 # ------------------------------------------------------------------------------------
 
 
-def _row(issue: Dict[str, Any], latest: bool) -> str:
+def _row(issue: Dict[str, Any], latest: bool, last: bool = False) -> str:
     date_display = issue.get("date", "")
     try:
         date_display = datetime.strptime(issue["date"], "%Y-%m-%d").strftime("%d %B %Y")
@@ -103,9 +104,9 @@ def _row(issue: Dict[str, Any], latest: bool) -> str:
 
     cats = issue.get("categories") or {}
     chips = "".join(
-        '<span style="display:inline-block;background:{canvas};color:{soft};'
-        'font-family:{font};font-size:11px;padding:3px 8px;border-radius:3px;'
-        'margin:0 6px 0 0;">{name} {n}</span>'.format(
+        '<span class="card t-soft" style="display:inline-block;background:{canvas};'
+        'color:{soft};font-family:{font};font-size:11px;padding:3px 8px;'
+        'border-radius:3px;margin:0 6px 0 0;">{name} {n}</span>'.format(
             canvas=CANVAS, soft=INK_SOFT, font=FONT_BODY, name=e(name), n=int(count)
         )
         for name, count in cats.items() if count
@@ -120,29 +121,36 @@ def _row(issue: Dict[str, Any], latest: bool) -> str:
 
     headline = issue.get("top_headline") or ""
     headline_html = (
-        '<div style="font-family:{f};font-size:13px;color:{m};margin:6px 0 8px;">'
-        'Lead item: {h}</div>'.format(f=FONT_BODY, m=MUTED, h=e(headline))
+        '<div class="t-muted" style="font-family:{f};font-size:13px;color:{m};'
+        'margin:6px 0 8px;">Lead item: {h}</div>'.format(
+            f=FONT_BODY, m=MUTED, h=e(headline))
         if headline else ""
     )
 
+    # The final row drops its rule: the footer opens with one of its own, and two rules
+    # separated by whitespace read as an empty container rather than a divider.
     return """
-      <tr><td style="padding:20px 0;border-bottom:1px solid {rule};">
+      <tr><td class="b-rule" style="padding:20px 0 {pad};{border}">
         <div style="margin-bottom:4px;">
-          <a href="{path}" style="font-family:{fdisp};font-size:19px;font-weight:700;
+          <a class="t-ink" href="{path}" style="font-family:{fdisp};font-size:19px;font-weight:700;
              color:{ink};text-decoration:none;">Issue {num} &middot; {date}</a>{badge}
         </div>
         {headline}
         <div style="margin-bottom:10px;">{chips}</div>
         <div>
-          <a href="{path}" style="font-family:{fbody};font-size:12.5px;font-weight:600;
+          <a class="t-accent" href="{path}" style="font-family:{fbody};font-size:12.5px;font-weight:600;
              color:{accent};text-decoration:none;">Read issue &rarr;</a>
           <span style="color:{rule};"> &middot; </span>
-          <a href="{tpath}" style="font-family:{fbody};font-size:12.5px;color:{muted};
+          <a class="t-muted" href="{tpath}" style="font-family:{fbody};font-size:12.5px;color:{muted};
              text-decoration:none;">Plain text</a>
           <span style="color:{rule};"> &middot; </span>
-          <span style="font-family:{fbody};font-size:12.5px;color:{muted};">{tally}</span>
+          <span class="t-muted" style="font-family:{fbody};font-size:12.5px;color:{muted};">{tally}</span>
         </div>
       </td></tr>""".format(
+        border="" if last else "border-bottom:1px solid {0};".format(RULE),
+        # Without a rule to sit above, the last row's bottom padding is dead space that
+        # stacks with the footer's own. Trim it so the page ends tight.
+        pad="2px" if last else "20px",
         rule=RULE, path=e(issue.get("path", "#")), fdisp=FONT_DISPLAY, ink=INK,
         num=issue.get("number", "?"), date=e(date_display), badge=badge,
         headline=headline_html, chips=chips, fbody=FONT_BODY, accent=ACCENT,
@@ -161,10 +169,28 @@ def _tally(issue: Dict[str, Any]) -> str:
 
 def render_archive(manifest: Dict[str, Any]) -> str:
     issues = manifest.get("issues", [])
-    total_items = sum(int(i.get("item_count", 0)) for i in issues)
+    total_featured = sum(int(i.get("item_count", 0) or 0) for i in issues)
+    total_screened = sum(
+        int(i.get("screened_count", i.get("item_count", 0)) or 0) for i in issues
+    )
+
+    # Lead with the volume screened. "8 developments tracked" undersells a system that
+    # read 36 and rejected 28 of them; the ratio is the evidence of editorial judgement.
+    tally = "{0} development{1} screened<span style=\"color:{rule};\"> &middot; </span>" \
+            "{2} featured".format(
+                total_screened, "" if total_screened == 1 else "s", total_featured,
+                rule=RULE,
+            )
+    if total_screened <= total_featured:
+        tally = "{0} development{1} tracked".format(
+            total_featured, "" if total_featured == 1 else "s"
+        )
 
     if issues:
-        rows = "".join(_row(issue, latest=(idx == 0)) for idx, issue in enumerate(issues))
+        rows = "".join(
+            _row(issue, latest=(idx == 0), last=(idx == len(issues) - 1))
+            for idx, issue in enumerate(issues)
+        )
     else:
         rows = (
             '<tr><td style="padding:40px 0;text-align:center;font-family:{f};'
@@ -184,16 +210,11 @@ def render_archive(manifest: Dict[str, Any]) -> str:
   @media only screen and (max-width:640px) {{
     .wrap {{ width:100% !important; padding-left:18px !important; padding-right:18px !important; }}
     .masthead-title {{ font-size:30px !important; }}
-  }}
-  @media (prefers-color-scheme: dark) {{
-    body, .canvas {{ background:#0f1720 !important; }}
-    .paper {{ background:#161f2a !important; }}
-    .masthead-title, .t-ink {{ color:#e8eef5 !important; }}
-  }}
+  }}{dark}
 </style>
 </head>
 <body class="canvas" style="margin:0;padding:0;background:{canvas};">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+<table role="presentation" class="canvas" width="100%" cellpadding="0" cellspacing="0" border="0"
        style="background:{canvas};padding:28px 12px;">
   <tr><td align="center">
     <table role="presentation" class="wrap paper" width="680" cellpadding="0" cellspacing="0" border="0"
@@ -201,15 +222,15 @@ def render_archive(manifest: Dict[str, Any]) -> str:
                   box-shadow:0 1px 3px rgba(18,38,63,.10);padding:0 40px 40px;">
 
       <tr><td style="padding:38px 0 0;">
-        <div style="border-bottom:3px solid {ink};padding-bottom:16px;">
-          <div style="font-family:{fbody};font-size:10.5px;font-weight:700;letter-spacing:.18em;
+        <div class="b-ink" style="border-bottom:3px solid {ink};padding-bottom:16px;">
+          <div class="t-accent" style="font-family:{fbody};font-size:10.5px;font-weight:700;letter-spacing:.18em;
                text-transform:uppercase;color:{accent};margin-bottom:8px;">Archive</div>
           <div class="masthead-title" style="font-family:{fdisp};font-size:37px;line-height:1.1;
                font-weight:700;color:{ink};letter-spacing:-.5px;">{name}</div>
-          <div style="font-family:{fbody};font-size:13.5px;color:{muted};margin-top:8px;">{tagline}</div>
+          <div class="t-muted" style="font-family:{fbody};font-size:13.5px;color:{muted};margin-top:8px;">{tagline}</div>
         </div>
-        <div style="font-family:{fbody};font-size:12.5px;color:{muted};padding-top:12px;">
-          {n} issue{plural} published<span style="color:{rule};"> &middot; </span>{total} development{tplural} tracked
+        <div class="t-muted" style="font-family:{fbody};font-size:12.5px;color:{muted};padding-top:12px;">
+          {n} issue{plural} published<span style="color:{rule};"> &middot; </span>{tally}
         </div>
       </td></tr>
 
@@ -217,10 +238,10 @@ def render_archive(manifest: Dict[str, Any]) -> str:
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">{rows}</table>
       </td></tr>
 
-      <tr><td style="padding:30px 0 0;">
-        <div style="border-top:1px solid {rule};padding-top:18px;font-family:{fbody};
-             font-size:11.5px;line-height:1.7;color:{muted};">
-          <strong style="color:{soft};">{name}</strong> is an automated competitive-intelligence
+      <tr><td style="padding:22px 0 0;">
+        <div class="b-rule t-muted" style="border-top:1px solid {rule};padding-top:18px;
+             font-family:{fbody};font-size:11.5px;line-height:1.7;color:{muted};">
+          <strong class="t-soft" style="color:{soft};">{name}</strong> is an automated competitive-intelligence
           briefing for the Multiple Sclerosis market. A new edition is compiled every Monday at
           08:00 IST from ClinicalTrials.gov, U.S. FDA RSS feeds and curated news, then published
           here automatically.<br>
@@ -236,7 +257,7 @@ def render_archive(manifest: Dict[str, Any]) -> str:
 </html>""".format(
         name=e(config.NEWSLETTER_NAME), canvas=CANVAS, paper=PAPER, ink=INK,
         fbody=FONT_BODY, fdisp=FONT_DISPLAY, accent=ACCENT, muted=MUTED,
-        tagline=e(config.NEWSLETTER_TAGLINE), rule=RULE, rows=rows,
+        tagline=e(config.NEWSLETTER_TAGLINE), rule=RULE, rows=rows, dark=DARK_CSS,
         n=len(issues), plural="" if len(issues) == 1 else "s",
-        total=total_items, tplural="" if total_items == 1 else "s", soft=INK_SOFT,
+        tally=tally, soft=INK_SOFT,
     )
