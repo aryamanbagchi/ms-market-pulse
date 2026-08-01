@@ -152,14 +152,34 @@ DEDUPE_THRESHOLD = 0.85
 # --------------------------------------------------------------------------------------
 
 GEMINI_API_KEY_ENV = "GEMINI_API_KEY"
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+
+# Pinned to an explicit version rather than a floating alias such as
+# `gemini-flash-latest`, so a model change is a deliberate commit rather than a silent
+# shift in output quality between two runs of the same code.
+#
+# Note: the Gemini 2.x line (gemini-2.5-flash, gemini-2.0-flash, and their -lite
+# variants) still appears in ListModels but returns HTTP 404 "no longer available to
+# new users" for API keys issued recently. Do not treat presence in ListModels as
+# proof of access — verify with an actual generateContent call.
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")
 GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
 GEMINI_TIMEOUT = 90
 GEMINI_MAX_WORKERS = 4
 GEMINI_TEMPERATURE = 0.3
-GEMINI_MAX_OUTPUT_TOKENS = 1024
-GEMINI_EDITOR_MAX_OUTPUT_TOKENS = 2048
+
+# maxOutputTokens must cover BOTH thinking tokens and the visible answer on Gemini 3.x
+# reasoning models. At 1024 the model spent ~800 tokens thinking and got truncated
+# mid-JSON, which surfaced as "Unterminated string" for half the items. The visible
+# answer here is only ~150 tokens; the headroom is entirely for thinking.
+GEMINI_MAX_OUTPUT_TOKENS = 8192
+GEMINI_EDITOR_MAX_OUTPUT_TOKENS = 8192
+
+# Summarising a supplied source text is extraction, not deep reasoning, so thinking is
+# capped. Cuts latency and token spend with no measurable quality loss on this task.
+# Set to None to let the model decide. Gemini 2.x used `thinkingBudget` instead and will
+# reject this field; the client drops it automatically if the API returns 400.
+GEMINI_THINKING_LEVEL = "low"
 
 # Cap items sent for enrichment. Bounds cost and keeps the newsletter readable.
 MAX_ITEMS_PER_ISSUE = 40

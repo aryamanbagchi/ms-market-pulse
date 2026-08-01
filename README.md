@@ -131,7 +131,12 @@ Raw responses are cached per-day under `data/cache/`, so re-running on the same 
 zero network calls. That makes iterating on the templates or prompts free.
 
 Configuration is via environment variable: `GEMINI_API_KEY` (required for AI output) and
-`GEMINI_MODEL` (optional, defaults to `gemini-2.5-flash`).
+`GEMINI_MODEL` (optional, defaults to `gemini-3.6-flash`).
+
+> **Note on model availability:** the Gemini 2.x models still appear in the API's
+> `ListModels` response but return `404 — no longer available to new users` for recently
+> issued API keys. Presence in `ListModels` is not proof of access; verify with a real
+> `generateContent` call before pinning a model.
 
 ## Notable engineering decisions
 

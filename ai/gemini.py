@@ -34,6 +34,12 @@ class GeminiError(RuntimeError):
     """Raised when a response cannot be obtained or parsed after the retry."""
 
 
+# Set to False the first time the API rejects `thinkingConfig`, so a run against a model
+# family that predates it (Gemini 2.x used `thinkingBudget`) degrades once rather than
+# failing every call. Single-element list because this is mutated from worker threads.
+_THINKING_SUPPORTED = [True]
+
+
 # ------------------------------------------------------------------------------------
 # Key handling
 # ------------------------------------------------------------------------------------
@@ -98,11 +104,24 @@ def _extract_text(payload: Dict[str, Any]) -> str:
         ))
 
     candidate = candidates[0]
+    finish = candidate.get("finishReason")
     parts = (candidate.get("content") or {}).get("parts") or []
     text = "".join(p.get("text", "") for p in parts).strip()
 
+    # Report truncation as truncation. On reasoning models the thinking tokens draw from
+    # the same maxOutputTokens budget, so an undersized budget yields JSON cut off
+    # mid-string — which would otherwise surface as a baffling "Unterminated string".
+    if finish == "MAX_TOKENS":
+        usage = payload.get("usageMetadata") or {}
+        raise GeminiError(
+            "response truncated at maxOutputTokens "
+            "(thinking={0}, answer={1}) — raise GEMINI_MAX_OUTPUT_TOKENS".format(
+                usage.get("thoughtsTokenCount", "?"),
+                usage.get("candidatesTokenCount", "?"),
+            )
+        )
+
     if not text:
-        finish = candidate.get("finishReason")
         raise GeminiError("empty response text{0}".format(
             " (finishReason: {0})".format(finish) if finish else ""
         ))
@@ -165,14 +184,20 @@ def generate_json(
         raise GeminiError("{0} is not set".format(config.GEMINI_API_KEY_ENV))
 
     def build(instruction: str, user_prompt: str) -> Dict[str, Any]:
+        generation_config: Dict[str, Any] = {
+            "responseMimeType": "application/json",
+            "responseSchema": schema,
+            "temperature": config.GEMINI_TEMPERATURE,
+            "maxOutputTokens": max_output_tokens or config.GEMINI_MAX_OUTPUT_TOKENS,
+        }
+        if config.GEMINI_THINKING_LEVEL and _THINKING_SUPPORTED[0]:
+            generation_config["thinkingConfig"] = {
+                "thinkingLevel": config.GEMINI_THINKING_LEVEL
+            }
+
         body: Dict[str, Any] = {
             "contents": [{"role": "user", "parts": [{"text": user_prompt}]}],
-            "generationConfig": {
-                "responseMimeType": "application/json",
-                "responseSchema": schema,
-                "temperature": config.GEMINI_TEMPERATURE,
-                "maxOutputTokens": max_output_tokens or config.GEMINI_MAX_OUTPUT_TOKENS,
-            },
+            "generationConfig": generation_config,
         }
         if instruction:
             body["systemInstruction"] = {"parts": [{"text": instruction}]}
@@ -198,6 +223,14 @@ def generate_json(
             return json.loads(strip_fences(text))
         except GeminiError as exc:
             last_error = str(exc)
+
+            # The model family does not know `thinkingConfig`. Disable it and retry
+            # rather than failing every remaining item in the run.
+            if "thinking" in last_error.lower() and _THINKING_SUPPORTED[0]:
+                log.warning("model rejected thinkingConfig; disabling it for this run")
+                _THINKING_SUPPORTED[0] = False
+                continue
+
             # A key/quota/model error will not be fixed by rephrasing; stop immediately.
             if "HTTP 4" in last_error and "429" not in last_error:
                 break

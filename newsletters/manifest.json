@@ -7,13 +7,12 @@
       "text_path": "newsletters/2026-08-01/newsletter.txt",
       "item_count": 40,
       "categories": {
-        "Regulatory": 1,
-        "Clinical": 35,
-        "Commercial/Corporate": 4
+        "Clinical": 34,
+        "Commercial/Corporate": 6
       },
-      "top_headline": "A Study to Evaluate the Efficacy, Safety and Pharmacokinetics (PK) of a Higher Dose of Ocrelizumab in Adults With Relapsing Multiple Sclerosis (RMS)",
-      "ai_enabled": false,
-      "generated_at": "2026-08-01T15:12:29Z"
+      "top_headline": "A Study of Orelabrutinib in Patients With Primary Progressive Multiple Sclerosis",
+      "ai_enabled": true,
+      "generated_at": "2026-08-01T15:29:02Z"
     }
   ]
 }
