@@ -155,7 +155,10 @@ def summarize(item: Item, max_sentences: int = 2, max_chars: int = 320) -> str:
 
 def why_it_matters(item: Item, category: str, importance: int) -> str:
     """One line of analyst framing, assembled from what the record actually states."""
-    actor = item.sponsor or item.publisher
+    # Only the sponsor is a market participant. `publisher` is the outlet that reported
+    # the story, so using it here would produce nonsense like "regulatory movement for
+    # The Australian".
+    actor = item.sponsor
 
     if category == config.CATEGORY_REGULATORY:
         base = "Regulatory movement can reset the competitive order in MS"
@@ -234,9 +237,10 @@ def editors_take(items: List[Item]) -> str:
 
     # Draw the named organisations from the highest-scoring items, not raw list order,
     # so the line highlights market movers rather than whichever record came back first.
+    # Sponsors only — a news publisher is not a participant in the MS market.
     sponsors: List[str] = []
     for i in sorted(items, key=lambda x: -x.importance):
-        name = i.sponsor or i.publisher
+        name = i.sponsor
         if name and name not in sponsors:
             sponsors.append(name)
     if sponsors:

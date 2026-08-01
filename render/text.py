@@ -24,6 +24,16 @@ def _wrap(text: str, indent: str = "") -> str:
     )
 
 
+def _url_line(url: str, indent: str = "   ") -> str:
+    """Emit a URL on its own unwrapped line.
+
+    Google News links are very long base64 redirects. Wrapping them to the column
+    limit would split them across lines and break copy-paste, so line length is
+    sacrificed to keep the link usable.
+    """
+    return "{0}{1}".format(indent, url) if url else ""
+
+
 def _item_block(item: Item, index: int) -> List[str]:
     lines: List[str] = []
     lines.append("")
@@ -39,10 +49,11 @@ def _item_block(item: Item, index: int) -> List[str]:
     lines.append(_wrap(item.summary, "   "))
     lines.append("")
     lines.append(_wrap("WHY IT MATTERS: {0}".format(item.why_it_matters), "   "))
-    lines.append(_wrap(item.url, "   "))
+    lines.append(_url_line(item.url))
 
     for also in item.also_reported_by:
-        lines.append(_wrap("Also: {0} - {1}".format(also.get("label"), also.get("url")), "   "))
+        lines.append(_wrap("Also reported by {0}:".format(also.get("label")), "   "))
+        lines.append(_url_line(also.get("url", "")))
 
     return lines
 
