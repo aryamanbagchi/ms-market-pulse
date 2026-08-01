@@ -3,6 +3,11 @@
 The feed returns ~100 items spanning several months, so the lookback window does most
 of the filtering here. Titles arrive with the publisher appended (" - WSJ"), which is
 stripped into the `publisher` field so the newsletter can attribute cleanly.
+
+Links arrive as opaque `news.google.com` redirects and are resolved to the publisher's
+real URL (see `fetchers/gnews.py`). Resolution runs in `fetch_raw`, which is the phase
+that is allowed to touch the network and the phase whose output gets cached — so a
+same-day re-run and `--dry-run` both reuse resolutions rather than repeating them.
 """
 
 from __future__ import annotations
@@ -15,6 +20,7 @@ import feedparser
 
 import config
 from core.models import Item
+from fetchers import gnews
 from fetchers.base import (
     FetchContext,
     clean_text,
@@ -32,11 +38,20 @@ _TRAILING_PUBLISHER = re.compile(r"\s+[-–—]\s+([^-–—]{2,60})$")
 
 
 def fetch_raw(ctx: FetchContext) -> Dict[str, Any]:
-    return {"xml": http_get(config.GOOGLE_NEWS_URL).text}
+    xml = http_get(config.GOOGLE_NEWS_URL).text
+
+    # Parse first, then resolve only the links that survive the window and relevance
+    # filters. The feed carries ~100 entries and most are out of scope; resolving all of
+    # them would be two wasted HTTP round-trips each. `parse` is pure, so calling it here
+    # is free and keeps the filter logic in exactly one place.
+    candidates = [item.url for item in parse({"xml": xml}, ctx)]
+
+    return {"xml": xml, "resolved": gnews.resolve_all(candidates)}
 
 
 def parse(payload: Dict[str, Any], ctx: FetchContext) -> List[Item]:
     xml = (payload or {}).get("xml") or ""
+    resolved = (payload or {}).get("resolved") or {}
     parsed = feedparser.parse(xml)
 
     items: List[Item] = []
@@ -44,7 +59,7 @@ def parse(payload: Dict[str, Any], ctx: FetchContext) -> List[Item]:
 
     for entry in parsed.entries:
         try:
-            item = _parse_entry(entry, ctx)
+            item = _parse_entry(entry, ctx, resolved)
         except Exception as exc:  # noqa: BLE001 - skip one bad entry, keep the feed
             log.debug("skipping malformed news entry: %s", exc)
             continue
@@ -57,11 +72,14 @@ def parse(payload: Dict[str, Any], ctx: FetchContext) -> List[Item]:
     return items
 
 
-def _parse_entry(entry: Any, ctx: FetchContext):
+def _parse_entry(entry: Any, ctx: FetchContext, resolved: Dict[str, str]):
     raw_title = clean_text(entry.get("title"))
     url = (entry.get("link") or "").strip()
     if not raw_title or not url:
         return None
+
+    # Anything not in the mapping failed to resolve; the redirect still works.
+    url = resolved.get(url, url)
 
     published = parse_rfc822(entry.get("published") or entry.get("updated"))
     if not ctx.in_window(published):

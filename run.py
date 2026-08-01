@@ -84,6 +84,38 @@ def resolve_run_date(raw) -> datetime:
         raise SystemExit("error: --date must be YYYY-MM-DD (got {0!r})".format(raw))
 
 
+def split_by_impact(items: List[Item]):
+    """Split scored items into what gets written up and what gets listed.
+
+    Filtering is the product: screening 40 items and publishing 9 is the service a CI
+    briefing performs. Publishing all 40 — including the ones the model itself scored 1
+    and described as having no commercial impact — is just a feed with extra steps.
+
+    Returns (featured, also_tracked, threshold_used).
+    """
+    threshold = config.MIN_IMPACT_TO_FEATURE
+    featured = [i for i in items if i.importance >= threshold]
+
+    # A briefing with two items looks broken however honest the filtering was, so a thin
+    # week relaxes the bar for that issue rather than publishing something that reads as
+    # a failed run. Logged, because a silent change of editorial standard is worse than
+    # a visible one.
+    if items and len(featured) < config.MIN_FEATURED_ITEMS:
+        relaxed = config.RELAXED_IMPACT_TO_FEATURE
+        widened = [i for i in items if i.importance >= relaxed]
+        if len(widened) > len(featured):
+            log.info(
+                "threshold     only %d item(s) at impact >=%d; lowering to >=%d "
+                "for this issue (%d item(s))",
+                len(featured), threshold, relaxed, len(widened),
+            )
+            threshold, featured = relaxed, widened
+
+    featured_ids = {id(i) for i in featured}
+    also_tracked = [i for i in items if id(i) not in featured_ids]
+    return featured, also_tracked, threshold
+
+
 def collect(ctx: FetchContext) -> List[Item]:
     """Fetch every source. A failing source contributes nothing and is logged."""
     items: List[Item] = []
@@ -137,11 +169,20 @@ def main(argv=None) -> int:
     # ---- enrich ------------------------------------------------------------------
     if use_ai:
         items = ai_summarize.enrich_all(items)
-        editors_take = ai_editor.write(items)
     else:
         items = fallback.enrich_all(items)
-        editors_take = fallback.editors_take(items)
         log.info("enrich        %d item(s) via deterministic rules", len(items))
+
+    # ---- filter ------------------------------------------------------------------
+    featured, also_tracked, threshold = split_by_impact(items)
+    log.info("filter        %d screened -> %d featured (impact >=%d), %d also tracked",
+             len(items), len(featured), threshold, len(also_tracked))
+
+    # The Editor's Take reasons over the featured set only. Feeding it the long tail
+    # invites it to build a narrative out of items the issue has judged not to matter.
+    editors_take = (
+        ai_editor.write(featured) if use_ai else fallback.editors_take(featured)
+    )
 
     # ---- render ------------------------------------------------------------------
     manifest = render_archive.load_manifest()
@@ -149,11 +190,13 @@ def main(argv=None) -> int:
     generated_at = datetime.utcnow()
 
     html_doc = render_html.render(
-        items, editors_take, issue_number, ctx.run_date, ctx.window_start,
+        featured, also_tracked, editors_take, issue_number,
+        ctx.run_date, ctx.window_start,
         generated_at=generated_at, ai_enabled=use_ai,
     )
     text_doc = render_text.render(
-        items, editors_take, issue_number, ctx.run_date, ctx.window_start,
+        featured, also_tracked, editors_take, issue_number,
+        ctx.run_date, ctx.window_start,
         generated_at=generated_at, ai_enabled=use_ai,
     )
 
@@ -163,17 +206,20 @@ def main(argv=None) -> int:
     (issue_dir / "newsletter.txt").write_text(text_doc, encoding="utf-8")
 
     # ---- archive -----------------------------------------------------------------
-    counts = Counter(i.category for i in items)
-    top = max(items, key=lambda i: i.importance).title if items else ""
+    # The archive counts what the issue published, not what it read; `screened_count`
+    # keeps the wider number available without inflating the headline figure.
+    counts = Counter(i.category for i in featured)
+    top = max(featured, key=lambda i: i.importance).title if featured else ""
 
     manifest = render_archive.record_issue(
         manifest,
         number=issue_number,
         issue_date=ctx.run_date_str,
-        item_count=len(items),
+        item_count=len(featured),
         category_counts={c: counts.get(c, 0) for c in config.CATEGORIES if counts.get(c)},
         top_headline=top,
         ai_enabled=use_ai,
+        screened_count=len(items),
     )
     render_archive.save_manifest(manifest)
     config.ARCHIVE_PATH.write_text(
@@ -182,7 +228,8 @@ def main(argv=None) -> int:
 
     # ---- report ------------------------------------------------------------------
     log.info("%s", "-" * 62)
-    log.info("issue %-3d     %d item(s): %s", issue_number, len(items),
+    log.info("issue %-3d     %d featured of %d screened: %s",
+             issue_number, len(featured), len(items),
              ", ".join("{0} {1}".format(n, c.lower()) for c, n in counts.items()) or "none")
     log.info("wrote         %s", (issue_dir / "index.html").relative_to(config.ROOT))
     log.info("wrote         %s", (issue_dir / "newsletter.txt").relative_to(config.ROOT))

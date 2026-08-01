@@ -2,32 +2,34 @@
 MS MARKET PULSE
 Weekly competitive intelligence for the Multiple Sclerosis market
 ==============================================================================
-Issue 1  |  25 Jul - 01 Aug 2026  |  40 developments
+Issue 1  |  25 Jul - 01 Aug 2026
+36 items screened  |  8 featured
 
 ------------------------------------------------------------------------------
 EDITOR'S TAKE
 ------------------------------------------------------------------------------
-This week's primary market development is the aggressive clinical expansion of
-central nervous system (CNS)-penetrable BTK inhibitors into progressive MS
-populations, marked by Zenas BioPharma initiating Phase 3 trials for
-orelabrutinib in both primary progressive MS and non-active secondary
-progressive MS, alongside Novartis launching a Phase 3 study for remibrutinib
-in secondary progressive MS. This collective push into non-relapsing
-indications directly threatens Roche’s anti-CD20 dominance, forcing the
-incumbent to defend its franchise via active Phase 3 higher-dose intravenous
-ocrelizumab trials and Genentech's Phase 4 subcutaneous ocrelizumab switch
-study. Meanwhile, the anti-CD20 class faces dual pricing and competitive
-pressure, evidenced by biosimilar threats from Amgen’s active Phase 3 trial
-for ABP 692 and patient access risks from Australian PBS drug delisting
-disputes. Concurrently, Biogen’s financial reporting confirms a structural
-revenue rotation away from legacy MS assets as non-MS therapies overtake its
-franchise performance. Going forward, industry stakeholders must monitor how
-upcoming data from high-dose and subcutaneous anti-CD20 formulations hold up
-against the rapid late-stage progression of BTK candidates in non-relapsing
-disease settings.
+A major clinical push into progressive multiple sclerosis is underway as BTK
+inhibitors target non-relapsing populations with high unmet need. Zenas
+BioPharma initiated dual Phase 3 trials evaluating its CNS-penetrable
+candidate orelabrutinib in primary and non-active secondary progressive MS,
+while Novartis launched its own Phase 3 study for remibrutinib in SPMS.
+Concurrently, the anti-CD20 landscape is shifting as Roche advances a high-
+dose ocrelizumab regimen to extend product defense against emerging
+competition like Amgen's biosimilar candidate, ABP 692. On the commercial
+front, Australian policy decisions exempted MS therapies from mandatory price
+cuts, contrasting with Biogen's latest earnings where non-MS revenues eclipsed
+its declining legacy MS business. Strategy teams must now watch enrollment
+trajectories across these late-stage BTK trials to see if the mechanism can
+finally deliver meaningful efficacy in progressive disease.
 
 ------------------------------------------------------------------------------
-CLINICAL  (36 items)
+REGULATORY  (nothing featured)
+------------------------------------------------------------------------------
+No FDA actions affecting the MS market in this window. Sources checked: FDA
+press releases, drugs and MedWatch feeds.
+
+------------------------------------------------------------------------------
+CLINICAL  (5 items)
 ------------------------------------------------------------------------------
 
 1. A Study of Orelabrutinib in Patients With Primary Progressive Multiple
@@ -35,17 +37,16 @@ Sclerosis
    Impact 4/5 | ClinicalTrials.gov | 31 Jul 2026 | Phase 3 | Recruiting |
    Zenas BioPharma (USA), LLC | NCT07067463
 
-   Zenas BioPharma has initiated a global Phase 3 randomized, double-blind,
-   placebo-controlled study (NCT07067463) evaluating its CNS-penetrable BTK
-   inhibitor, orelabrutinib, in approximately 705 patients with primary
-   progressive multiple sclerosis (PPMS). Participants will be randomized 2:1
-   to orelabrutinib or placebo and treated for 30 to 60 months, with a minimum
-   treatment duration of 12 months.
+   Zenas BioPharma has initiated a global Phase 3, randomized, double-blind
+   study evaluating its CNS-penetrable BTK inhibitor, orelabrutinib, against
+   placebo in patients with primary progressive multiple sclerosis (PPMS). The
+   trial (NCT07067463) aims to enroll approximately 705 subjects randomized
+   2:1 to receive treatment for 30 to 60 months, with a minimum duration of 12
+   months.
 
-   WHY IT MATTERS: Zenas BioPharma's initiation of a Phase 3 trial advances
-   another CNS-penetrant BTK inhibitor into primary progressive MS,
-   intensifying Phase 3 competition against established progressive MS
-   therapies like Roche's Ocrevus.
+   WHY IT MATTERS: Zenas BioPharma's advance of orelabrutinib into Phase 3
+   PPMS trials intensifies competition in the progressive MS space against
+   rival oral BTK inhibitors from Sanofi, Roche, and Merck KGaA.
    https://clinicaltrials.gov/study/NCT07067463
 
 2. A Study to Evaluate the Efficacy, Safety and Pharmacokinetics (PK) of a
@@ -53,16 +54,16 @@ Higher Dose of Ocrelizumab in Adults With Relapsing Multiple Sclerosis (RMS)
    Impact 4/5 | ClinicalTrials.gov | 30 Jul 2026 | Phase 3 | Active Not
    Recruiting | Hoffmann-La Roche | NCT04544436
 
-   Hoffmann-La Roche's Phase 3 trial evaluating a higher dose of intravenous
-   ocrelizumab administered every 24 weeks in adults with Relapsing Multiple
-   Sclerosis is now Active, Not Recruiting (NCT04544436). The randomized,
-   double-blind, parallel-group study compares the efficacy, safety, and
-   pharmacokinetics of the higher dose directly against the approved 600 mg
-   ocrelizumab regimen.
+   Hoffmann-La Roche's Phase 3 study evaluating a higher dose of intravenous
+   ocrelizumab administered every 24 weeks versus the approved 600 mg dose in
+   adults with relapsing multiple sclerosis is now Active, Not Recruiting. The
+   randomized, double-blind, parallel-group, multicenter trial assesses the
+   efficacy, safety, and pharmacokinetics of the higher-dose regimen in
+   participants with RMS.
 
-   WHY IT MATTERS: Completion of enrollment in this study advances Roche's
-   strategy to optimize Ocrevus dosing and defend its B-cell franchise against
-   high-efficacy competitors in relapsing MS.
+   WHY IT MATTERS: Completion of enrollment in this pivotal trial advances
+   Roche's efforts to optimize Ocrevus dosing, directly defending its anti-
+   CD20 franchise against emerging high-efficacy competitors.
    https://clinicaltrials.gov/study/NCT04544436
 
 3. A Study of Orelabrutinib in Patients With Secondary Progressive Multiple
@@ -70,17 +71,18 @@ Sclerosis
    Impact 4/5 | ClinicalTrials.gov | 30 Jul 2026 | Phase 3 | Recruiting |
    Zenas BioPharma (USA), LLC | NCT07299019
 
-   Zenas BioPharma has initiated recruitment for a global Phase 3 randomized,
-   double-blind study (NCT07299019) evaluating orelabrutinib against placebo
-   in non-active secondary progressive multiple sclerosis (nSPMS). The trial
-   plans to enroll approximately 990 patients across a 2:1 active-to-placebo
-   ratio, with treatment durations ranging from 24 to 60 months (minimum 12
-   months). Orelabrutinib is a central nervous system (CNS)-penetrable
-   Bruton's tyrosine kinase (BTK) inhibitor.
+   Zenas BioPharma has initiated a global Phase 3 study (NCT07299019)
+   evaluating orelabrutinib, a CNS-penetrable BTK inhibitor, in patients with
+   non-active secondary progressive multiple sclerosis. The randomized,
+   double-blind, placebo-controlled trial plans to enroll approximately 990
+   subjects with a 2:1 randomization scheme. Treatment duration will range
+   from 24 to 60 months, with a minimum required treatment period of 12
+   months.
 
-   WHY IT MATTERS: The trial directly challenges competitors advancing BTK
-   inhibitors into progressive MS indications by targeting non-active SPMS, a
-   population with limited currently approved disease-modifying therapies.
+   WHY IT MATTERS: This Phase 3 trial establishes Zenas BioPharma as a direct
+   competitor in progressive MS, targeting non-active SPMS where high unmet
+   need remains and competing against other clinical-stage BTK inhibitors
+   developed by Sanofi, Roche, and Merck KGaA.
    https://clinicaltrials.gov/study/NCT07299019
 
 4. A Study to Evaluate the Efficacy and Safety of Remibrutinib in Secondary
@@ -88,686 +90,226 @@ Progressive Multiple Sclerosis
    Impact 4/5 | ClinicalTrials.gov | 29 Jul 2026 | Phase 3 | Recruiting |
    Novartis Pharmaceuticals | NCT07225504
 
-   Novartis has initiated recruitment for its Phase 3 clinical trial
-   (NCT07225504) evaluating the BTK inhibitor remibrutinib in patients with
-   secondary progressive multiple sclerosis (SPMS). The study aims to generate
-   clinical efficacy and safety data for the candidate in this progressive
-   patient population. Remibrutinib's advancement into late-stage development
-   expands Novartis's pipeline evaluation of BTK inhibition beyond relapsing
-   MS into non-relapsing disease stages.
+   Novartis Pharmaceuticals has initiated a Phase 3 clinical study
+   (NCT07225504) evaluating remibrutinib in patients with secondary
+   progressive multiple sclerosis (SPMS). The study is currently actively
+   recruiting participants. It aims to generate primary efficacy and safety
+   data for the asset in this progressive MS population.
 
-   WHY IT MATTERS: Novartis's Phase 3 evaluation of remibrutinib in SPMS
-   directly challenges competitor BTK inhibitor programs from Sanofi and Merck
-   KGaA in progressive MS segments where effective therapeutic options remain
-   limited.
+   WHY IT MATTERS: The progression of Novartis's oral BTK inhibitor
+   remibrutinib into Phase 3 trials for SPMS directly intensifies late-stage
+   pipeline competition in progressive MS, challenging rivals like Sanofi and
+   Merck KGaA in the BTKi therapeutic class.
    https://clinicaltrials.gov/study/NCT07225504
 
 5. Comparison Between ABP 692 and Ocrevus® (Ocrelizumab)
    Impact 4/5 | ClinicalTrials.gov | 27 Jul 2026 | Phase 3 | Active Not
    Recruiting | Amgen | NCT06700343
 
-   Amgen's Phase 3 study evaluating its biosimilar candidate ABP 692 against
-   Ocrevus (ocrelizumab) is currently active, not recruiting (NCT06700343).
-   The primary objectives of this trial are to demonstrate pharmacokinetic
-   (PK) similarity between ABP 692 and both US-sourced and EU-sourced Ocrevus
-   reference products.
+   Amgen's Phase 3 study (NCT06700343) evaluating its biosimilar candidate ABP
+   692 against Ocrevus (ocrelizumab) is currently active, not recruiting. The
+   trial's main objectives are to demonstrate pharmacokinetic (PK) similarity
+   between ABP 692 and both US-sourced and EU-sourced ocrelizumab reference
+   products.
 
-   WHY IT MATTERS: Amgen's Phase 3 progression of ABP 692 directly threatens
-   Roche's Ocrevus franchise by advancing a potential biosimilar competitor in
-   the high-volume anti-CD20 Multiple Sclerosis market.
+   WHY IT MATTERS: ABP 692's Phase 3 progress threatens Roche's Ocrevus
+   franchise by advancing a direct biosimilar competitor that could erode
+   anti-CD20 market share and pricing upon eventual commercialisation.
    https://clinicaltrials.gov/study/NCT06700343
 
-6. A Study of Ocrelizumab Administered Subcutaneously in Participants With
-Multiple Sclerosis Who Switch From an Approved Anti-CD20 Therapy
-   Impact 3/5 | ClinicalTrials.gov | 29 Jul 2026 | Phase 4 | Recruiting |
-   Genentech, Inc. | NCT07609719
-
-   Genentech, Inc. has initiated a Phase 4 recruiting clinical trial
-   (NCT07609719) evaluating subcutaneous ocrelizumab co-formulated with
-   recombinant human hyaluronidase (rHuPH20) in participants with relapsing or
-   primary progressive multiple sclerosis. The study assesses imaging
-   biomarkers, patient outcomes, safety, tolerability, and treatment
-   satisfaction in patients switching from other approved anti-CD20 therapies,
-   specifically subcutaneous ofatumumab, intravenous ublituximab-xiiy, or
-   intravenous ocrelizumab.
-
-   WHY IT MATTERS: This trial directly impacts Roche/Genentech and competing
-   anti-CD20 marketed therapies (Novartis's Kesimpta and TG Therapeutics'
-   Briumvi) by generating clinical switch data to support subcutaneous
-   ocrelizumab adoption and patient retention.
-   https://clinicaltrials.gov/study/NCT07609719
-
-7. Understanding and Enhancing Human Health and Movement
-   Impact 2/5 | ClinicalTrials.gov | 31 Jul 2026 | N/A | Recruiting | Louis
-   Stokes VA Medical Center | NCT07738978
-
-   The Louis Stokes VA Medical Center has initiated recruitment for
-   NCT07738978, a non-phased interventional study evaluating an implanted
-   electrical stimulation system. The trial assesses the safety, biomechanics,
-   and functional movement outcomes in patients experiencing paralysis due to
-   multiple sclerosis, spinal cord injury, stroke, or traumatic brain injury.
-   No specific therapeutic drug asset or primary completion date is associated
-   with this academic study.
-
-   WHY IT MATTERS: This early-stage non-pharmacologic intervention study by a
-   government center poses no immediate commercial impact or direct
-   competition to marketed MS disease-modifying therapies.
-   https://clinicaltrials.gov/study/NCT07738978
-
-8. Effect of Low Histamine-Based Modified Mediterranean Diet in Multiple
-Sclerosis
-   Impact 2/5 | ClinicalTrials.gov | 31 Jul 2026 | N/A | Completed | Firat
-   University | NCT07501520
-
-   Firat University completed a randomized controlled trial (NCT07501520)
-   evaluating a low histamine-based modified Mediterranean diet in adults with
-   relapsing-remitting multiple sclerosis (RRMS). The three-arm study compared
-   the low-histamine modified Mediterranean diet against a traditional
-   Mediterranean diet and an uninterventioned control group. Primary endpoints
-   measured clinical outcomes including disability status, fatigue, migraine,
-   gastrointestinal symptoms, and quality of life, alongside biological
-   markers such as plasma histamine, diamine oxidase activity, total
-   antioxidant capacity, and oxidative stress indicators.
-
-   WHY IT MATTERS: This academic study on dietary interventions in RRMS
-   presents minimal commercial threat to approved disease-modifying therapies,
-   though positive clinical or biomarker outcomes could inform non-
-   pharmacological supportive care guidelines.
-   https://clinicaltrials.gov/study/NCT07501520
-
-9. Immersive Virtual Reality and Exercise Programs in Multiple Sclerosis:
-ExeRVIEM III
-   Impact 2/5 | ClinicalTrials.gov | 31 Jul 2026 | N/A | Recruiting |
-   University of Vigo | NCT07738120
-
-   The University of Vigo has initiated a randomized controlled trial
-   (ExeRVIEM III; NCT07738120) evaluating a physiotherapy program combining
-   high-intensity exercise with immersive virtual reality via head-mounted
-   displays in people with Multiple Sclerosis. The trial will assess the
-   safety, feasibility, short- and medium-term functional outcomes, cognitive
-   domains, disability, and biomarkers of the intervention in a patient
-   association setting.
-
-   WHY IT MATTERS: This academic pilot study explores non-pharmacological
-   digital rehabilitation tactics and poses no immediate commercial or
-   competitive threat to disease-modifying therapies in the MS landscape.
-   https://clinicaltrials.gov/study/NCT07738120
-
-10. A Study of Oxidative Pathways in MS Fatigue
-   Impact 2/5 | ClinicalTrials.gov | 30 Jul 2026 | Phase 2 | Completed |
-   University of California, San Francisco | NCT02804594
-
-   The University of California, San Francisco completed a single-center,
-   Phase 2 randomized, double-blind study (NCT02804594) evaluating N-acetyl
-   cysteine (1250 mg three times daily) versus placebo over 4 weeks for
-   fatigue in patients with progressive MS. The trial assessed biological
-   effects via brain spectroscopy, research blood samples, and fatigue
-   questionnaires administered within 2 hours of the morning dose.
-
-   WHY IT MATTERS: This investigator-initiated Phase 2 study explores an
-   adjunct approach for progressive MS fatigue using a generic supplement,
-   presenting limited immediate commercial threat to approved disease-
-   modifying therapies.
-   https://clinicaltrials.gov/study/NCT02804594
-
-11. A NIS Evaluating Various Injectable and Oral Treatments in Patients With
-Relapsing Multiple Sclerosis
-   Impact 2/5 | ClinicalTrials.gov | 30 Jul 2026 | Observational | Recruiting
-   | Novartis Pharmaceuticals | NCT05344469
-
-   Novartis Pharmaceuticals is conducting NCT05344469, an observational, non-
-   interventional, multicenter, open-label study in Germany evaluating
-   approved injectable and selected oral disease-modifying therapies (DMTs) in
-   relapsing multiple sclerosis (RMS) patients. Over a four-year period,
-   primary prospective data will be collected alongside medical history
-   including EDSS, MRI parameters, relapses, and laboratory values. The trial
-   is currently recruiting.
-
-   WHY IT MATTERS: This long-term real-world evidence study will generate
-   comparative observational data on established oral and injectable DMTs in
-   Germany, potentially influencing local clinical utilization and competitive
-   positioning for Novartis and rival RMS brands.
-   https://clinicaltrials.gov/study/NCT05344469
-
-12. Risk of Progressive Multifocal Leukoencephalopathy Among Patients With
-Multiple Sclerosis Exposed to Zeposia
-   Impact 2/5 | ClinicalTrials.gov | 29 Jul 2026 | Observational | Recruiting
-   | Bristol-Myers Squibb | NCT07732907
-
-   Bristol Myers Squibb has initiated a post-marketing observational trial
-   (NCT07732907) to quantify the incidence and assess risk factors for
-   progressive multifocal leukoencephalopathy (PML) in multiple sclerosis
-   patients treated with Zeposia (ozanimod). The study will evaluate reported
-   PML cases against variables including patient age, exposure duration, prior
-   immunosuppressant use, lymphopenia, and anti-JCV antibody status.
-
-   WHY IT MATTERS: Characterizing the real-world safety profile and PML risk
-   factors for Zeposia helps Bristol Myers Squibb manage safety signaling
-   against competing S1P receptor modulators and anti-CD20 therapies in the MS
-   landscape.
-   https://clinicaltrials.gov/study/NCT07732907
-
-13. Sacral Neuromodulation for Neurogenic Lower Urinary Tract, Bowel and
-Sexual Dysfunction
-   Impact 2/5 | ClinicalTrials.gov | 29 Jul 2026 | N/A | Recruiting | Odense
-   University Hospital | NCT05380856
-
-   Odense University Hospital is recruiting 60 patients for a multi-center,
-   double-blinded, placebo-controlled randomized trial evaluating sacral
-   neuromodulation (SNM) in Multiple Sclerosis patients with refractory
-   neurogenic lower urinary tract dysfunction. Following an initial test
-   period, responders with greater than 50% improvement in key bladder diary
-   variables will receive an implanted pulse generator and be randomized to
-   IPG ON or IPG OFF for a four-month period.
-
-   WHY IT MATTERS: This study explores a non-pharmacological interventional
-   device approach for managing refractory urinary dysfunction in MS patients,
-   addressing a common symptomatic burden without impacting primary disease-
-   modifying drug competition.
-   https://clinicaltrials.gov/study/NCT05380856
-
-14. Sociocognitive Intervention and Rehabilitation Program in Multiple
-Sclerosis
-   Impact 2/5 | ClinicalTrials.gov | 29 Jul 2026 | N/A | Not Yet Recruiting |
-   Sonia Batista | NCT07734675
-
-   Sonia Batista is preparing to launch a single-center, randomized,
-   prospective Clinical trial (NCT07734675) evaluating an innovative
-   sociocognitive rehabilitation program in patients with multiple sclerosis.
-   The study aims to evaluate the efficacy of the non-pharmacological
-   intervention, characterize cognitive phenotypes, investigate the impact of
-   cognitive reserve and metacognition, and correlate neuropsychological
-   metrics with disease biomarkers to construct a predictive model of disease
-   progression. The trial is currently listed as Not Yet Recruiting.
-
-   WHY IT MATTERS: This academic single-center trial focuses on non-
-   pharmacological cognitive rehabilitation and biomarker modeling, posing no
-   direct commercial threat or near-term competitive impact to marketed MS
-   disease-modifying therapies.
-   https://clinicaltrials.gov/study/NCT07734675
-
-15. A Rollover Study to Evaluate the Long-Term Safety and Efficacy of
-Ocrelizumab In Patients With Multiple Sclerosis
-   Impact 2/5 | ClinicalTrials.gov | 29 Jul 2026 | Phase 3 | Active Not
-   Recruiting | Hoffmann-La Roche | NCT05269004
-
-   Hoffmann-La Roche has transitioned its Phase IIIb open-label extension
-   rollover study (NCT05269004) evaluating the long-term safety and efficacy
-   of ocrelizumab in multiple sclerosis into active, not recruiting status.
-   The study enrolls participants from completed parent studies WA21092,
-   WA21093, and WA25046 who are continuing ocrelizumab treatment or undergoing
-   safety follow-up. Enrolled patients will maintain the specific ocrelizumab
-   dosage and administration regimen established during their respective
-   parent trials.
-
-   WHY IT MATTERS: The completion of enrollment in this extension study
-   supports Roche's ongoing generation of long-term safety and efficacy data
-   for ocrelizumab to maintain its competitive position against other anti-
-   CD20 therapies in MS.
-   https://clinicaltrials.gov/study/NCT05269004
-
-16. Educational Programs Based on Healthy Habits to Improve Quality of Life
-and Psychosocial Profile in Women With Neurodegenerative Diseases: The ADVICE
-Protocol Study (Phase 1)
-   Impact 2/5 | ClinicalTrials.gov | 29 Jul 2026 | N/A | Completed |
-   Universidad de Almeria | NCT06925022
-
-   Universidad de Almeria completed a Phase 1 controlled, single-blind,
-   prospective 2x3 crossover randomized clinical trial (NCT06925022)
-   evaluating the interaction between physical exercise and menstrual cycle
-   phases in women with Multiple Sclerosis (MS) compared to matched controls.
-   The trial assessed the intervention's impact on fatigue, functional
-   capacity, and exercise perception to inform personalized physical activity
-   programs.
-
-   WHY IT MATTERS: This academic lifestyle trial provides non-pharmacological
-   insight into MS symptom management but has no direct impact on the
-   commercial or competitive dynamics of disease-modifying therapies.
-   https://clinicaltrials.gov/study/NCT06925022
-
-17. Exploration of Novel Imaging Biomarkers on OCT for Ublituximab Treatment
-Response in Multiple Sclerosis
-   Impact 2/5 | ClinicalTrials.gov | 29 Jul 2026 | N/A | Recruiting |
-   University of Maryland, Baltimore | NCT06864936
-
-   The University of Maryland, Baltimore has initiated recruitment for an
-   investigator-sponsored trial (NCT06864936) evaluating novel retinal imaging
-   biomarkers via optical coherence tomography (OCT) in patients with
-   relapsing multiple sclerosis (RMS). The single-center study will enroll 30
-   RMS subjects, comparing 15 patients initiating TG Therapeutics' ublituximab
-   (Briumvi) against 15 age- and sex-matched stable RMS controls on non-B-cell
-   depleting therapies to assess ublituximab's modulation of immune cell
-   activity. OCT scans will be captured at enrollment and two subsequent
-   timepoints to establish biomarker response.
-
-   WHY IT MATTERS: If positive, this small academic study could provide TG
-   Therapeutics with preliminary non-invasive imaging data to support novel
-   biomarker monitoring for Briumvi, though it poses minimal near-term
-   competitive threat to established anti-CD20 therapies.
-   https://clinicaltrials.gov/study/NCT06864936
-
-18. The SetPoint System as a Pro-Remyelination Therapy for Relapsing-Remitting
-Multiple Sclerosis: A Pilot Study
-   Impact 2/5 | ClinicalTrials.gov | 29 Jul 2026 | N/A | Recruiting | SetPoint
-   Medical Corporation | NCT06796504
-
-   SetPoint Medical Corporation has initiated recruitment for a pilot study
-   (NCT06796504) evaluating its bioelectronic SetPoint System as an adjunctive
-   pro-remyelination therapy in up to 60 adult patients with relapsing-
-   remitting multiple sclerosis (RRMS). The study will assess safety and
-   remyelinating effects over 48 weeks via a 2:1 randomized, sham-controlled
-   design with a surgically implanted vagus nerve stimulator, followed by a
-   48-week open-label active stimulation extension. Evaluation of long-term
-   safety and pro-remyelinating efficacy will occur across up to 10 clinical
-   sites.
-
-   WHY IT MATTERS: This early-stage trial introduces a novel bioelectronic
-   device approach to remyelination as an adjunctive therapy, though it
-   currently poses no immediate competitive threat to established Disease-
-   Modifying Therapy (DMT) disease-modifying drug franchises.
-   https://clinicaltrials.gov/study/NCT06796504
-
-19. Potential MS therapy improves myelin repair in cells and mice
-   Impact 2/5 | Multiple Sclerosis News Today | 28 Jul 2026
-
-   A preclinical study demonstrated that a potential Multiple Sclerosis (MS)
-   therapy enhanced myelin repair in both cellular models and mouse models.
-   The research evaluated the asset's ability to promote remyelination in
-   early stage models. Further clinical development will be required to
-   determine its therapeutic efficacy in humans.
-
-   WHY IT MATTERS: Early remyelination data provides a preliminary competitive
-   baseline for novel disease-modifying therapies aiming to restore
-   neurological function in MS.
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxPLUFjbC1fVndFT0JqblpQY0ttdUkwRVJKdmVyNlRVY2FIdGhJRzladERzVnFtS1NidkJibmY4dXJEQUx6ZWlWX0pOYWVIZnR3OXdwMHlIclVDRDZrd2RRZ2NEbW52ajFGU2lkNm5VQUxEMnItelF0QklfY1YzTTJVVWJmSW9zUC1rbjZ6dERLR3VHU1Q2VTFRbnl0ZklxWTZIaVAxSVR4U1dwT0x4dHFJU2JOaVExNHc?oc=5
-
-20. Targeting Residual Activity By Precision, Biomarker-Guided Combination
-Therapies of Multiple Sclerosis (TRAP-MS)
-   Impact 2/5 | ClinicalTrials.gov | 28 Jul 2026 | Phase 1, Phase 2 |
-   Recruiting | National Institute of Allergy and Infectious Diseases (NIAID)
-   | NCT03109288
-
-   The NIAID is currently recruiting for TRAP-MS (NCT03109288), an ongoing
-   Phase 1/2 trial evaluating 4 drugs administered as monotherapies or
-   combinations in progressive multiple sclerosis patients. The study measures
-   changes in central nervous system inflammation through lumbar punctures and
-   CSF biomarkers over treatment periods lasting up to 18 months per drug
-   regimen. Trial design incorporates biomarker-guided drug switching and
-   sequential combination arms to predict individual therapeutic response over
-   up to 6 years of follow-up.
-
-   WHY IT MATTERS: This academic biomarker-guided combination study in
-   progressive MS could offer early clinical insights into multi-target
-   strategies for residual neuroinflammation, though it presents no immediate
-   commercial threat to marketed MS franchises.
-   https://clinicaltrials.gov/study/NCT03109288
-
-21. Natural History Study of Progressive Multifocal Leukoencephalopathy (PML)
-   Impact 2/5 | ClinicalTrials.gov | 28 Jul 2026 | Observational | Recruiting
-   | National Institute of Neurological Disorders and Stroke (NINDS) |
-   NCT01730131
-
-   The National Institute of Neurological Disorders and Stroke (NINDS) is
-   conducting a recruiting observational natural history study (NCT01730131)
-   in patients aged 2 years and older with progressive multifocal
-   leukoencephalopathy (PML). The trial tracks participants over 12 months
-   using blood, urine, and spinal fluid samples alongside neurological tests
-   and brain imaging to better understand JC virus reactivation and immune
-   system interaction. The study collects natural history data and does not
-   provide therapeutic treatment to enrolled patients.
-
-   WHY IT MATTERS: Characterizing the natural history of PML provides baseline
-   biomarker and clinical progression data that could inform risk
-   stratification and safety management for MS disease-modifying therapies
-   associated with JC virus reactivation.
-   https://clinicaltrials.gov/study/NCT01730131
-
-22. In Vivo Characterization of Inflammation With Ferumoxytol, an Ultrasmall
-Superparamagnetic Iron Oxide Nanoparticle, on 7 Tesla Magnetic Resonance
-Imaging
-   Impact 2/5 | ClinicalTrials.gov | 28 Jul 2026 | Phase 1 | Completed |
-   National Institute of Neurological Disorders and Stroke (NINDS) |
-   NCT02511028
-
-   The National Institute of Neurological Disorders and Stroke (NINDS) has
-   completed a Phase 1 trial evaluating ferumoxytol, an ultrasmall
-   superparamagnetic iron oxide nanoparticle, as an MRI contrast agent in
-   patients with multiple sclerosis and healthy volunteers. The study
-   evaluated ferumoxytol using 7 Tesla brain MRI scans over five visits across
-   six months to characterize central nervous system inflammation and assess
-   whether the drug causes prolonged brain MRI changes.
-
-   WHY IT MATTERS: The development of ferumoxytol as an enhanced imaging agent
-   provides academic proof-of-concept for high-field 7T MRI visualization of
-   neuroinflammation, but it poses no immediate commercial or competitive
-   threat to established MS therapeutic manufacturers.
-   https://clinicaltrials.gov/study/NCT02511028
-
-23. Cladribine Tablets: Collaborative Study to Evaluate Impact On Central
-Nervous System Biomarkers in Multiple Sclerosis
-   Impact 2/5 | ClinicalTrials.gov | 28 Jul 2026 | Phase 4 | Completed |
-   Gregory Wu | NCT03963375
-
-   Investigator Gregory Wu has completed a Phase 4 collaborative trial
-   (NCT03963375) evaluating cladribine tablets in relapsing forms of multiple
-   sclerosis, including RRMS and active SPMS. The study assessed the asset's
-   mechanism of action by analyzing its impact on key CNS and blood
-   biomarkers. No clinical efficacy or safety results were disclosed in the
-   update.
-
-   WHY IT MATTERS: Completion of this biomarker trial may provide Merck KGaA
-   and clinicians with mechanistic insights into cladribine's CNS effects
-   relative to competing disease-modifying therapies in relapsing MS.
-   https://clinicaltrials.gov/study/NCT03963375
-
-24. Assessment of Potential for Chronic Liver Injury in Participants Treated
-With Epidiolex (Cannabidiol) Oral Solution
-   Impact 2/5 | ClinicalTrials.gov | 28 Jul 2026 | Phase 4 | Active Not
-   Recruiting | Jazz Pharmaceuticals | NCT05044819
-
-   Jazz Pharmaceuticals is conducting an Active, Not Recruiting Phase 4 study
-   (NCT05044819) evaluating Epidiolex (cannabidiol) oral solution. The trial
-   is designed to monitor participants for potential chronic liver injury and
-   liver fibrosis during treatment.
-
-   WHY IT MATTERS: Determining long-term hepatic safety parameters for
-   Epidiolex provides crucial safety context for clinicians utilizing
-   cannabidiol for symptomatic management in neurological populations.
-   https://clinicaltrials.gov/study/NCT05044819
-
-25. Physical Activity Intervention for Individuals Newly Diagnosed With MS
-   Impact 2/5 | ClinicalTrials.gov | 28 Jul 2026 | N/A | Not Yet Recruiting |
-   University of Illinois at Chicago | NCT07731659
-
-   The University of Illinois at Chicago is initiating a 50-patient parallel-
-   group randomized controlled pilot trial (NCT07731659) evaluating a 16-week
-   remotely delivered, Internet-based physical activity behavioral
-   intervention against a waitlist control. The study targets individuals
-   newly diagnosed with multiple sclerosis (disease duration ≤ 2 years) to
-   assess improvements in Capability-Opportunity-Motivation-Behavior (COM-B)
-   constructs and self-reported physical activity levels. Primary outcomes
-   will be assessed remotely at baseline and post-intervention via online
-   REDCap questionnaires.
-
-   WHY IT MATTERS: This academic pilot study explores non-pharmacological
-   behavioral interventions in newly diagnosed MS patients and carries no
-   immediate commercial or market-share impact for disease-modifying therapy
-   manufacturers.
-   https://clinicaltrials.gov/study/NCT07731659
-
-26. Accuracy of Motor Performance Perception in Multiple Sclerosis
-   Impact 2/5 | ClinicalTrials.gov | 28 Jul 2026 | Observational | Completed |
-   Hasselt University | NCT07175792
-
-   Hasselt University completed an observational study (NCT07175792)
-   evaluating motor performance perception accuracy in persons with multiple
-   sclerosis (PwMS) compared to age- and gender-matched healthy controls. The
-   trial assessed self-reported beliefs and experimental perceptive task
-   performance during prolonged functional activities like walking and
-   repeated standing over a maximum of three days. Findings aim to identify MS
-   patient subgroups with perceptual deficits to inform potential tailored
-   therapeutic interventions.
-
-   WHY IT MATTERS: This academic observational study provides exploratory
-   insights into MS-related perceptual deficits but carries no direct short-
-   term impact on commercial MS therapeutic pipelines or market access
-   dynamics.
-   https://clinicaltrials.gov/study/NCT07175792
-
-27. An Open-label Study of AZD0120 in Adults With Multiple Sclerosis
-   Impact 2/5 | ClinicalTrials.gov | 27 Jul 2026 | Phase 1 | Recruiting |
-   AstraZeneca | NCT07224373
-
-   AstraZeneca has initiated a Phase 1b open-label, multi-center clinical
-   trial (NCT07224373) evaluating AZD0120 in adult patients with Multiple
-   Sclerosis. The study is actively recruiting participants to assess the
-   primary endpoints of safety and tolerability for this asset. AZD0120
-   represents a novel cell-therapy approach in MS, operating as a BCMA/CD19
-   dual-targeting CAR+ T-cell therapy.
-
-   WHY IT MATTERS: AstraZeneca's entry into clinical-stage MS trials with a
-   dual-targeting BCMA/CD19 CAR-T cell therapy signals potential early-stage
-   disruptive competition for established B-cell depleting anti-CD20 therapies
-   marketed by Roche, Novartis, and TG Therapeutics.
-   https://clinicaltrials.gov/study/NCT07224373
-
-28. Relationship Between Single- and Dual-Task Obstacle Crossing Performance
-and Fatigue and Disability in Multiple Sclerosis
-   Impact 1/5 | ClinicalTrials.gov | 31 Jul 2026 | Observational | Recruiting
-   | Afyonkarahisar Health Sciences University | NCT07736482
-
-   Afyonkarahisar Health Sciences University has initiated a cross-sectional
-   observational trial (NCT07736482) assessing obstacle-crossing performance
-   under single- and dual-task conditions in Relapsing-Remitting Multiple
-   Sclerosis (RRMS) patients. The study evaluates how task complexity
-   correlates with fatigue, disability, cognition, and functional mobility.
-
-   WHY IT MATTERS: This academic study offers observational insights into
-   functional mobility and fatigue in RRMS but presents no immediate
-   commercial or competitive impact for commercial MS drug developers.
-   https://clinicaltrials.gov/study/NCT07736482
-
-29. Testing an Immunotherapy Anti-cancer Drug, Nivolumab, for Advanced Cancers
-in Patients With Autoimmune Disorders, AIM-NIVO
-   Impact 1/5 | ClinicalTrials.gov | 31 Jul 2026 | Phase 1 | Recruiting |
-   National Cancer Institute (NCI) | NCT03816345
-
-   The National Cancer Institute is conducting AIM-NIVO, a Phase Ib trial
-   evaluating the safety, tolerability, and efficacy of nivolumab alone and in
-   combination with ipilimumab, cabozantinib, or chemotherapy in patients with
-   autoimmune disorders and advanced, metastatic, or unresectable cancer. The
-   study is actively recruiting to assess side effects and therapeutic
-   activity in this specific patient population.
-
-   WHY IT MATTERS: This early-stage oncology trial evaluates checkpoint
-   inhibitor safety in patients with pre-existing autoimmune conditions,
-   offering minimal direct impact on the core competitive dynamics of disease-
-   modifying MS therapies.
-   https://clinicaltrials.gov/study/NCT03816345
-
-30. AMT-260 Gene Therapy Study in Adults With Unilateral Refractory Mesial
-Temporal Lobe Epilepsy
-   Impact 1/5 | ClinicalTrials.gov | 29 Jul 2026 | Phase 1, Phase 2 |
-   Recruiting | UniQure Biopharma B.V. | NCT06063850
-
-   UniQure Biopharma B.V. is currently recruiting for a Phase 1/2 clinical
-   trial (NCT06063850) evaluating AMT-260 gene therapy. The study assesses the
-   safety, tolerability, and efficacy of AMT-260 in reducing seizure frequency
-   in adult patients with unilateral refractory mesial temporal lobe epilepsy.
-   Primary outcomes focus on safety parameters and seizure reduction in this
-   specific refractory epilepsy cohort.
-
-   WHY IT MATTERS: This trial evaluates a gene therapy asset in mesial
-   temporal lobe epilepsy, presenting no direct commercial or competitive
-   impact on the Multiple Sclerosis market or its key stakeholders.
-   https://clinicaltrials.gov/study/NCT06063850
-
-31. Effects of Sensorimotor Insoles on Stability and Gait in Patients With
-Multiple Sclerosis.
-   Impact 1/5 | ClinicalTrials.gov | 29 Jul 2026 | N/A | Active Not Recruiting
-   | University of Salamanca | NCT07735325
-
-   The University of Salamanca is conducting an active, non-recruiting,
-   single-blind randomized controlled trial (NCT07735325) evaluating custom
-   sensorimotor insoles (Springer Aktiv GmbH) in 50 adult MS patients across
-   RRMS, PPMS, and SPMS subtypes with EDSS scores of 2.0 to 6.0. Following a
-   seven-month intervention period, primary endpoints will assess stability
-   using the Berg Balance Scale and gait capacity via the Gait Assessment and
-   Intervention Tool compared to conventional physical therapy alone.
-   Secondary outcomes measure plantar cutaneous sensitivity, ankle muscle
-   strength using an Activforce 2 dynamometer, and quality of life via the
-   FAMS questionnaire.
-
-   WHY IT MATTERS: This non-pharmacological, single-centre study on supportive
-   orthotic insoles provides exploratory functional data without impacting the
-   competitive dynamic or commercial market share of disease-modifying
-   therapies for MS.
-   https://clinicaltrials.gov/study/NCT07735325
-
-32. Biomarkers in Autoimmune Disease of Nervous System
-   Impact 1/5 | ClinicalTrials.gov | 29 Jul 2026 | Observational | Recruiting
-   | Tongji Hospital | NCT06502015
-
-   Tongji Hospital is currently recruiting for NCT06502015, an observational
-   study evaluating biomarkers across eight neurological autoimmune diseases,
-   including multiple sclerosis. The study aims to identify novel biomarkers
-   with high sensitivity, specificity, and stability to enable early
-   diagnosis, monitoring, and personalized management. Patient enrollment
-   encompasses MS alongside related conditions such as NMOSD, MOGAD, AE, MG,
-   CIDP, and IIM.
-
-   WHY IT MATTERS: This single-center observational biomarker study carries
-   minimal competitive impact for commercial MS drug developers due to its
-   early exploratory nature and lack of therapeutic intervention.
-   https://clinicaltrials.gov/study/NCT06502015
-
-33. Objective Longitudinal Assessment of Postural Stability and Gait of
-Stroke, Parkinson's Disease and Multiple Sclerosis Using Instrumented
-Posturography and Three Dimensional Motion Analysis
-   Impact 1/5 | ClinicalTrials.gov | 28 Jul 2026 | N/A | Enrolling By
-   Invitation | Somogy Megyei Kaposi Mór Teaching Hospital | NCT07411664
-
-   Somogy Megyei Kaposi Mór Teaching Hospital is conducting an observational
-   study (NCT07411664) evaluating postural stability and gait in stroke,
-   Parkinson's disease, and multiple sclerosis patients using instrumented
-   posturography and 3D motion analysis. Currently enrolling by invitation,
-   the study aims to assess trunk control and balance disorders to inform
-   tailored neurorehabilitation treatment plans.
-
-   WHY IT MATTERS: This single-center, non-interventional study focuses on
-   objective motor assessment techniques in neurorehabilitation, presenting no
-   direct commercial impact or threat to marketed disease-modifying therapies
-   in multiple sclerosis.
-   https://clinicaltrials.gov/study/NCT07411664
-
-34. A Study of AZD0120 in Autoimmune Diseases
-   Impact 1/5 | ClinicalTrials.gov | 28 Jul 2026 | Phase 1 | Recruiting |
-   AstraZeneca | NCT07295847
-
-   AstraZeneca has initiated recruitment for a Phase 1b open-label study
-   (NCT07295847) evaluating AZD0120 in adult participants with autoimmune
-   diseases. The trial will assess the safety and tolerability of the
-   BCMA/CD19 dual-targeting CAR T-cell therapy in systemic sclerosis,
-   idiopathic inflammatory myopathies, and difficult-to-treat rheumatoid
-   arthritis. The study design does not currently include multiple sclerosis
-   patient cohorts.
-
-   WHY IT MATTERS: While AZD0120 represents early-stage cell therapy
-   development in autoimmunity, the trial currently targets non-MS indications
-   and poses no immediate competitive impact on marketed or pipeline MS
-   disease-modifying therapies.
-   https://clinicaltrials.gov/study/NCT07295847
-
-35. Comprehensive Multimodal Analysis of Neuroimmunological Diseases of the
-Central Nervous System
-   Impact 1/5 | ClinicalTrials.gov | 28 Jul 2026 | Observational | Recruiting
-   | National Institute of Allergy and Infectious Diseases (NIAID) |
-   NCT00794352
-
-   The National Institute of Allergy and Infectious Diseases (NIAID) is
-   recruiting subjects for an observational study (NCT00794352) investigating
-   central nervous system (CNS) and immune system interactions in
-   neuroimmunological diseases, including multiple sclerosis. The study
-   enrolls healthy volunteers and patients aged 12 and older with immune-
-   related CNS damage to undergo blood and tissue sampling, diagnostic lumbar
-   punctures, vision/brain activity tests, and serial brain and spinal cord
-   MRIs.
-
-   WHY IT MATTERS: This long-term academic observational study yields baseline
-   biomarker and imaging insights but presents no direct commercial threat or
-   near-term impact to marketed MS therapeutic franchises.
-   https://clinicaltrials.gov/study/NCT00794352
-
-36. Sertraline vs. Placebo in the Treatment of Anxiety in Children and
-AdoLescents With NeurodevelopMental Disorders
-   Impact 1/5 | ClinicalTrials.gov | 27 Jul 2026 | Phase 2 | Recruiting |
-   Holland Bloorview Kids Rehabilitation Hospital | NCT06081348
-
-   Holland Bloorview Kids Rehabilitation Hospital is recruiting for a Phase 2
-   pilot study (NCT06081348) evaluating sertraline versus placebo for treating
-   anxiety in children and adolescents with neurodevelopmental disorders. The
-   study aims to estimate the effect size of anxiety reduction and identify
-   primary outcome measures for future larger-scale trials. The trial targets
-   a population across both common and rare neurodevelopmental conditions
-   without approved anxiety medications.
-
-   WHY IT MATTERS: This study focuses on pediatric anxiety in general
-   neurodevelopmental disorders using a generic SSRI and holds no direct
-   competitive or commercial relevance to the Multiple Sclerosis therapeutic
-   market or MS disease-modifying therapies.
-   https://clinicaltrials.gov/study/NCT06081348
-
 ------------------------------------------------------------------------------
-COMMERCIAL/CORPORATE  (4 items)
+COMMERCIAL/CORPORATE  (3 items)
 ------------------------------------------------------------------------------
 
-1. MS patients fear vital drugs may be delisted in fight over pricing
+1. Multiple sclerosis drugs saved from PBS pricing axe
    Impact 4/5 | The Australian | 27 Jul 2026
 
-   Australian Multiple Sclerosis patients face potential drug delistings from
-   the Pharmaceutical Benefits Scheme due to ongoing pricing disputes between
-   pharmaceutical sponsors and government authorities. The article highlights
-   patient concerns regarding access disruptions to essential disease-
-   modifying therapies in the market. No specific assets, sponsors, or
-   clinical trial endpoints were detailed in the source text.
+   Multiple sclerosis therapies have been exempted from scheduled price
+   reductions under Australia's Pharmaceutical Benefits Scheme (PBS). The
+   policy decision prevents mandated price cuts for listed MS medications,
+   preserving existing reimbursement terms. No specific sponsors, assets, or
+   trial parameters were detailed in the source.
 
-   WHY IT MATTERS: Potential PBS delistings threaten commercial revenues and
-   market access for MS therapy manufacturers in Australia while disrupting
-   patient treatment regimens.
-   https://news.google.com/rss/articles/CBMi4wFBVV95cUxNa3BpTE9sYzdoSkxTUC16VmxELXBDNFVZbFJZSWgwWV9LLWNvWU5VUlRzUVdGSnlQamRpSXM0ODZQalFvQ0EwRHJsUUF3cFlnVy1HRndINFdwUXFmU2hxZll1NDVxTUhuYnR0M3hNNW5NTzFDNTktU0ZBLTRFYUhkNkFWcnJ4enBBbkswQXg3UjhEeUMtT0hTaENVZ2ZnbFdIallEeWctRTdncWdOb3YzR255cXVwUlR1cE9DRXY4c3piVVByaEZsS1lYWlIwM0ZPYWkwT1dZMnByYXpqNFN4R1J5MNIB6AFBVV95cUxOdGR3RzdpWW01cDlrV3NJMEZFczdPRWtuV1ZVVXhVQ3ZjY0pBaWl6Z1lPa0YwX2hOZzdBWVgyaUtPYjNxek5LNlpLSmNBbjRqZkhIN3pDdmlvUVRrWEZuQmk3bE9QOGtmYk5kdnc3WVZBZUFQN0hUcVU2dE56UWVETGs4N0FsMkFhVUlRUXVXeWpTVFB6OTdtLXlXeklXSW9tUzdTdElxSnA0UnAycHkzbXJnZHRQdHFyX2VzdW5SSUs3aDNFVVJYZV9IM1FzWVAzM0U1eHh4RE5mcGlMQTNFM2FxQ29PQU43?oc=5
+   WHY IT MATTERS: The exemption protects Australian PBS revenues and pricing
+   margins for pharmaceutical manufacturers marketing approved multiple
+   sclerosis therapies in the country.
+   https://www.theaustralian.com.au/health/ms-drugs-to-stay-on-pbs-after-stoush-over-pricing/news-story/e030f753312ccb1f34fa1b6a7603ca32
 
-2. Biogen beats estimates as new medicines overtake multiple sclerosis
+2. MS patients fear vital drugs may be delisted in fight over pricing
+   Impact 4/5 | The Australian | 27 Jul 2026
+
+   Multiple Sclerosis patients in Australia face potential drug delistings
+   amid ongoing pricing disputes. The situation threatens access to key
+   therapies listed on the national pharmaceutical benefits scheme.
+
+   WHY IT MATTERS: Delisting risks disrupting patient access in Australia and
+   impacting local revenues for MS drug manufacturers involved in price
+   negotiations.
+   https://www.theaustralian.com.au/health/medical/stoush-over-archaic-pricing-threatens-access-to-key-drugs/news-story/36e013b731cc9a690c0783af495209c1
+
+3. Biogen beats estimates as new medicines overtake multiple sclerosis
 business
    Impact 3/5 | The Edge Malaysia | 29 Jul 2026
 
-   Biogen reported financial results beating market estimates as revenue
-   growth from its newer medicine portfolio surpassed its legacy multiple
-   sclerosis franchise. The earnings shift highlights a structural transition
-   in the company's core revenue base away from its historic MS product line.
-   No specific clinical endpoints, phase data, or regulatory decisions were
-   detailed in the update.
+   Biogen reported financial results beating estimates as revenue from its
+   newer medicinal portfolio surpassed its legacy multiple sclerosis
+   franchise. The shift highlights an evolving product mix for the sponsor as
+   its traditional MS business faces revenue contraction. Further specific
+   financial metrics, asset breakdowns, and population endpoints were not
+   disclosed in the text.
 
-   WHY IT MATTERS: The growth of Biogen's non-MS portfolio signals a
-   continuing decline in the commercial centrality of its legacy MS franchise,
-   altering the competitive dynamics for rival MS manufacturers.
-   https://news.google.com/rss/articles/CBMiUEFVX3lxTFB2czJyZFl1WFBmY1N3WHVPaVBzTng5NFJHZUpXU0NqWENwVVZrbDYtM0tkUnhQRzFNMWhFelpNSXRjWWhUOHFoc3hBdWM5WVJr?oc=5
+   WHY IT MATTERS: The transition of Biogen's revenue driver away from its
+   legacy MS portfolio reflects declining market share for its core therapies,
+   altering competitive dynamics for rival MS manufacturers.
+   https://theedgemalaysia.com/node/812539
 
-3. Characterizing the Use of Ofatumumab in a Real World Setting
-   Impact 2/5 | ClinicalTrials.gov | 31 Jul 2026 | Observational | Completed |
-   Novartis Pharmaceuticals | NCT05090033
+------------------------------------------------------------------------------
+ALSO TRACKED THIS WEEK  (28 items)
+------------------------------------------------------------------------------
+Screened and scored below the impact threshold. Listed for completeness.
 
-   Novartis Pharmaceuticals completed its observational, non-interventional
-   real-world trial (NCT05090033) evaluating ofatumumab. The study utilized
-   de-identified onboarding and adherence data from the MSGo patient support
-   platform, alongside a sub-study exploring ofatumumab's impact on patient-
-   reported outcomes relative to clinical outcomes.
+- Understanding and Enhancing Human Health and Movement
+  ClinicalTrials.gov | Louis Stokes VA Medical Center
+  https://clinicaltrials.gov/study/NCT07738978
 
-   WHY IT MATTERS: This observational study yields real-world adherence and
-   patient-reported outcome data for Novartis's ofatumumab that can support
-   commercial differentiation and patient support engagement strategies
-   against rival MS disease-modifying therapies.
-   https://clinicaltrials.gov/study/NCT05090033
+- Characterizing the Use of Ofatumumab in a Real World Setting
+  ClinicalTrials.gov | Novartis Pharmaceuticals
+  https://clinicaltrials.gov/study/NCT05090033
 
-4. Advancing Multiple Sclerosis Treatment Through Research-Integrated Clinical
+- A Study of Oxidative Pathways in MS Fatigue
+  ClinicalTrials.gov | University of California, San Francisco
+  https://clinicaltrials.gov/study/NCT02804594
+
+- A NIS Evaluating Various Injectable and Oral Treatments in Patients With
+Relapsing Multiple Sclerosis
+  ClinicalTrials.gov | Novartis Pharmaceuticals
+  https://clinicaltrials.gov/study/NCT05344469
+
+- Risk of Progressive Multifocal Leukoencephalopathy Among Patients With
+Multiple Sclerosis Exposed to Zeposia
+  ClinicalTrials.gov | Bristol-Myers Squibb
+  https://clinicaltrials.gov/study/NCT07732907
+
+- A Study of Ocrelizumab Administered Subcutaneously in Participants With
+Multiple Sclerosis Who Switch From an Approved Anti-CD20 Therapy
+  ClinicalTrials.gov | Genentech, Inc.
+  https://clinicaltrials.gov/study/NCT07609719
+
+- Sociocognitive Intervention and Rehabilitation Program in Multiple Sclerosis
+  ClinicalTrials.gov | Sonia Batista
+  https://clinicaltrials.gov/study/NCT07734675
+
+- A Rollover Study to Evaluate the Long-Term Safety and Efficacy of
+Ocrelizumab In Patients With Multiple Sclerosis
+  ClinicalTrials.gov | Hoffmann-La Roche
+  https://clinicaltrials.gov/study/NCT05269004
+
+- Exploration of Novel Imaging Biomarkers on OCT for Ublituximab Treatment
+Response in Multiple Sclerosis
+  ClinicalTrials.gov | University of Maryland, Baltimore
+  https://clinicaltrials.gov/study/NCT06864936
+
+- Effects of Sensorimotor Insoles on Stability and Gait in Patients With
+Multiple Sclerosis.
+  ClinicalTrials.gov | University of Salamanca
+  https://clinicaltrials.gov/study/NCT07735325
+
+- The SetPoint System as a Pro-Remyelination Therapy for Relapsing-Remitting
+Multiple Sclerosis: A Pilot Study
+  ClinicalTrials.gov | SetPoint Medical Corporation
+  https://clinicaltrials.gov/study/NCT06796504
+
+- Potential MS therapy improves myelin repair in cells and mice
+  Multiple Sclerosis News Today
+  https://multiplesclerosisnewstoday.com/news-posts/2026/07/28/potential-ms-therapy-improves-myelin-repair-cells-mice/
+
+- Targeting Residual Activity By Precision, Biomarker-Guided Combination
+Therapies of Multiple Sclerosis (TRAP-MS)
+  ClinicalTrials.gov | National Institute of Allergy and Infectious Diseases
+  (NIAID)
+  https://clinicaltrials.gov/study/NCT03109288
+
+- In Vivo Characterization of Inflammation With Ferumoxytol, an Ultrasmall
+Superparamagnetic Iron Oxide Nanoparticle, on 7 Tesla Magnetic Resonance
+Imaging
+  ClinicalTrials.gov | National Institute of Neurological Disorders and Stroke
+  (NINDS)
+  https://clinicaltrials.gov/study/NCT02511028
+
+- Cladribine Tablets: Collaborative Study to Evaluate Impact On Central
+Nervous System Biomarkers in Multiple Sclerosis
+  ClinicalTrials.gov | Gregory Wu
+  https://clinicaltrials.gov/study/NCT03963375
+
+- An Open-label Study of AZD0120 in Adults With Multiple Sclerosis
+  ClinicalTrials.gov | AstraZeneca
+  https://clinicaltrials.gov/study/NCT07224373
+
+- Relationship Between Single- and Dual-Task Obstacle Crossing Performance and
+Fatigue and Disability in Multiple Sclerosis
+  ClinicalTrials.gov | Afyonkarahisar Health Sciences University
+  https://clinicaltrials.gov/study/NCT07736482
+
+- Testing an Immunotherapy Anti-cancer Drug, Nivolumab, for Advanced Cancers
+in Patients With Autoimmune Disorders, AIM-NIVO
+  ClinicalTrials.gov | National Cancer Institute (NCI)
+  https://clinicaltrials.gov/study/NCT03816345
+
+- Effect of Low Histamine-Based Modified Mediterranean Diet in Multiple
+Sclerosis
+  ClinicalTrials.gov | Firat University
+  https://clinicaltrials.gov/study/NCT07501520
+
+- Immersive Virtual Reality and Exercise Programs in Multiple Sclerosis:
+ExeRVIEM III
+  ClinicalTrials.gov | University of Vigo
+  https://clinicaltrials.gov/study/NCT07738120
+
+- Sacral Neuromodulation for Neurogenic Lower Urinary Tract, Bowel and Sexual
+Dysfunction
+  ClinicalTrials.gov | Odense University Hospital
+  https://clinicaltrials.gov/study/NCT05380856
+
+- Educational Programs Based on Healthy Habits to Improve Quality of Life and
+Psychosocial Profile in Women With Neurodegenerative Diseases: The ADVICE
+Protocol Study (Phase 1)
+  ClinicalTrials.gov | Universidad de Almeria
+  https://clinicaltrials.gov/study/NCT06925022
+
+- Biomarkers in Autoimmune Disease of Nervous System
+  ClinicalTrials.gov | Tongji Hospital
+  https://clinicaltrials.gov/study/NCT06502015
+
+- Advancing Multiple Sclerosis Treatment Through Research-Integrated Clinical
 Care
-   Impact 1/5 | NeurologyLive | 28 Jul 2026
+  neurologylive.com
+  https://www.neurologylive.com/view/advancing-ms-treatment-through-research-integrated-clinical-care
 
-   NeurologyLive published an article discussing the integration of research
-   into clinical care for multiple sclerosis treatment. The source text
-   provides general commentary on research-integrated care without disclosing
-   specific drug assets, sponsors, clinical trial phases, target populations,
-   endpoints, or regulatory decisions.
+- Objective Longitudinal Assessment of Postural Stability and Gait of Stroke,
+Parkinson's Disease and Multiple Sclerosis Using Instrumented Posturography
+and Three Dimensional Motion Analysis
+  ClinicalTrials.gov | Somogy Megyei Kaposi Mór Teaching Hospital
+  https://clinicaltrials.gov/study/NCT07411664
 
-   WHY IT MATTERS: The publication provides general commentary on MS care
-   models without introducing specific asset data or commercial developments
-   that impact current MS market dynamics.
-   https://news.google.com/rss/articles/CBMioAFBVV95cUxOWEF2b2RSd01pekR6VldmRG5rd1BJUzRhTEhJWFBhbGpDb1k2UVdJZnMwSjZNTnpfWDY5bmdXMDFIZTlDa0N2dzF0T3NzdDdnYzU2MkZZX3lJUWUySXZiME42TEgtYng2Z0xjdGFoRVhfWjRQQjZ0WHUyZVJBcGh0NkJVSXVhUTVvblA5WXlCZkl1dDN3SlQzcHJ4cXBPSzBQ?oc=5
+- Comprehensive Multimodal Analysis of Neuroimmunological Diseases of the
+Central Nervous System
+  ClinicalTrials.gov | National Institute of Allergy and Infectious Diseases
+  (NIAID)
+  https://clinicaltrials.gov/study/NCT00794352
+
+- Physical Activity Intervention for Individuals Newly Diagnosed With MS
+  ClinicalTrials.gov | University of Illinois at Chicago
+  https://clinicaltrials.gov/study/NCT07731659
+
+- Accuracy of Motor Performance Perception in Multiple Sclerosis
+  ClinicalTrials.gov | Hasselt University
+  https://clinicaltrials.gov/study/NCT07175792
 
 ==============================================================================
 Generated automatically from ClinicalTrials.gov API v2, three U.S. FDA RSS
 feeds (press releases, drugs, MedWatch), and curated news. Summaries,
 categories and impact scores generated by Google Gemini (gemini-3.6-flash).
-Compiled 2026-08-01 17:00 UTC.
+Compiled 2026-08-01 18:04 UTC.
 This briefing summarises public information for competitive intelligence
 purposes and is not medical, investment or regulatory advice.
 ==============================================================================

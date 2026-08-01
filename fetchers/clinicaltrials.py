@@ -23,6 +23,7 @@ NAME = "clinicaltrials"
 FIELDS = ",".join([
     "NCTId",
     "BriefTitle",
+    "Condition",
     "OverallStatus",
     "Phase",
     "LeadSponsorName",
@@ -30,6 +31,18 @@ FIELDS = ",".join([
     "BriefSummary",
     "StudyType",
 ])
+
+
+def _is_ms_study(conditions: List[str]) -> bool:
+    """True if the study's own Condition list names an MS indication.
+
+    `query.cond` is a relevance search, not a filter — it returns studies that merely
+    mention MS anywhere in the record, which is how an epilepsy gene-therapy trial and a
+    paediatric anxiety study reached issue 1. The study's declared conditions are the
+    only field that states what is actually being treated.
+    """
+    blob = " ".join(c.lower() for c in conditions if c)
+    return any(term in blob for term in config.MS_TRIAL_CONDITIONS)
 
 
 def fetch_raw(ctx: FetchContext) -> Dict[str, Any]:
@@ -64,20 +77,54 @@ def fetch_raw(ctx: FetchContext) -> Dict[str, Any]:
 
 def parse(payload: Dict[str, Any], ctx: FetchContext) -> List[Item]:
     items: List[Item] = []
+    off_indication = 0
 
-    for study in (payload or {}).get("studies") or []:
+    studies = (payload or {}).get("studies") or []
+
+    # Fail open, loudly. If not one study in the payload carries a Condition list, the
+    # field was not returned — a renamed path, a stale cache, an API change — and the
+    # gate would silently drop every study and publish an empty issue. A gate that can
+    # zero out the newsletter on a schema change is worse than no gate.
+    gate = any((s.get("protocolSection") or {}).get("conditionsModule", {}).get("conditions")
+               for s in studies)
+    if studies and not gate:
+        log.warning("source=clinicaltrials  no Condition data in payload — "
+                    "condition filter disabled for this run")
+
+    for study in studies:
         try:
-            item = _parse_study(study, ctx)
+            item = _parse_study(study, ctx, gate)
+        except _OffIndication as drop:
+            # Logged individually and at INFO, because "what did the filter throw away"
+            # is the first question anyone asks of a filter.
+            off_indication += 1
+            log.info("filtered      %s not an MS study — conditions: %s",
+                     drop.nct_id, drop.conditions or "(none listed)")
+            continue
         except Exception as exc:  # noqa: BLE001 - one bad record must not kill the feed
             log.debug("skipping malformed study: %s", exc)
             continue
         if item is not None:
             items.append(item)
 
+    if off_indication:
+        log.info("filtered      %d study/studies dropped as off-indication", off_indication)
+
     return items
 
 
-def _parse_study(study: Dict[str, Any], ctx: FetchContext) -> Optional[Item]:
+class _OffIndication(Exception):
+    """Raised for a study whose declared conditions are not MS. Carries the evidence."""
+
+    def __init__(self, nct_id: str, conditions: List[str]):
+        super().__init__(nct_id)
+        self.nct_id = nct_id
+        self.conditions = ", ".join(conditions)
+
+
+def _parse_study(
+    study: Dict[str, Any], ctx: FetchContext, gate: bool = True
+) -> Optional[Item]:
     protocol = study.get("protocolSection") or {}
 
     identification = protocol.get("identificationModule") or {}
@@ -85,11 +132,16 @@ def _parse_study(study: Dict[str, Any], ctx: FetchContext) -> Optional[Item]:
     sponsor_mod = protocol.get("sponsorCollaboratorsModule") or {}
     description = protocol.get("descriptionModule") or {}
     design = protocol.get("designModule") or {}
+    conditions_mod = protocol.get("conditionsModule") or {}
 
     nct_id = identification.get("nctId")
     title = clean_text(identification.get("briefTitle"))
     if not nct_id or not title:
         return None
+
+    conditions = [c for c in (conditions_mod.get("conditions") or []) if c]
+    if gate and not _is_ms_study(conditions):
+        raise _OffIndication(nct_id, conditions)
 
     published = parse_iso_date(
         (status_mod.get("lastUpdatePostDateStruct") or {}).get("date")

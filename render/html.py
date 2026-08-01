@@ -47,6 +47,23 @@ CATEGORY_BLURB = {
     config.CATEGORY_COMMERCIAL: "Deals, earnings, pricing, launches and competitive positioning",
 }
 
+# Shown when a category has nothing to feature. An absent section reads as a broken
+# pipeline; a section that names the sources it checked reads as an editorial finding.
+# MS regulatory activity in particular is infrequent, so an empty Regulatory section is
+# the normal case rather than the exception.
+CATEGORY_SOURCES = {
+    config.CATEGORY_REGULATORY:
+        "No FDA actions affecting the MS market in this window. "
+        "Sources checked: FDA press releases, drugs and MedWatch feeds.",
+    config.CATEGORY_CLINICAL:
+        "No trial activity met the threshold in this window. "
+        "Source checked: ClinicalTrials.gov API v2, studies posted or updated in the "
+        "last 7 days.",
+    config.CATEGORY_COMMERCIAL:
+        "No qualifying deal, earnings or pricing coverage in this window. "
+        "Source checked: curated industry news.",
+}
+
 FONT_DISPLAY = "Georgia, 'Times New Roman', Times, serif"
 FONT_BODY = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
 
@@ -143,23 +160,102 @@ def _item_block(item: Item) -> str:
     )
 
 
-def _section(category: str, items: List[Item]) -> str:
-    """Render one category. Callers omit empty categories rather than passing them."""
-    rows = "".join(_item_block(i) for i in items)
+def _empty_category(category: str, screened: int) -> str:
+    """The muted note that stands in for a section with nothing to feature.
+
+    Distinguishes the two reasons a section can be empty, because they mean different
+    things: nothing was found at all, or things were found and judged not worth the
+    reader's time. The second is a stronger statement about the filtering.
+    """
+    if screened:
+        note = (
+            "{0} item{1} screened in this category, none clearing the impact threshold. "
+            "Listed under Also tracked below."
+        ).format(screened, "" if screened == 1 else "s")
+    else:
+        note = CATEGORY_SOURCES.get(category, "Nothing qualifying in this window.")
+
+    return """
+      <tr><td style="padding:18px 0 4px;">
+        <div style="font-family:{fbody};font-size:13.5px;line-height:1.6;color:{muted};
+             font-style:italic;">{note}</div>
+      </td></tr>""".format(fbody=FONT_BODY, muted=MUTED, note=e(note))
+
+
+def _section(category: str, items: List[Item], screened_below: int = 0) -> str:
+    """Render one category, including when it has nothing to feature."""
+    if items:
+        rows = "".join(_item_block(i) for i in items)
+        count_label = "{0} item{1}".format(len(items), "" if len(items) == 1 else "s")
+    else:
+        rows = _empty_category(category, screened_below)
+        count_label = "nothing featured"
+
     return """
       <tr><td style="padding:34px 0 0;">
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
           <tr><td style="border-top:2px solid {ink};padding-top:10px;">
             <div style="font-family:{fdisp};font-size:21px;font-weight:700;color:{ink};">{name}</div>
             <div style="font-family:{fbody};font-size:12.5px;color:{muted};margin-top:3px;">{blurb}
-              <span style="color:{rule};"> &middot; </span>{count} item{plural}</div>
+              <span style="color:{rule};"> &middot; </span>{count}</div>
           </td></tr>
         </table>
         <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">{rows}</table>
       </td></tr>""".format(
         ink=INK, fdisp=FONT_DISPLAY, name=e(category), fbody=FONT_BODY, muted=MUTED,
         blurb=e(CATEGORY_BLURB.get(category, "")), rule=RULE,
-        count=len(items), plural="" if len(items) == 1 else "s", rows=rows,
+        count=count_label, rows=rows,
+    )
+
+
+def _also_tracked_tag(item: Item) -> str:
+    """The short provenance tag beside an also-tracked title: who, and from where."""
+    bits = [item.source_label]
+    if item.sponsor and item.sponsor != item.source_label:
+        bits.append(item.sponsor)
+    elif item.phase:
+        bits.append(item.phase)
+    return " · ".join(bits)
+
+
+def _also_tracked(items: List[Item]) -> str:
+    """Titles only, no summaries, no badges — the evidence that the sweep was wide.
+
+    Deliberately austere. The whole point of the section is that these items did not
+    earn the reader's attention, so giving them visual weight would undo the filtering.
+    """
+    if not items:
+        return ""
+
+    ordered = sorted(
+        items,
+        key=lambda i: (-i.importance, -(i.published.timestamp() if i.published else 0)),
+    )
+
+    rows = "".join("""
+            <tr><td style="padding:7px 0;border-bottom:1px solid {rule};">
+              <a href="{url}" style="font-family:{fbody};font-size:12.5px;line-height:1.5;
+                 color:{soft};text-decoration:none;">{title}</a>
+              <span style="font-family:{fbody};font-size:11px;color:{muted};"> &nbsp;{tag}</span>
+            </td></tr>""".format(
+        rule=RULE, url=e(i.url), fbody=FONT_BODY, soft=INK_SOFT,
+        title=e(i.title), muted=MUTED, tag=e(_also_tracked_tag(i)),
+    ) for i in ordered)
+
+    return """
+      <tr><td style="padding:34px 0 0;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+               style="background:{canvas};border-radius:4px;">
+          <tr><td style="padding:20px 22px;">
+            <div style="font-family:{fbody};font-size:10.5px;font-weight:700;letter-spacing:.12em;
+                 text-transform:uppercase;color:{muted};margin-bottom:4px;">Also tracked this week</div>
+            <div style="font-family:{fbody};font-size:11.5px;color:{muted};margin-bottom:10px;">
+              Screened and scored below the impact threshold. Listed for completeness.</div>
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">{rows}</table>
+          </td></tr>
+        </table>
+      </td></tr>""".format(
+        canvas=CANVAS, fbody=FONT_BODY, muted=MUTED, rows=rows,
     )
 
 
@@ -200,13 +296,47 @@ def _editors_take(text: str) -> str:
       </td></tr>""".format(ink=INK, fbody=FONT_BODY, fdisp=FONT_DISPLAY, text=e(text))
 
 
+def provenance_line(items: List[Item], ai_enabled: bool) -> str:
+    """State who wrote the analysis, counting what the model actually produced.
+
+    Returns plain text; the HTML caller escapes it, and render/text.py reuses it as-is.
+
+    Crediting Gemini because a run *intended* to use it would misattribute an issue in
+    which every call failed and deterministic rules wrote the whole thing. The footer
+    names the model that was called and reports the shortfall when there is one.
+    """
+    offline = (
+        "Generated in offline mode: summaries, categories and impact scores come from "
+        "deterministic rules rather than a language model."
+    )
+    if not ai_enabled:
+        return offline
+
+    by_model = sum(1 for i in items if i.enriched_by == "gemini")
+    if not by_model:
+        return offline
+
+    line = (
+        "Summaries, categories and impact scores generated by Google Gemini ({0})."
+        .format(config.GEMINI_MODEL)
+    )
+    shortfall = len(items) - by_model
+    if shortfall:
+        line += (
+            " {0} item{1} used the deterministic fallback after the model call failed."
+            .format(shortfall, "" if shortfall == 1 else "s")
+        )
+    return line
+
+
 # ------------------------------------------------------------------------------------
 # Page
 # ------------------------------------------------------------------------------------
 
 
 def render(
-    items: List[Item],
+    featured: List[Item],
+    also_tracked: List[Item],
     editors_take: str,
     issue_number: int,
     issue_date: datetime,
@@ -215,9 +345,11 @@ def render(
     ai_enabled: bool = True,
 ) -> str:
     generated_at = generated_at or datetime.utcnow()
+    also_tracked = also_tracked or []
+    screened = len(featured) + len(also_tracked)
 
     grouped: Dict[str, List[Item]] = {c: [] for c in config.CATEGORIES}
-    for item in items:
+    for item in featured:
         grouped.setdefault(item.category, []).append(item)
 
     for bucket in grouped.values():
@@ -226,11 +358,17 @@ def render(
             key=lambda i: (-i.importance, -(i.published.timestamp() if i.published else 0))
         )
 
-    if items:
-        # Empty categories are omitted entirely rather than rendered as bare headings.
+    below: Dict[str, int] = {c: 0 for c in config.CATEGORIES}
+    for item in also_tracked:
+        below[item.category] = below.get(item.category, 0) + 1
+
+    if screened:
+        # Every category is rendered, empty or not. A section that disappears reads as a
+        # missing feature; a section that reports what it checked reads as editorial.
         body = "".join(
-            _section(c, grouped[c]) for c in config.CATEGORIES if grouped.get(c)
+            _section(c, grouped.get(c) or [], below.get(c, 0)) for c in config.CATEGORIES
         )
+        body += _also_tracked(also_tracked)
     else:
         body = _quiet_week()
 
@@ -238,13 +376,11 @@ def render(
         window_start.strftime("%d %b"), issue_date.strftime("%d %b %Y")
     )
 
-    provenance = (
-        "Summaries, categories and impact scores generated by Google Gemini ({0})."
-        .format(e(config.GEMINI_MODEL))
-        if ai_enabled else
-        "Generated in offline mode: summaries, categories and impact scores come from "
-        "deterministic rules rather than a language model."
+    screening_line = "{0} item{1} screened &middot; {2} featured".format(
+        screened, "" if screened == 1 else "s", len(featured)
     )
+
+    provenance = e(provenance_line(featured + also_tracked, ai_enabled))
 
     return """<!DOCTYPE html>
 <html lang="en">
@@ -273,6 +409,7 @@ def render(
 <body class="canvas" style="margin:0;padding:0;background:{canvas};">
 <div style="display:none;max-height:0;overflow:hidden;opacity:0;">
   {name} Issue {issue} &mdash; {count} development{plural} across the MS market, {date}.
+  {screening}.
 </div>
 
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
@@ -299,7 +436,7 @@ def render(
                 <td style="font-family:{fbody};font-size:12.5px;color:{muted};">
                   Issue {issue}<span style="color:{rule};"> &middot; </span>{range}</td>
                 <td style="font-family:{fbody};font-size:12.5px;color:{muted};text-align:right;">
-                  {count} development{plural}</td>
+                  {screening}</td>
               </tr>
             </table>
           </td></tr>
@@ -334,7 +471,8 @@ def render(
         date=e(issue_date.strftime("%d %B %Y")), canvas=CANVAS, paper=PAPER,
         ink=INK, fbody=FONT_BODY, fdisp=FONT_DISPLAY, accent=ACCENT, muted=MUTED,
         tagline=e(config.NEWSLETTER_TAGLINE), rule=RULE, range=date_range,
-        count=len(items), plural="" if len(items) == 1 else "s",
+        count=len(featured), plural="" if len(featured) == 1 else "s",
+        screening=screening_line,
         editors=_editors_take(editors_take) if editors_take else "",
         body=body, inksoft=INK_SOFT, provenance=provenance,
         generated=e(generated_at.strftime("%Y-%m-%d %H:%M")),

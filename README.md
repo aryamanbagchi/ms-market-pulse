@@ -37,13 +37,31 @@ Each issue contains:
   through-line, written after every item has been analysed.
 - **Developments grouped into Regulatory, Clinical and Commercial/Corporate**, sorted so
   the most consequential item in each section is first.
-- **For every item:** a 2–3 sentence analyst summary, a "why it matters" line naming the
-  concrete competitive implication, an impact score from 1 to 5, and a link to the
-  primary source.
+- **For every featured item:** a 2–3 sentence analyst summary, a "why it matters" line
+  naming the concrete competitive implication, an impact score from 1 to 5, and a link
+  to the primary source.
+- **An "Also tracked this week" list** — everything that was read and scored but did not
+  clear the bar, as linked titles only.
 
 Output is a single self-contained HTML file with no external assets — it renders
 identically from disk, from GitHub Pages, or pasted into an email client. A plain-text
 version is written alongside it.
+
+### Filtering is the product
+
+A typical week yields 35–45 items that pass the relevance filters. Roughly a quarter of
+them are worth an analyst's attention; the rest are single-centre gait studies, diet
+trials and patient-education programmes that are real MS research but carry no
+competitive signal.
+
+So the newsletter screens wide and publishes narrow. Every item is read and scored; only
+those at impact ≥ 3 get a full write-up. The remainder appear as a compact list, and the
+masthead states the ratio — *36 items screened · 10 featured* — because the discarding is
+the work, and hiding it would make the issue look thin rather than edited.
+
+If fewer than four items clear the bar, the threshold drops to 2 for that issue and the
+run logs that it happened. A genuinely quiet week should read as a considered brief, not
+as a failed job.
 
 ## Where the data comes from
 
@@ -58,6 +76,24 @@ Three FDA feeds are polled rather than one. The agency-wide press-release feed c
 only ~20 items covering everything FDA does, so MS announcements surface in it just a few
 times a year; the drugs and MedWatch feeds are where the relevant regulatory activity
 actually appears.
+
+Two things about these sources are worth knowing, because both produced visible defects
+in the first issue:
+
+**`query.cond` is a search, not a filter.** ClinicalTrials.gov happily returns an
+epilepsy gene-therapy trial or a paediatric anxiety study that merely mentions MS
+somewhere in its record. The fix is to request the `Condition` field and require that the
+study's own declared conditions name an MS indication. Every rejection is logged with its
+NCT ID and condition list. NMOSD is excluded by default — it is a separate AQP4-driven
+disease with its own approved products, and MS therapies are contraindicated in it rather
+than competitive; `INCLUDE_NMOSD` in `config.py` flips that.
+
+**Google News links do not redirect.** The RSS `<link>` is a 200–600 character opaque
+`news.google.com` URL, and following it lands on a JavaScript page rather than a 3xx to
+the publisher. The destination is only available from Google's internal `batchexecute`
+RPC, which needs a per-article signature scraped from the article page. That resolution
+runs at fetch time, is cached permanently, and falls back to the original working
+redirect on any failure — undocumented plumbing should never be able to cost you an item.
 
 ## Architecture
 
@@ -102,6 +138,10 @@ degrades instead of breaking:
 | A single record is malformed | Skips that record, keeps the rest of the feed |
 | A Gemini call fails or returns unusable JSON | Retries once, then falls back to deterministic summarisation for that item |
 | No API key is present | Runs end to end with rule-based enrichment and says so in the footer |
+| A category has no qualifying items | Renders the heading with the sources it checked, rather than vanishing |
+| Too few items clear the impact bar | Lowers the threshold for that issue and logs it |
+| A news link will not resolve | Keeps the original Google News redirect, which still works |
+| ClinicalTrials.gov stops returning `Condition` | Disables the condition filter and warns, rather than dropping every study |
 | It is a genuinely quiet week | Renders a "quiet week" note explaining that all sources were checked |
 
 The result is that an issue is *always* published, and it never looks broken.
@@ -133,10 +173,14 @@ zero network calls. That makes iterating on the templates or prompts free.
 Configuration is via environment variable: `GEMINI_API_KEY` (required for AI output) and
 `GEMINI_MODEL` (optional, defaults to `gemini-3.6-flash`).
 
-> **Note on model availability:** the Gemini 2.x models still appear in the API's
-> `ListModels` response but return `404 — no longer available to new users` for recently
-> issued API keys. Presence in `ListModels` is not proof of access; verify with a real
-> `generateContent` call before pinning a model.
+The model in use is **`gemini-3.6-flash`**, and the newsletter footer reports whatever
+model was actually called.
+
+> **Note on model availability:** this project originally targeted `gemini-2.5-flash`.
+> That model — and the whole Gemini 2.x line — still appears in the API's `ListModels`
+> response but returns `404 — no longer available to new users` for recently issued API
+> keys, verified again on 2026-08-01. Presence in `ListModels` is not proof of access;
+> check with a real `generateContent` call before pinning a model.
 
 ## Notable engineering decisions
 

@@ -23,6 +23,9 @@ ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 CACHE_DIR = DATA_DIR / "cache"
 SAMPLE_DIR = DATA_DIR / "sample"
+# Resolved Google News redirects, keyed by the redirect URL. Deliberately not day-scoped:
+# the same story recurs across weeks and a resolution never becomes stale.
+GNEWS_URL_CACHE = CACHE_DIR / "gnews-urls.json"
 NEWSLETTERS_DIR = ROOT / "newsletters"
 MANIFEST_PATH = NEWSLETTERS_DIR / "manifest.json"
 ARCHIVE_PATH = ROOT / "index.html"
@@ -55,6 +58,20 @@ FDA_FEEDS = {
 
 GOOGLE_NEWS_URL = "https://news.google.com/rss/search?q=%22multiple+sclerosis%22+drug"
 
+# Google News RSS <link>s are ~200-600 character opaque redirects that expose no
+# publisher and look like tracking spam in a briefing. They are resolved to the real
+# article URL at fetch time (see fetchers/gnews.py). Resolution is best-effort: any
+# failure leaves the original working redirect in place rather than dropping the item.
+GNEWS_RESOLVE = True
+GNEWS_RESOLVE_TIMEOUT = 15
+GNEWS_RESOLVE_WORKERS = 8
+GNEWS_BATCH_URL = "https://news.google.com/_/DotsSplashUi/data/batchexecute"
+# news.google.com serves the signature-bearing page only to a browser User-Agent.
+GNEWS_USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+)
+
 # --------------------------------------------------------------------------------------
 # MS relevance keywords
 #
@@ -64,6 +81,17 @@ GOOGLE_NEWS_URL = "https://news.google.com/rss/search?q=%22multiple+sclerosis%22
 # "ms" appears inside far too many unrelated words.
 # --------------------------------------------------------------------------------------
 
+
+# NMOSD (neuromyelitis optica spectrum disorder) is EXCLUDED by default.
+#
+# It is a genuinely separate market: a distinct AQP4-IgG-driven disease with its own
+# approved products (Uplizna, Enspryng, Soliris) and its own prescriber decision, and
+# treating MS drugs in NMOSD is contraindicated rather than competitive. Including it
+# was adding items that no MS brand or pipeline lead would act on. Flip this to True to
+# widen the brief to demyelinating disease generally; it drives both the RSS keyword
+# filter and the ClinicalTrials.gov condition gate.
+INCLUDE_NMOSD = False
+
 MS_CONDITION_TERMS = [
     "multiple sclerosis",
     "relapsing-remitting",
@@ -71,13 +99,15 @@ MS_CONDITION_TERMS = [
     "primary progressive ms",
     "secondary progressive ms",
     "clinically isolated syndrome",
-    "neuromyelitis optica",
     "demyelinating",
     "remyelination",
     "rrms",
     "ppms",
     "spms",
 ]
+
+if INCLUDE_NMOSD:
+    MS_CONDITION_TERMS += ["neuromyelitis optica", "nmosd"]
 
 # Marketed MS therapies, brand and generic.
 MS_DRUG_TERMS = [
@@ -120,6 +150,32 @@ MS_PIPELINE_TERMS = [
 MS_KEYWORDS = MS_CONDITION_TERMS + MS_DRUG_TERMS + MS_PIPELINE_TERMS
 
 # --------------------------------------------------------------------------------------
+# ClinicalTrials.gov condition gate
+#
+# `query.cond=multiple sclerosis` is a relevance *search*, not a filter: it happily
+# returns an epilepsy gene-therapy trial or a paediatric sertraline study that merely
+# mentions MS somewhere in its record. Requiring an explicit match against the study's
+# own Condition list is what actually keeps the briefing on-indication.
+#
+# Matched case-insensitively as substrings of each listed condition. Deliberately narrow:
+# "demyelinating" is not here, because a trial whose stated condition is a demyelinating
+# disease other than MS is out of scope for an MS market brief.
+# --------------------------------------------------------------------------------------
+
+MS_TRIAL_CONDITIONS = [
+    "multiple sclerosis",
+    "relapsing-remitting",
+    "relapsing remitting",
+    "clinically isolated syndrome",
+    "rrms",
+    "spms",
+    "ppms",
+]
+
+if INCLUDE_NMOSD:
+    MS_TRIAL_CONDITIONS += ["neuromyelitis"]
+
+# --------------------------------------------------------------------------------------
 # Categories and scoring
 # --------------------------------------------------------------------------------------
 
@@ -132,6 +188,23 @@ CATEGORIES = [CATEGORY_REGULATORY, CATEGORY_CLINICAL, CATEGORY_COMMERCIAL]
 MIN_IMPORTANCE = 1
 MAX_IMPORTANCE = 5
 DEFAULT_IMPORTANCE = 3
+
+# --------------------------------------------------------------------------------------
+# Editorial filtering
+#
+# Screening wide and publishing narrow is the product. Everything that clears the fetch
+# filters gets read and scored; only what scores at or above this threshold earns a full
+# write-up. The rest is listed by title under "Also tracked this week" so the reader can
+# see the sweep was complete without paying for it in attention.
+# --------------------------------------------------------------------------------------
+
+MIN_IMPACT_TO_FEATURE = 3
+
+# A briefing with two items looks broken regardless of how honest the filtering was.
+# If fewer than this many items clear the bar, the threshold drops to
+# RELAXED_IMPACT_TO_FEATURE for that issue only, and the run logs that it happened.
+MIN_FEATURED_ITEMS = 4
+RELAXED_IMPACT_TO_FEATURE = 2
 
 # Source authority, used to pick a winner when two sources report the same story.
 SOURCE_AUTHORITY = {

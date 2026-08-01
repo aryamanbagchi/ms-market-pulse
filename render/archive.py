@@ -66,13 +66,16 @@ def record_issue(
     category_counts: Dict[str, int],
     top_headline: str,
     ai_enabled: bool,
+    screened_count: int = 0,
 ) -> Dict[str, Any]:
     entry = {
         "number": number,
         "date": issue_date,
         "path": "newsletters/{0}/index.html".format(issue_date),
         "text_path": "newsletters/{0}/newsletter.txt".format(issue_date),
+        # `item_count` is what the issue featured; `screened_count` is what it read.
         "item_count": item_count,
+        "screened_count": screened_count or item_count,
         "categories": category_counts,
         "top_headline": top_headline,
         "ai_enabled": ai_enabled,
@@ -137,16 +140,23 @@ def _row(issue: Dict[str, Any], latest: bool) -> str:
           <a href="{tpath}" style="font-family:{fbody};font-size:12.5px;color:{muted};
              text-decoration:none;">Plain text</a>
           <span style="color:{rule};"> &middot; </span>
-          <span style="font-family:{fbody};font-size:12.5px;color:{muted};">{count} item{plural}</span>
+          <span style="font-family:{fbody};font-size:12.5px;color:{muted};">{tally}</span>
         </div>
       </td></tr>""".format(
         rule=RULE, path=e(issue.get("path", "#")), fdisp=FONT_DISPLAY, ink=INK,
         num=issue.get("number", "?"), date=e(date_display), badge=badge,
         headline=headline_html, chips=chips, fbody=FONT_BODY, accent=ACCENT,
-        tpath=e(issue.get("text_path", "#")), muted=MUTED,
-        count=issue.get("item_count", 0),
-        plural="" if issue.get("item_count") == 1 else "s",
+        tpath=e(issue.get("text_path", "#")), muted=MUTED, tally=_tally(issue),
     )
+
+
+def _tally(issue: Dict[str, Any]) -> str:
+    """'9 featured of 42 screened' — the screening ratio is part of the value."""
+    featured = int(issue.get("item_count", 0) or 0)
+    screened = int(issue.get("screened_count", featured) or featured)
+    if screened > featured:
+        return "{0} featured of {1} screened".format(featured, screened)
+    return "{0} item{1}".format(featured, "" if featured == 1 else "s")
 
 
 def render_archive(manifest: Dict[str, Any]) -> str:
