@@ -1,0 +1,4 @@
+{
+  "captured_on": "2026-08-01",
+  "note": "Real, unmodified API and RSS responses captured on the date above. Used by `python3 run.py --dry-run` so the renderer and pipeline can be exercised offline with zero network and zero AI calls. Nothing here is synthetic."
+}

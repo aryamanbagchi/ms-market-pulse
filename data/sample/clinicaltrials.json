@@ -1,0 +1,990 @@
+{
+  "studies": [
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT02804594",
+          "briefTitle": "A Study of Oxidative Pathways in MS Fatigue"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-30"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "University of California, San Francisco"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This is a 4-week randomized, placebo-controlled, parallel group, double-blind, single center trial on effect of N-acetyl cysteine versus placebo on fatigue in patients with progressive MS defined by McDonald criteria. Subjects who enter the treatment phase of study, will be randomly assigned to either N-acetyl cysteine (1250 mg three times a day) or placebo (three times a day) for 4 weeks. There will be 3 in-person study visits (screening, baseline, and week 4) and 2 visits over the phone (week 2, and week 6 which is 2 weeks after completing last study drug dose). Visits will all occur in the morning to maximize consistency of assessments and evaluate main outcomes within 2 hours of morning dose of study medication. Fatigue questionnaires, and research samples will be obtained before neurological examination, or magnetic resonance imaging. Research blood draws will be obtained just after fatigue questionnaire completion. Brain spectroscopy will be obtained less than 2 hours after morning dose of study drug to maximize detection of the biological effect of study medication."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE2"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07732907",
+          "briefTitle": "Risk of Progressive Multifocal Leukoencephalopathy Among Patients With Multiple Sclerosis Exposed to Zeposia"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-29"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Bristol-Myers Squibb"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This study will evaluate the risk of progressive multifocal leukoencephalopathy (PML), a rare brain infection caused by John Cunningham virus (JCV), among people with multiple sclerosis who have been treated with ozanimod. The study will collect and review reported cases of PML to describe patient characteristics and estimate how often PML occurs among people treated with ozanimod. Researchers will assess factors that may be associated with the occurrence of PML, such as age, duration of ozanimod exposure, prior immunosuppressant use, lymphopenia, and JCV antibody status ."
+        },
+        "designModule": {
+          "studyType": "OBSERVATIONAL"
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07609719",
+          "briefTitle": "A Study of Ocrelizumab Administered Subcutaneously in Participants With Multiple Sclerosis Who Switch From an Approved Anti-CD20 Therapy"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-29"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Genentech, Inc."
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "The purpose of this study is to assess the imaging biomarkers, patient outcomes, safety, tolerability, and treatment satisfaction of ocrelizumab (OCR) combined with recombinant human hyaluronidase (rHuPH20) administered subcutaneously (SC) in participants with relapsing multiple sclerosis (RMS) or primary progressive multiple sclerosis (PPMS) after switching from another anti-cluster of differentiation 20 (aCD20) therapy approved for RMS (ofatumumab SC, ublituximab-xiiy intravenous \\[IV\\], ocrelizumab IV) or PPMS (ocrelizumab IV)."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE4"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT03109288",
+          "briefTitle": "Targeting Residual Activity By Precision, Biomarker-Guided Combination Therapies of Multiple Sclerosis (TRAP-MS)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-28"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "National Institute of Allergy and Infectious Diseases (NIAID)"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "Background:\n\nIn people with multiple sclerosis (MS), brain and cerebrospinal fluid (CSF) biomarkers indicate inflammation or disease. Researchers want to see if 4 drugs given alone or combined affect MS biomarkers. They want to see if a change in biomarker levels can predict which drugs a person with MS might respond to.\n\nObjective:\n\nTo see if signs of inflammation in CSF help predict a person s response to different drugs.\n\nEligibility:\n\nPeople ages 18 and older who:\n\n* Are in protocol 09-I-0032\n* Have progressive MS\n* Can stand and walk a few steps\n* Take an MS drug\n\nDesign:\n\nParticipants will be screened in protocol 09-I-0032.\n\nParticipants will take 1 of the 4 study drugs. Researchers will call after 1 month to see how they are doing. Some will start a second drug. They may take each drug or combination for up to 18 months.\n\nParticipants will have 2 visits a year for up to 6 years. Visits include:\n\n* Medical history\n* Physical exam\n* Blood and heart tests\n* X-rays and scans\n* Eye exam and tear collection\n* Lumbar puncture: A needle inserted between back bones removes some CSF.\n* Lymphocytapheresis: Blood is removed through a needle in one arm and run through a machine. The blood is returned through a needle in the other arm.\n* A sensor on the forehead records blood flow and oxygen use.\n* Participants may get a device for testing at home.\n\nParticipants will stop taking the drugs if they have taken 2 drugs together for 18 months or if they do not do well on the drugs.\n\nParticipants will be called 3 months later to see how they are doing."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07411664",
+          "briefTitle": "Objective Longitudinal Assessment of Postural Stability and Gait of Stroke, Parkinson's Disease and Multiple Sclerosis Using Instrumented Posturography and Three Dimensional Motion Analysis"
+        },
+        "statusModule": {
+          "overallStatus": "ENROLLING_BY_INVITATION",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-28"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Somogy Megyei Kaposi Mór Teaching Hospital"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "Nowadays, stroke is one of the most common leading causes of death in many countries. As the number of stroke patients is increasing, even in younger age groups, there is an increasing need to improve their rehabilitation. In order for this process to start, it is inevitable to integrate the latest recommendations of health and sports science into rehabilitation, in addition to medicine, so that the treatment is as complex as possible. Parkinson's disease is one of the most common neurological diseases, in addition to stroke. The most significant damage can be experienced in motor functions, since one of the main symptoms of the disease is slowed movement, tremor and balance disorders. This postural change can lead to many other musculoskeletal changes, which is why Parkinson's disease is an extremely complex disease that also requires a complex treatment. The third disease examined in our research is multiple sclerosis (MS), which is also one of the most significant nervous system diseases, with nearly 1 million cases registered so far. The most common symptoms of MS patients are weakness, numbness, dizziness, coordination and balance disorders, as well as changes and uncertainty in the gait pattern. One of the essential foundations of rehabilitation after neurological diseases is neurorehabilitation, since the process will only be truly effective if cognitive and motor functions are developed in parallel. In the case of neurological diseases, as we can see above, one of the most significant symptoms is coordination and balance disorders. When the nervous system is affected, trunk control and the patient's posture will always change, depending on the given disease and the individual. One of the fundamental goals of rehabilitation should be to develop stability and postural control, because without these, we will not be able to effectively develop and restore the patients' significant motor functions. This is why it is important that neurological patients are assessed from this perspective as early as possible, so that their treatment plan can be adapted to their disease and themselves as much as possible."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT01730131",
+          "briefTitle": "Natural History Study of Progressive Multifocal Leukoencephalopathy (PML)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-28"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "National Institute of Neurological Disorders and Stroke (NINDS)"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "Background:\n\n\\- Progressive multifocal leukoencephalopathy (PML) is a severe viral infection of the brain. It is caused by JC virus. Many people have this virus in their bodies all their life, but it is usually kept in check by their immune system. If the immune system does not work right because of a disease or medication, the virus becomes active and can damage cells in the brain. Not much is known about PML or how it affects the immune system. Researchers want to study people with PML to better understand the natural history of the disease.\n\nObjectives:\n\n\\- To study the natural history of PML.\n\nEligibility:\n\n\\- Individuals at least 2 years of age who have PML.\n\nDesign:\n\n* Participants will be screened with a physical exam, medical history, and imaging studies.\n* Participants will have several visits to the National Institutes of Health Clinical Center. There will be an initial visit, monthly visits for the next 6 months, a 12-month visit, and possible visits afterward.\n* At the initial visit, participants will give blood, urine, and spinal fluid samples. They will also have neurological tests and imaging studies of the brain.\n* For the next five visits, participants will give blood and urine samples. They will also have neurological tests and imaging studies of the brain.\n* The 6-month and 12-month visits will repeat the tests from the initial visit.\n* Other optional procedures include bone marrow samples and skin biopsies. Additional blood tests and imaging studies may be performed.\n* Treatment will not be provided as part of this study."
+        },
+        "designModule": {
+          "studyType": "OBSERVATIONAL"
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT02511028",
+          "briefTitle": "In Vivo Characterization of Inflammation With Ferumoxytol, an Ultrasmall Superparamagnetic Iron Oxide Nanoparticle, on 7 Tesla Magnetic Resonance Imaging"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-28"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "National Institute of Neurological Disorders and Stroke (NINDS)"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "Background:\n\n\\- Contrast agents help things show up better on magnetic resonance imaging (MRI) scans. Researchers want to see if the drug ferumoxytol is a good contrast agent. They want to determine that it does not cause prolonged MRI changes in the brain and to see if it helps identify inflammation in multiple sclerosis\n\nObjective:\n\n\\- To learn how ferumoxytol can be used to image inflammation in multiple sclerosis (MS).\n\nEligibility:\n\n* Adults ages 18 70 who have MS.\n* Healthy volunteers ages 18 70.\n\nDesign:\n\n* Participants will have 5 clinic visits over 6 months.\n* Participants will be screened with a medical history, neurological exam, and blood draw. Full clinical measures will be obtained.\n* Participants will have a 7 tesla brain MRI scan that may include gadolinium contrast agent. The MRI is a metal cylinder in a strong magnetic field. The participant will lie on a table that can slide in and out of the cylinder.\n* During visit 2, ferumoxytol with be given through a catheter (a thin plastic tube) that is inserted with a needle into a vessel in the arm.\n\n\\<TAB\\>- Participants will then have a 7 tesla MRI scan of the brain..\n\n* At each of the next 3 clinic visits, participants will have a 7 tesla brain MRI and have blood drawn. The MRIs may include gadolinium.\n* Participants may have a full neurologic exam at these visits. At the final visit, full clinical measures will be obtained.\n* Participants may have more MRI scans if a 6-month MRI shows ferumoxytol still in the brain."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE1"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05380856",
+          "briefTitle": "Sacral Neuromodulation for Neurogenic Lower Urinary Tract, Bowel and Sexual Dysfunction"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-29"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Odense University Hospital"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "A multi-center double-blinded placebo-controlled randomized clinical trial.\n\nThe patients will be randomized into two groups.\n\nTo investigate the efficacy of SNM to improve the key bladder diary variables compared to placebo (i.e. sham) for patients with MS having refractory neurogenic lower urinary tract dysfunction (NLUTD).\n\nAfter first step SNM-procedure and a 3-4 weeks test period patients with more than 50% improvement in the key bladder diary variables will have the IPG implanted. After a month of optimization patients will into two groups: IPG ON or IPG OFF.\n\nPeriod of randomization: four months. Number anticipated to be included: 60 patients"
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07734675",
+          "briefTitle": "Sociocognitive Intervention and Rehabilitation Program in Multiple Sclerosis"
+        },
+        "statusModule": {
+          "overallStatus": "NOT_YET_RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-29"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Sonia Batista"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "Multiple Sclerosis (MS) is a chronic autoimmune disease of the central nervous system, involving inflammation, demyelination, and neurodegeneration. It is the most common non-traumatic disabling disease affecting young adults. MS is characterized by its heterogeneity and unpredictable course, which make both evaluation and treatment complex. Patients may present with motor, sensory, cognitive, and neuropsychiatric symptoms, all of which have a significant impact on quality of life.\n\nWith regard to cognition, the impact of cognitive impairment in MS remains underestimated. However, it is observed in approximately 40-65% of patients and may be present at all stages of the disease, including the earliest ones (patients with low levels of disability and Clinically Isolated Syndromes - CIS).\n\nNotably, cognitive alterations appear to precede structural abnormalities on magnetic resonance imaging (MRI), representing a potential marker of disease activity.\n\nTherefore, early diagnosis and characterization of MS-related cognitive impairment are essential, followed by the implementation of patient-tailored cognitive rehabilitation programs, which have recently been shown to exert long-term effects persisting beyond the treatment period.\n\nThe project aims to conduct a single-center, randomized, pragmatic, prospective clinical trial with blinded outcome assessment. Its primary objective is to evaluate the efficacy of an innovative sociocognitive rehabilitation program in patients diagnosed with multiple sclerosis.\n\nIn addition, the study seeks to characterize cognitive phenotypes in MS, investigate the role of cognitive reserve and metacognition in the effectiveness of the intervention, and correlate neuropsychological findings with other disease biomarkers, with the ultimate goal of proposing a predictive model of disease progression."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07738978",
+          "briefTitle": "Understanding and Enhancing Human Health and Movement"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-31"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Louis Stokes VA Medical Center"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "By doing this study, investigators hope to learn how electrical stimulation can improve human movement, biomechanics, and function and to gather information on the safety and effectiveness of an implanted electrical stimulation system after paralysis from spinal cord injury, stroke, multiple sclerosis, and traumatic brain injury."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05269004",
+          "briefTitle": "A Rollover Study to Evaluate the Long-Term Safety and Efficacy of Ocrelizumab In Patients With Multiple Sclerosis"
+        },
+        "statusModule": {
+          "overallStatus": "ACTIVE_NOT_RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-29"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Hoffmann-La Roche"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This is a Phase IIIb, single-arm, multicenter, OLE study. Participants receiving ocrelizumab as an investigational medicinal product (IMP) in a Roche sponsored Parent study who continue to receive ocrelizumab or are in safety follow-up at the time of the closure of their respective Parent study (WA21092, WA21093 or WA25046) are eligible for enrollment in this extension study. Participants who will continue ocrelizumab treatment will receive IMP based on the dosage and administration received at the time of rollover from the Parent study."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE3"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT04544436",
+          "briefTitle": "A Study to Evaluate the Efficacy, Safety and Pharmacokinetics (PK) of a Higher Dose of Ocrelizumab in Adults With Relapsing Multiple Sclerosis (RMS)"
+        },
+        "statusModule": {
+          "overallStatus": "ACTIVE_NOT_RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-30"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Hoffmann-La Roche"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This is a randomized, double-blind, controlled, parallel group, multicenter study to evaluate efficacy, safety and PK of a higher dose of ocrelizumab per intravenous (IV) infusion every 24 weeks (Q24W) in participants with RMS, in comparison to the approved 600 milligrams (mg) dose of ocrelizumab."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE3"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT03963375",
+          "briefTitle": "Cladribine Tablets: Collaborative Study to Evaluate Impact On Central Nervous System Biomarkers in Multiple Sclerosis"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-28"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Gregory Wu"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "The purpose of this study is to better understand the mechanism of action (MoA) of cladribine tablets by exploring the effect on central nervous system (CNS) and blood biomarkers relevant in the relapsing forms of multiple sclerosis (RMS; to include relapsing-remitting MS \\[RRMS\\] or active secondary progressive MS)."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE4"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06081348",
+          "briefTitle": "Sertraline vs. Placebo in the Treatment of Anxiety in Children and AdoLescents With NeurodevelopMental Disorders"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-27"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Holland Bloorview Kids Rehabilitation Hospital"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "There are currently no approved medications for the treatment of anxiety in children and youth with neurodevelopmental disorders (NDDs), both common and rare. Sertraline, a selective serotonin reuptake inhibitor, has extensive evidence to support its use in children's and youth with anxiety but not within NDDs. More research is needed to confirm whether or not sertraline could help improve anxiety in children and youth with common and rare neurodevelopmental conditions. This is a pilot study, in which we plan to estimate the effect size of reduction in anxiety of sertraline vs. placebo. across rare and common neurodevelopmental disorders, and determine the best measure(s) to be used as a primary transdiagnostic outcome measure of anxiety, as well as diagnosis specific measures in future, larger-scale clinical trials of anxiety in NDDs."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE2"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06925022",
+          "briefTitle": "Educational Programs Based on Healthy Habits to Improve Quality of Life and Psychosocial Profile in Women With Neurodegenerative Diseases: The ADVICE Protocol Study (Phase 1)"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-29"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Universidad de Almeria"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This phase of the project aims to analyze the interaction between physical exercise and the phases of the menstrual cycle, evaluating its impact on fatigue, functional capacity, and exercise perception in women with and without Multiple Sclerosis. To achieve this, a controlled, single-blind, prospective, 2x3 crossover, randomized clinical trial will be conducted, involving women with Multiple Sclerosis (MS), matched by age, lifestyle habits (smoking, physical activity), and geographic location with a group of women without MS. This study, aligned with previous findings, seeks to deepen the understanding of the role of exercise in managing Multiple Sclerosis symptoms and to promote greater adherence to personalized physical activity programs adapted to the phases of the menstrual cycle."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06063850",
+          "briefTitle": "AMT-260 Gene Therapy Study in Adults With Unilateral Refractory Mesial Temporal Lobe Epilepsy"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-29"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "UniQure Biopharma B.V."
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "The main goals of this clinical study are to learn if AMT-260 is safe and tolerable and works to reduce the frequency of seizures in adults with unilateral mesial temporal lobe epilepsy (MTLE)."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07225504",
+          "briefTitle": "A Study to Evaluate the Efficacy and Safety of Remibrutinib in Secondary Progressive Multiple Sclerosis"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-29"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Novartis Pharmaceuticals"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "The purpose of this study is to provide efficacy and safety data for remibrutinib in patients with secondary progressive multiple sclerosis (SPMS)"
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE3"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05344469",
+          "briefTitle": "A NIS Evaluating Various Injectable and Oral Treatments in Patients With Relapsing Multiple Sclerosis"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-30"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Novartis Pharmaceuticals"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This is an observational, non-interventional, multicenter, open-label study in patients being treated with any approved injectable or selected oral DMT for RMS in Germany.\n\nProspective, primary data will be collected via questionnaires and an electronic case report form (eCRF) over a period of up to four years. Additionally, medical history of participants will be collected including disease duration, laboratory values, EDSS, MRI parameters and relapses."
+        },
+        "designModule": {
+          "studyType": "OBSERVATIONAL"
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05044819",
+          "briefTitle": "Assessment of Potential for Chronic Liver Injury in Participants Treated With Epidiolex (Cannabidiol) Oral Solution"
+        },
+        "statusModule": {
+          "overallStatus": "ACTIVE_NOT_RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-28"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Jazz Pharmaceuticals"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This study will monitor for potential chronic liver injury and liver fibrosis, in participants treated with cannabidiol oral solution."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE4"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07224373",
+          "briefTitle": "An Open-label Study of AZD0120 in Adults With Multiple Sclerosis"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-27"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "AstraZeneca"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This trial is a Phase 1b, open-label, multi-center, clinical study of AZD0120, a BCMA/CD19 dual targeting CAR+ T-cell therapy, to evaluate the safety and tolerability in adult participants with Multiple Sclerosis."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE1"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07295847",
+          "briefTitle": "A Study of AZD0120 in Autoimmune Diseases"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-28"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "AstraZeneca"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This trial is a Phase 1b, open-label, multi-center, clinical study of AZD0120, a BCMA/CD19 dual targeting CAR+ T-cell therapy, to evaluate the safety and tolerability in adult participants with systemic sclerosis (SSc), idiopathic inflammatory myopathies (IIM), or difficult-to-treat rheumatoid arthritis (D2T RA)."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE1"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06864936",
+          "briefTitle": "Exploration of Novel Imaging Biomarkers on OCT for Ublituximab Treatment Response in Multiple Sclerosis"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-29"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "University of Maryland, Baltimore"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "The purpose of the research study is to explore new retinal imaging biomarkers of immune cell activity in MS during use of ublituximab (Briumvi) treatment. A biomarker is a biological molecule found in blood, other body fluids, or tissues that is a sign of a normal or abnormal process, or of a condition or disease. A biomarker may be used to see how well the body responds to a treatment for a disease or condition. This study will evaluate the efficacy of ublituximab to modulate MS pathology in a new manner. In order to assess this new biomarker, a specialized optical coherence tomography (OCT) scan will be performed at enrollment into the study and at 2 other timepoints throughout the study.\n\nSubjects asked to take part in this study should have been diagnosed with relapsing multiple sclerosis (MS) and have recently been advised to start the medication ublituximab (Briumvi) or are currently on another medication for the treatment of their MS.\n\nWe plan to enroll 30 patients into this study. Fifteen (15) patients with Relapsing Remitting Multiple Sclerosis (RRMS) who are being initiated on B-cell depletion therapy by their treating physician at the University of Maryland Center for MS Treatment and Research will be offered enrollment into this study. Additionally, 15 age/sex matched patients with stable RRMS who are not undergoing any change in treatment and are not currently on B-cell depleting therapies will be enrolled as control subjects."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07067463",
+          "briefTitle": "A Study of Orelabrutinib in Patients With Primary Progressive Multiple Sclerosis"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-31"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Zenas BioPharma (USA), LLC"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "Orelabrutinib is a CNS-penetrable BTK inhibitor. This is a phase 3, randomized, double-blind, parallel-group, multicenter study to evaluate the efficacy and safety of orelabrutinib compared with placebo in patients with PPMS. Patients will be treated for approximately 30 to 60 months, with a minimum treatment duration of 12 months. The study will enroll approximately 705 subjects in a 2:1 randomization (orelabrutinib: placebo), globally."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE3"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT00794352",
+          "briefTitle": "Comprehensive Multimodal Analysis of Neuroimmunological Diseases of the Central Nervous System"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-28"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "National Institute of Allergy and Infectious Diseases (NIAID)"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "Inflammatory or degenerative diseases of the brain and spinal cord, such as multiple sclerosis, may be related to problems with an individual s immune system. However, more information is needed on the ways in which the cells of the immune system interact with the central nervous system (CNS). This study will compare tests performed on both healthy volunteers and individuals who have signs or symptoms of immune-related damage to their CNS.\n\nThis study will include two groups of subjects at least 12 years old. Subjects will either have symptoms of immune-related CNS damage, or will be healthy volunteers selected for comparison purposes.\n\nStudy participants will visit the NIH Clinical Center on an outpatient basis for an initial evaluation visit. During the visit, patients will provide a comprehensive medical history and undergo a neurological examination, and will provide blood samples for research purposes. The healthy volunteers will be asked to schedule a return visit for a magnetic resonance imaging (MRI) procedure, and may be asked to undergo other tests requested by the study researchers on an as-needed basis. The group of patients with symptoms of immune-related CNS damage will be asked to undergo a series of tests, including the following:\n\n* MRI procedures, with a minimum of three brain MRIs and one spinal cord MRI taken approximately 4 weeks apart\n* A diagnostic lumbar puncture, performed on an outpatient basis\n* Tests of brain and vision activity\n* Additional blood and tissue samples\n\nPatients with symptoms of immune-related CNS damage may be offered the opportunity to participate in additional followup tests with NIH researchers.\n\n..."
+        },
+        "designModule": {
+          "studyType": "OBSERVATIONAL"
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07736482",
+          "briefTitle": "Relationship Between Single- and Dual-Task Obstacle Crossing Performance and Fatigue and Disability in Multiple Sclerosis"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-31"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Afyonkarahisar Health Sciences University"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This cross-sectional observational study aims to investigate the relationship between obstacle crossing performance under single-task and dual-task conditions and the levels of fatigue and disability in individuals with Relapsing-Remitting Multiple Sclerosis (RRMS). Walking performance will be assessed under standard walking and obstacle crossing conditions with and without a concurrent cognitive task. The study will examine how increased task complexity affects walking performance and its association with fatigue, disability, cognition, and functional mobility."
+        },
+        "designModule": {
+          "studyType": "OBSERVATIONAL"
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07731659",
+          "briefTitle": "Physical Activity Intervention for Individuals Newly Diagnosed With MS"
+        },
+        "statusModule": {
+          "overallStatus": "NOT_YET_RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-28"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "University of Illinois at Chicago"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "The proposed study is a parallel-group randomized controlled trial (RCT) designed to establish the behavioral mechanism underlying a 16-week physical activity (PA) behavioral intervention through its effects on the Capability-Opportunity-Motivation-Behavior (COM-B) constructs. The success of this study will provide robust evidence for supporting its refinement via refined COM-B constructs and Behavior Change Techniques to facilitate or maximize the intervention effects on PA levels, which will be examined in the subsequent clinical trial. Such an approach will involve an RCT that examines the effects of a 16-week remotely delivered, Internet-based PA behavioral intervention via video behavioral coaching and newsletter compared with a waitlist control (WLC) condition for yielding improvements in the COM-B constructs among persons newly diagnosed with multiple sclerosis (PNDwMS, disease duration ≤ 2 years). The investigators hypothesize that participants in the PA behavioral intervention condition will demonstrate greater improvements in the COM-B constructs than those in the WLC condition. The investigators plan to recruit 50 PNDwMS, with a distribution of 25 participants in the PA behavioral intervention and 25 participants in the WLC condition. The primary outcomes are the self-report COM-B constructs (listed in the Outcomes section), which will be remotely assessed at baseline and post-intervention through an online battery of questionnaires via REDCap.\n\nSpecific Aim 1: to establish mechanisms for the behavior change intervention using a 2-arm pilot randomized controlled trial (RCT) of the intervention compared with the waitlist control (WLC) among PNDwMS. The investigators hypothesize that the 16-week COM-B-based behavioral intervention delivered by one-on-one behavior coaching and newsletters will result in larger changes in COM-B constructs (i.e., knowledge, outcome expectations, goal, intention, behavioral regulation, self-efficacy, fatigue, social support, and social and environmental barriers) than in the WLC group.\n\nSpecific Aim 2: to examine change in self-reported physical activity levels in PNDwMS who received the COM-B-based intervention compared with those who are in the waitlist control condition. The investigators hypothesize that the 16-week COM-B-based behavioral intervention will result in larger changes in self-reported physical activity outcomes than in the WLC group."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT03816345",
+          "briefTitle": "Testing an Immunotherapy Anti-cancer Drug, Nivolumab, for Advanced Cancers in Patients With Autoimmune Disorders, AIM-NIVO"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-31"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "National Cancer Institute (NCI)"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This phase Ib trial studies the side effects of nivolumab and to see how well it works alone and in combination with other treatments, such as ipilimumab, cabozantinib, platinum containing therapy, and fluoropyrimidine, in treating patients with autoimmune disorders and cancer that has spread from where it first started (primary site) to nearby tissue, lymph nodes, or distant parts of the body (advanced), to other places in the body (metastatic) or cannot removed by surgery (unresectable). Immunotherapy with monoclonal antibodies, such as nivolumab and ipilimumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread. Cabozantinib blocks certain proteins, which may help keep tumor cells from growing. It may also prevent the growth of new blood vessels that tumors need to grow. Cabozantinib is a type of tyrosine kinase inhibitor and a type of angiogenesis inhibitor. Chemotherapy drugs, such as platinum containing therapies and fluoropyrimidine, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Giving nivolumab alone and in combination with other treatments, including ipilimumab, cabozantinib, platinum containing therapy, or fluoropyrimidine, may be safe, tolerable, and/or effective in treating patients with autoimmune disorders and advanced, metastatic, or unresectable cancer."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE1"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07501520",
+          "briefTitle": "Effect of Low Histamine-Based Modified Mediterranean Diet in Multiple Sclerosis"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-31"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Firat University"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This randomized controlled trial will evaluate the effects of a low histamine-based modified Mediterranean diet in adults with relapsing-remitting multiple sclerosis (RRMS). The study will compare three groups: a low-histamine modified Mediterranean diet, a traditional Mediterranean diet, and a control group without dietary intervention. The main outcomes include clinical measures such as disability status, fatigue, migraine, gastrointestinal symptoms, and quality of life, as well as blood markers including plasma histamine, diamine oxidase activity, total antioxidant capacity, and oxidative stress indicators. The goal is to determine whether reducing dietary histamine within a Mediterranean diet pattern provides additional benefits beyond a traditional Mediterranean diet in improving symptoms and biological markers related to inflammation and oxidative stress in RRMS."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07299019",
+          "briefTitle": "A Study of Orelabrutinib in Patients With Secondary Progressive Multiple Sclerosis"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-30"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Zenas BioPharma (USA), LLC"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "Orelabrutinib is a CNS-penetrable BTK inhibitor. This is a phase 3, randomized, double-blind, parallel-group, multicenter study to evaluate the efficacy and safety of orelabrutinib compared with placebo in patients with non-active Secondary Progress MS. Patients will be treated for approximately 24 to 60 months, with a minimum treatment duration of 12 months. The study will enroll approximately 990 subjects in a 2:1 randomization (orelabrutinib: placebo), globally."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE3"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07175792",
+          "briefTitle": "Accuracy of Motor Performance Perception in Multiple Sclerosis"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-28"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Hasselt University"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "The aim of this study is to characterize perceptive abilities in PwMS compared to controls when performing prolonged functional tasks such as walking and repeated standing from a seated position.\n\nThis study proposes primary and secondary research questions which will be tested in the context of two different newly designed experimental tasks and will be performed in maximum three days.\n\nThe self-reported beliefs over perceptive abilities and the performance in the experimental perceptive tasks will be compared between persons with multiple sclerosis and an equally sized group of age and gender matched healthy controls. The results of this study may uncover specific deficits in the MS population and will help in defining subgroups of patients with weaker perceptive capacities to gauge their motor performance and therefore in need for tailored interventions additional to the standard practice."
+        },
+        "designModule": {
+          "studyType": "OBSERVATIONAL"
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05090033",
+          "briefTitle": "Characterizing the Use of Ofatumumab in a Real World Setting"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-31"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Novartis Pharmaceuticals"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This is a non-interventional primary use of data study utilizing de-identified patient-level onboarding and adherence data managed through the MSGo patient support service platform and includes a sub-study to explore the impact of ofatumumab on relevant patient reported outcomes (PROs) with respect to clinical outcomes."
+        },
+        "designModule": {
+          "studyType": "OBSERVATIONAL"
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07735325",
+          "briefTitle": "Effects of Sensorimotor Insoles on Stability and Gait in Patients With Multiple Sclerosis."
+        },
+        "statusModule": {
+          "overallStatus": "ACTIVE_NOT_RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-29"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "University of Salamanca"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "This single-blind, randomized controlled clinical trial aims to evaluate the long-term effects of using sensorimotor insoles (SMIs) on stability and gait capacity in individuals diagnosed with multiple sclerosis (MS). Secondary objectives include assessing the impact of SMIs on plantar cutaneous sensitivity, ankle muscle strength, quality of life, and overall functional status in this patient population.The study sample comprises 50 adult participants diagnosed with MS (including relapsing-remitting, primary progressive, and secondary progressive subtypes) with Expanded Disability Status Scale (EDSS) scores ranging from 2.0 to 6.0. Participants will be randomly allocated into an experimental group ($n = 25$) and a control group ($n = 25$). The experimental group will receive custom \"Anatomy Line\" SMIs (Springer Aktiv GmbH), fabricated using 3D digital foot models generated via the Foot Scan 3D mobile application. The intervention spans seven months, beginning with a one-month progressive adaptation period before transitioning to daily, full-day use within habitual footwear. The control group will receive no study-specific intervention, and participants in both groups will maintain their conventional physical therapy regimens throughout the study.All outcome measures will be evaluated at baseline and immediately following the 7-month intervention period by research team members who are blinded to group allocation. Primary outcomes include stability, evaluated using the Berg Balance Scale (BBS), and gait capacity, assessed via the Gait Assessment and Intervention Tool (GAIT). Secondary outcomes include plantar cutaneous sensitivity evaluated at three plantar sites using Semmes-Weinstein monofilaments, ankle muscle strength measured across four movement planes using an Activforce 2 digital handheld dynamometer, and health-related quality of life and functional status assessed through the 52-item Functional Assessment of Multiple Sclerosis (FAMS) questionnaire."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06700343",
+          "briefTitle": "Comparison Between ABP 692 and Ocrevus® (Ocrelizumab)"
+        },
+        "statusModule": {
+          "overallStatus": "ACTIVE_NOT_RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-27"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Amgen"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "The Main objectives of the study are to demonstrate pharmacokinetic (PK) similarity between ABP 692 and ocrelizumab (US), as well as between ABP 692 and ocrelizumab (EU)."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "PHASE3"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06502015",
+          "briefTitle": "Biomarkers in Autoimmune Disease of Nervous System"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-29"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "Tongji Hospital"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "Neurological autoimmune diseases are a group of disorders characterized by the abnormal immune response attacking the nervous system, including the brain, spinal cord and peripheral nerves. These diseases exhibit high heterogeneity, diverse clinical presentations, and are challenging to diagnose and manage due to a lack of effective treatments. In this study, the investigators will recruit eight kinds of autoimmune diseases of nervous system including Neuromyelitis Optica Spectrum Disorder (NMOSD), Myasthenia Gravis (MG), Chronic Inflammatory Demyelinating Polyradiculoneuropathy (CIDP), idiopathic inflammatory myopathy (IIM), and multiple sclerosis (MS), autoimmune encephalitis (AE), Myelin Oligodendrocyte Glycoprotein Antibody-Associated Disease (MOGAD). Through this study, the investigators aim to discover biomarkers with high sensitivity, specificity, and stability, which can support early diagnosis, disease monitoring, and personalized treatment for neurological autoimmune diseases, thereby improving the quality of life and prognosis for patients."
+        },
+        "designModule": {
+          "studyType": "OBSERVATIONAL"
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06796504",
+          "briefTitle": "The SetPoint System as a Pro-Remyelination Therapy for Relapsing-Remitting Multiple Sclerosis: A Pilot Study"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-29"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "SetPoint Medical Corporation"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "The MS pilot study will assess the safety and investigate the remyelinating effects of the SetPoint System (study device) in adult patients with patients diagnosed with relapsing-remitting multiple sclerosis (RRMS). The SetPoint System is intended for adjunctive use with standard of care therapy for RRMS. The study device contains a miniaturized stimulator (implant) that is surgically placed under general anesthesia on the vagus nerve through a small incision on the left side of the neck (implant procedure). The study will enroll up to 60 participants at up to 10 sites. All eligible participants will undergo the implant procedure. Two-thirds of the participants will receive active stimulation (treatment) and the one-third will receive non-active stimulation (control). Following treatment evaluations at Week 48, there will be a one-way crossover of control subjects to active stimulation and a 48-week open-label follow-up with all subjects (treatment and control) receiving active stimulation to evaluate long-term safety."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07738120",
+          "briefTitle": "Immersive Virtual Reality and Exercise Programs in Multiple Sclerosis: ExeRVIEM III"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2026-07-31"
+          }
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "name": "University of Vigo"
+          }
+        },
+        "descriptionModule": {
+          "briefSummary": "TITLE: Immersive Virtual Reality and Exercise Programs in Multiple Sclerosis: ExeRVIEM III. INTRODUCTION: Multiple sclerosis (MS) is a chronic neuroimmunological and degenerative disease characterized by demyelination within the central nervous system. Its clinical course involves motor impairment, sensory disturbances, cognitive dysfunction, and a progressive decline in functional independence. MS is one of the leading causes of non-traumatic disability in young adults. This highlights the considerable impact of the disease, both in terms of healthcare burden and healthcare expenditure. Within this context, therapeutic exercise has evolved from being considered potentially harmful to being recognized as a safe and effective intervention capable of improving gait, balance, cardiorespiratory fitness, fatigue, and quality of life in people with MS. A model has been proposed for prescribing and progressing exercise at different stages of MS: passive range-of-motion exercises designed for patients with the most severe symptoms, a second stage incorporating active muscle-strengthening exercises, and finally, integrated exercise programs that incorporate strength, endurance, balance, and coordination training. Evidence from systematic reviews and meta-analyses shows that structured exercise (including high-intensity protocols when performed under supervision) is safe and can improve functional outcomes. Our ExeRVIEM III project (Physiotherapy program with High-Intensity Exercise Program and Immersive Virtual Reality in Multiple Sclerosis) represents a novel strategy to facilitate rehabilitation exercise programs using head-mounted virtual reality displays. HYPOTHESIS: The ExeRVIEM III project, based on training physical function in people with MS, is feasible and safe, and could have a potential clinical impact in the motor and cognitive domains, as well as applicability in community settings, such as patient associations. GENERAL OBJECTIVES: 1.1 To design and implement an ExeRVIEM III exercise program/protocol for people with MS. 1.2 To evaluate the safety of the high-intensity virtual reality exercise program. SPECIFIC OBJECTIVES: 2.1 To analyze the possible changes in disability, functional variables, cognitive domains and biomarkers in the short and medium term in people who attend a patient association and carry out the ExeRVIEM III exercise program for people with MS. METHODOLOGY: A randomized controlled trial, double-arm (experimental and control group) study will be conducted at a patient association (Santiago de Compostela, Spain). The intervention will consist of an 6-month supervised virtual rehabilitation program, with two weekly sessions on alternate days, in addition to the standard rehabilitation prescribed by the patient association clinical team (physiotherapy, occupational therapy, and cognitive training sessions). An inmersive virtual reality (IVR) body combat exercise videogame will be used, administered via a virtual reality headset. In accordance with clinical guidelines for IVR, sessions will be intentionally brief (10 minutes) to minimize cybersickness and excessive fatigue. Assessments will be conducted at baseline (week 0) and immediately after the intervention (week 24). Demographic and clinical data will also be collected, including sex, age, comorbidities, disease duration, MS subtype, and pharmacological treatment. Assessments will be conducted at the patient association and in the Neurology Department of the referral hospital. Feasibility, safety, strength parameters, dual-task performance and fatigue levels assessments will be performed at the patient association by physiotherapists, while the remaining assessments will be completed at the hospital by a neurologist specializing in MS. The content of the assessments will be: Patient characteristics that will include data on age, sex, years since diagnosis, MS subtype, and pharmacological treatment. Feasibility: Number of virtual sessions attended by each participant (adherence rate via registration sheet). Rate Perceived Effort using the modified Borg scale, which measures the level of perceived exertion on a scale of 0 to 10 from no effort to maximum effort. Safety: adverse events using the Simulator Sickness Questionnaire (SSQ).Strength parameters using Five times sit to stand test (FTSST) and handgrip test. Functional mobility will be assessed using Timed and Go test (TUG) and with dual task performance using TUG-cog. Level of fatigue using the Fatigue Severity Scale (FSS). Level of disability: using the Expanded Disability Status Scale (EDSS).Gait will be evaluated using the 25Foot Walk Test (25FWT). Manual dexterity will be assessed using 9-Hole Peg Test (9HPT). Cognitive domains evaluated by the Symbol Digit Modalities Test (SDMT)Axonal injury biomarker evaluated by Neurofilament light chain (sNfL) concentrations."
+        },
+        "designModule": {
+          "studyType": "INTERVENTIONAL",
+          "phases": [
+            "NA"
+          ]
+        }
+      }
+    }
+  ]
+}

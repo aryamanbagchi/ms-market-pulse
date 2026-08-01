@@ -1,0 +1,8 @@
+# MS Market Pulse — runtime dependencies.
+#
+# Deliberately minimal. The Gemini API is called over plain REST rather than via the
+# google-genai SDK: google-genai >= 2.0 requires Python >= 3.10, which would mean a
+# different SDK version locally (3.9) than in CI (3.11). Two dependencies, one code path.
+
+requests>=2.31,<3
+feedparser>=6.0,<7

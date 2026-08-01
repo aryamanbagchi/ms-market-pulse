@@ -1,0 +1,21 @@
+# Runtime cache of raw API/RSS payloads. Regenerated on every run; never committed.
+data/cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Local secrets. The pipeline reads GEMINI_API_KEY from the environment;
+# in CI it comes from a repository secret.
+.env
+.env.*

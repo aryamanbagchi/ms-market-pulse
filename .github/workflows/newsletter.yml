@@ -1,0 +1,92 @@
+name: Publish MS Market Pulse
+
+on:
+  schedule:
+    # 08:00 IST every Monday. GitHub Actions cron is UTC only, and IST is UTC+5:30,
+    # so 08:00 IST == 02:30 UTC. India does not observe daylight saving, so this
+    # single expression holds all year.
+    - cron: "30 2 * * 1"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Issue date (YYYY-MM-DD). Leave blank for today."
+        required: false
+        type: string
+      no_ai:
+        description: "Skip Gemini and use deterministic enrichment"
+        required: false
+        type: boolean
+        default: false
+
+# Required so the workflow can commit the new issue back to the repository.
+permissions:
+  contents: write
+
+# Never let two runs race on a push to the same branch.
+concurrency:
+  group: newsletter
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Generate and publish this week's issue
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate newsletter
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.date }}" ]; then ARGS="$ARGS --date ${{ inputs.date }}"; fi
+          if [ "${{ inputs.no_ai }}" = "true" ]; then ARGS="$ARGS --no-ai"; fi
+          python run.py $ARGS
+
+      - name: Commit and push the new issue
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add newsletters index.html
+
+          # A re-run that produces byte-identical output is a success, not a failure.
+          if git diff --staged --quiet; then
+            echo "No changes to publish."
+            exit 0
+          fi
+
+          ISSUE_DATE=$(python -c "import json;print(json.load(open('newsletters/manifest.json'))['issues'][0]['date'])")
+          ITEM_COUNT=$(python -c "import json;print(json.load(open('newsletters/manifest.json'))['issues'][0]['item_count'])")
+
+          git commit -m "MS Market Pulse: issue for ${ISSUE_DATE} (${ITEM_COUNT} items)"
+          git push
+
+      - name: Upload issue as a build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ms-market-pulse-${{ github.run_number }}
+          path: |
+            newsletters/**/index.html
+            newsletters/**/newsletter.txt
+          retention-days: 30
+
+# Publishing note
+# ---------------
+# The archive page is index.html at the repository root, so GitHub Pages needs no
+# build step and no deploy action. Enable it once under:
+#   Settings -> Pages -> Source: "Deploy from a branch" -> Branch: main, folder: / (root)
+# Every push made by this workflow then republishes the site automatically.
