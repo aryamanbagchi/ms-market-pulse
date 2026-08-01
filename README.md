@@ -10,11 +10,11 @@ newsletter — with no human involvement at any step.
 It is the kind of recurring desk research an analyst might spend half a day on each
 week. Here it runs in about a minute, on a schedule, for a fraction of a cent.
 
-📄 **[Read the latest issue](index.html)** · 🗂 [Browse the archive](index.html)
+### 📄 **[Read this week's issue →](https://aryamanbagchi.github.io/ms-market-pulse/)**
+
+_Published automatically every Monday. No human touches it._
 
 ![Screenshot of a generated issue](docs/screenshot.png)
-
-> _Replace `docs/screenshot.png` with a screenshot of a generated issue._
 
 ---
 
