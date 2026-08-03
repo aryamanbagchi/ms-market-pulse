@@ -1,0 +1,273 @@
+==============================================================================
+MS MARKET PULSE
+Weekly competitive intelligence for the Multiple Sclerosis market
+==============================================================================
+Issue 2  |  27 Jul - 03 Aug 2026
+33 items screened  |  5 featured
+
+------------------------------------------------------------------------------
+EDITOR'S TAKE
+------------------------------------------------------------------------------
+The competitive landscape for progressive multiple sclerosis is sharpening as
+next-generation oral BTK inhibitors mount a concentrated push into hard-to-
+treat disease forms. Zenas BioPharma launched two global Phase 3 trials for
+orelabrutinib across primary and non-active secondary progressive MS, while
+Novartis initiated a parallel Phase 3 SPMS study for remibrutinib, signaling a
+decisive industry alignment on targeting disability accrual. Concurrently,
+Roche is defending its market position by advancing a high-dose ocrelizumab
+Phase 3 relapsing MS trial into active status to test whether dose escalation
+yields superior clinical efficacy. This aggressive pipeline movement occurs
+against a backdrop of legacy franchise decay, highlighted by Biogen reporting
+that non-MS revenues have officially overtaken its foundational MS business.
+Industry observers should now monitor long-term trial execution across these
+progressive MS cohorts to evaluate if BTK inhibition can finally establish a
+therapeutic foothold where historic options remain limited.
+
+------------------------------------------------------------------------------
+REGULATORY  (nothing featured)
+------------------------------------------------------------------------------
+No FDA actions affecting the MS market in this window. Sources checked: FDA
+press releases, drugs and MedWatch feeds.
+
+------------------------------------------------------------------------------
+CLINICAL  (4 items)
+------------------------------------------------------------------------------
+
+1. A Study of Orelabrutinib in Patients With Primary Progressive Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 31 Jul 2026 | Phase 3 | Recruiting |
+   Zenas BioPharma (USA), LLC | NCT07067463
+
+   Zenas BioPharma has initiated a global Phase 3 randomized, double-blind
+   study (NCT07067463) evaluating its CNS-penetrable BTK inhibitor,
+   orelabrutinib, versus placebo in approximately 705 patients with primary
+   progressive multiple sclerosis (PPMS). Subjects will be randomized 2:1 and
+   treated for 30 to 60 months with a minimum treatment duration of 12 months.
+
+   WHY IT MATTERS: The trial advances another CNS-penetrant BTK inhibitor into
+   pivotal development for PPMS, intensifying competition against established
+   anti-CD20 therapies and rival BTK programs targeting progressive MS
+   populations.
+   https://clinicaltrials.gov/study/NCT07067463
+
+2. A Study to Evaluate the Efficacy, Safety and Pharmacokinetics (PK) of a
+Higher Dose of Ocrelizumab in Adults With Relapsing Multiple Sclerosis (RMS)
+   Impact 4/5 | ClinicalTrials.gov | 30 Jul 2026 | Phase 3 | Active Not
+   Recruiting | Hoffmann-La Roche | NCT04544436
+
+   Hoffmann-La Roche's Phase 3 trial evaluating a higher intravenous dose of
+   ocrelizumab administered every 24 weeks versus the approved 600 mg dose in
+   adults with relapsing multiple sclerosis (RMS) has reached active, not
+   recruiting status. The randomized, double-blind, parallel-group,
+   multicenter study is designed to assess the efficacy, safety, and
+   pharmacokinetics of the higher-dose regimen. The trial outcome will
+   determine whether an escalated ocrelizumab dosing schedule offers superior
+   clinical outcomes over the standard 600 mg regimen in RMS.
+
+   WHY IT MATTERS: A successful higher-dose ocrelizumab readout could enable
+   Roche to optimize efficacy outcomes and protect its anti-CD20 franchise
+   share against competing RMS therapies from Novartis, Sanofi, and TG
+   Therapeutics.
+   https://clinicaltrials.gov/study/NCT04544436
+
+3. A Study of Orelabrutinib in Patients With Secondary Progressive Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 30 Jul 2026 | Phase 3 | Recruiting |
+   Zenas BioPharma (USA), LLC | NCT07299019
+
+   Zenas BioPharma has initiated recruitment for a global Phase 3 study
+   (NCT07299019) evaluating orelabrutinib, a CNS-penetrable BTK inhibitor, in
+   patients with non-active Secondary Progressive Multiple Sclerosis (spMS).
+   The randomized, double-blind, placebo-controlled trial plans to enroll
+   approximately 990 subjects in a 2:1 ratio, with treatment lasting 24 to 60
+   months.
+
+   WHY IT MATTERS: This trial positions Zenas BioPharma's orelabrutinib as a
+   direct Phase 3 competitor in the non-active spMS landscape targeting
+   progressive MS pathways via BTK inhibition.
+   https://clinicaltrials.gov/study/NCT07299019
+
+4. A Study to Evaluate the Efficacy and Safety of Remibrutinib in Secondary
+Progressive Multiple Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 29 Jul 2026 | Phase 3 | Recruiting |
+   Novartis Pharmaceuticals | NCT07225504
+
+   Novartis Pharmaceuticals has initiated recruitment for a Phase 3 trial
+   (NCT07225504) evaluating remibrutinib in patients with secondary
+   progressive multiple sclerosis (SPMS). The study aims to generate safety
+   and efficacy data for the asset in this progressive MS population.
+
+   WHY IT MATTERS: Novartis's expansion of remibrutinib into a pivotal SPMS
+   study advances BTK inhibitor development into progressive MS forms,
+   directly impacting competitors with clinical assets targeting non-relapsing
+   or progressive disease populations.
+   https://clinicaltrials.gov/study/NCT07225504
+
+------------------------------------------------------------------------------
+COMMERCIAL/CORPORATE  (1 item)
+------------------------------------------------------------------------------
+
+1. Biogen beats estimates as new medicines overtake multiple sclerosis
+business
+   Impact 3/5 | The Edge Malaysia | 29 Jul 2026
+
+   Biogen reported financial results exceeding estimates as revenue from its
+   newer medicinal portfolio surpassed its core multiple sclerosis business.
+   The shift marks a transition in the company's revenue driver composition
+   away from its established MS franchise.
+
+   WHY IT MATTERS: The revenue crossover underscores the ongoing top-line
+   erosion of Biogen's legacy MS franchise, creating commercial opening for
+   competing MS disease-modifying therapies.
+   https://theedgemalaysia.com/node/812539
+
+------------------------------------------------------------------------------
+ALSO TRACKED THIS WEEK  (28 items)
+------------------------------------------------------------------------------
+Screened and scored below the impact threshold. Listed for completeness.
+
+- Relationship Between Single- and Dual-Task Obstacle Crossing Performance and
+Fatigue and Disability in Multiple Sclerosis
+  ClinicalTrials.gov | Afyonkarahisar Health Sciences University
+  https://clinicaltrials.gov/study/NCT07736482
+
+- Effect of Low Histamine-Based Modified Mediterranean Diet in Multiple
+Sclerosis
+  ClinicalTrials.gov | Firat University
+  https://clinicaltrials.gov/study/NCT07501520
+
+- Characterizing the Use of Ofatumumab in a Real World Setting
+  ClinicalTrials.gov | Novartis Pharmaceuticals
+  https://clinicaltrials.gov/study/NCT05090033
+
+- Immersive Virtual Reality and Exercise Programs in Multiple Sclerosis:
+ExeRVIEM III
+  ClinicalTrials.gov | University of Vigo
+  https://clinicaltrials.gov/study/NCT07738120
+
+- A Study of Oxidative Pathways in MS Fatigue
+  ClinicalTrials.gov | University of California, San Francisco
+  https://clinicaltrials.gov/study/NCT02804594
+
+- A NIS Evaluating Various Injectable and Oral Treatments in Patients With
+Relapsing Multiple Sclerosis
+  ClinicalTrials.gov | Novartis Pharmaceuticals
+  https://clinicaltrials.gov/study/NCT05344469
+
+- Risk of Progressive Multifocal Leukoencephalopathy Among Patients With
+Multiple Sclerosis Exposed to Zeposia
+  ClinicalTrials.gov | Bristol-Myers Squibb
+  https://clinicaltrials.gov/study/NCT07732907
+
+- A Study of Ocrelizumab Administered Subcutaneously in Participants With
+Multiple Sclerosis Who Switch From an Approved Anti-CD20 Therapy
+  ClinicalTrials.gov | Genentech, Inc.
+  https://clinicaltrials.gov/study/NCT07609719
+
+- Sacral Neuromodulation for Neurogenic Lower Urinary Tract, Bowel and Sexual
+Dysfunction
+  ClinicalTrials.gov | Odense University Hospital
+  https://clinicaltrials.gov/study/NCT05380856
+
+- Sociocognitive Intervention and Rehabilitation Program in Multiple Sclerosis
+  ClinicalTrials.gov | Sonia Batista
+  https://clinicaltrials.gov/study/NCT07734675
+
+- A Rollover Study to Evaluate the Long-Term Safety and Efficacy of
+Ocrelizumab In Patients With Multiple Sclerosis
+  ClinicalTrials.gov | Hoffmann-La Roche
+  https://clinicaltrials.gov/study/NCT05269004
+
+- Exploration of Novel Imaging Biomarkers on OCT for Ublituximab Treatment
+Response in Multiple Sclerosis
+  ClinicalTrials.gov | University of Maryland, Baltimore
+  https://clinicaltrials.gov/study/NCT06864936
+
+- Effects of Sensorimotor Insoles on Stability and Gait in Patients With
+Multiple Sclerosis.
+  ClinicalTrials.gov | University of Salamanca
+  https://clinicaltrials.gov/study/NCT07735325
+
+- Biomarkers in Autoimmune Disease of Nervous System
+  ClinicalTrials.gov | Tongji Hospital
+  https://clinicaltrials.gov/study/NCT06502015
+
+- The SetPoint System as a Pro-Remyelination Therapy for Relapsing-Remitting
+Multiple Sclerosis: A Pilot Study
+  ClinicalTrials.gov | SetPoint Medical Corporation
+  https://clinicaltrials.gov/study/NCT06796504
+
+- Potential MS therapy improves myelin repair in cells and mice
+  Multiple Sclerosis News Today
+  https://multiplesclerosisnewstoday.com/news-posts/2026/07/28/potential-ms-therapy-improves-myelin-repair-cells-mice/
+
+- Targeting Residual Activity By Precision, Biomarker-Guided Combination
+Therapies of Multiple Sclerosis (TRAP-MS)
+  ClinicalTrials.gov | National Institute of Allergy and Infectious Diseases
+  (NIAID)
+  https://clinicaltrials.gov/study/NCT03109288
+
+- In Vivo Characterization of Inflammation With Ferumoxytol, an Ultrasmall
+Superparamagnetic Iron Oxide Nanoparticle, on 7 Tesla Magnetic Resonance
+Imaging
+  ClinicalTrials.gov | National Institute of Neurological Disorders and Stroke
+  (NINDS)
+  https://clinicaltrials.gov/study/NCT02511028
+
+- Cladribine Tablets: Collaborative Study to Evaluate Impact On Central
+Nervous System Biomarkers in Multiple Sclerosis
+  ClinicalTrials.gov | Gregory Wu
+  https://clinicaltrials.gov/study/NCT03963375
+
+- Comprehensive Multimodal Analysis of Neuroimmunological Diseases of the
+Central Nervous System
+  ClinicalTrials.gov | National Institute of Allergy and Infectious Diseases
+  (NIAID)
+  https://clinicaltrials.gov/study/NCT00794352
+
+- Understanding and Enhancing Human Health and Movement
+  ClinicalTrials.gov | Louis Stokes VA Medical Center
+  https://clinicaltrials.gov/study/NCT07738978
+
+- Testing an Immunotherapy Anti-cancer Drug, Nivolumab, for Advanced Cancers
+in Patients With Autoimmune Disorders, AIM-NIVO
+  ClinicalTrials.gov | National Cancer Institute (NCI)
+  https://clinicaltrials.gov/study/NCT03816345
+
+- A new MS drug changed my life in just two weeks
+  The Telegraph
+  https://www.telegraph.co.uk/health-fitness/conditions/bones-joints/ms-drug-fampridine-changed-my-life/
+
+- Educational Programs Based on Healthy Habits to Improve Quality of Life and
+Psychosocial Profile in Women With Neurodegenerative Diseases: The ADVICE
+Protocol Study (Phase 1)
+  ClinicalTrials.gov | Universidad de Almeria
+  https://clinicaltrials.gov/study/NCT06925022
+
+- Advancing Multiple Sclerosis Treatment Through Research-Integrated Clinical
+Care
+  NeurologyLive
+  https://www.neurologylive.com/view/advancing-ms-treatment-through-research-integrated-clinical-care
+
+- Objective Longitudinal Assessment of Postural Stability and Gait of Stroke,
+Parkinson's Disease and Multiple Sclerosis Using Instrumented Posturography
+and Three Dimensional Motion Analysis
+  ClinicalTrials.gov | Somogy Megyei Kaposi Mór Teaching Hospital
+  https://clinicaltrials.gov/study/NCT07411664
+
+- Physical Activity Intervention for Individuals Newly Diagnosed With MS
+  ClinicalTrials.gov | University of Illinois at Chicago
+  https://clinicaltrials.gov/study/NCT07731659
+
+- Accuracy of Motor Performance Perception in Multiple Sclerosis
+  ClinicalTrials.gov | Hasselt University
+  https://clinicaltrials.gov/study/NCT07175792
+
+==============================================================================
+Generated automatically from ClinicalTrials.gov API v2, three U.S. FDA RSS
+feeds (press releases, drugs, MedWatch), and curated news. Summaries,
+categories and impact scores generated by Google Gemini (gemini-3.6-flash).
+Compiled 2026-08-03 05:58 UTC.
+This briefing summarises public information for competitive intelligence
+purposes and is not medical, investment or regulatory advice.
+==============================================================================
