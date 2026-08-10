@@ -1,0 +1,292 @@
+==============================================================================
+MS MARKET PULSE
+Weekly competitive intelligence for the Multiple Sclerosis market
+==============================================================================
+Issue 3  |  03 Aug - 10 Aug 2026
+34 items screened  |  5 featured
+
+------------------------------------------------------------------------------
+EDITOR'S TAKE
+------------------------------------------------------------------------------
+Zenas BioPharma has aggressively expanded the late-stage BTK inhibitor
+battlefield by initiating recruitment for two global Phase 3 trials evaluating
+orelabrutinib in non-active secondary progressive and primary progressive
+multiple sclerosis. This dual pivot toward progressive forms of MS highlights
+a broader strategic shift across the market away from crowded relapsing-
+remitting indications and toward progressive diseases with high unmet need.
+Concurrently, Sanofi is safeguarding its own pipeline flexibility by launching
+a Phase 3 non-inferiority study for a subcutaneous formulation of its CD40L
+inhibitor frexalimab across both relapsing and non-relapsing SPMS cohorts.
+Meanwhile, convenience-driven reformulations of established therapies continue
+to mature, marked by Mapi Pharma's completion of its Phase 3 study for GA
+Depot, a monthly glatiramer acetate injection. Strategic focus now turns to
+whether orelabrutinib's CNS penetrance can deliver clinical differentiation
+over placebo in progressive populations across multi-year exposure windows.
+
+------------------------------------------------------------------------------
+REGULATORY  (nothing featured)
+------------------------------------------------------------------------------
+1 item screened in this category, none clearing the impact threshold. Listed
+under Also tracked below.
+
+------------------------------------------------------------------------------
+CLINICAL  (5 items)
+------------------------------------------------------------------------------
+
+1. A Study of Orelabrutinib in Patients With Primary Progressive Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 07 Aug 2026 | Phase 3 | Recruiting |
+   Zenas BioPharma (USA), LLC | NCT07067463
+
+   Zenas BioPharma has initiated recruitment for a global, randomized, double-
+   blind Phase 3 study (NCT07067463) evaluating its CNS-penetrable BTK
+   inhibitor, orelabrutinib, against placebo in primary progressive multiple
+   sclerosis (PPMS). The trial will enroll approximately 705 subjects
+   randomized 2:1, with treatment durations ranging from 30 to 60 months
+   (minimum 12 months).
+
+   WHY IT MATTERS: Orelabrutinib's progression into Phase 3 for PPMS advances
+   a new CNS-penetrant BTK inhibitor into direct competition with established
+   and pipeline progressive MS disease-modifying therapies.
+   https://clinicaltrials.gov/study/NCT07067463
+
+2. A Study of Orelabrutinib in Patients With Secondary Progressive Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 06 Aug 2026 | Phase 3 | Recruiting |
+   Zenas BioPharma (USA), LLC | NCT07299019
+
+   Zenas BioPharma has initiated recruitment for a global Phase 3 trial
+   (NCT07299019) evaluating orelabrutinib, a CNS-penetrable BTK inhibitor, in
+   patients with non-active secondary progressive multiple sclerosis. The
+   randomized, double-blind, placebo-controlled study will enroll
+   approximately 990 subjects in a 2:1 ratio to receive treatment for 24 to 60
+   months, with a minimum duration of 12 months.
+
+   WHY IT MATTERS: Zenas BioPharma is advancing a CNS-penetrable BTK inhibitor
+   directly into Phase 3 for non-active SPMS, placing it in competition with
+   other BTK inhibitor developers targeting progressive MS populations.
+   https://clinicaltrials.gov/study/NCT07299019
+
+3. Non-inferiority Study of Frexalimab Subcutaneous Administration Compared to
+Intravenous Administration in Adult Participants With Multiple Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 05 Aug 2026 | Phase 3 | Recruiting |
+   Sanofi | NCT07325292
+
+   Sanofi has initiated a randomized, open-label Phase 3 trial (NCT07325292)
+   evaluating the non-inferiority of subcutaneous frexalimab administered
+   every 4 weeks compared to intravenous administration every 4 weeks. The
+   48-week study is currently recruiting adults aged 18 to 60 with relapsing
+   multiple sclerosis (RMS) and non-relapsing secondary progressive multiple
+   sclerosis (nrSPMS). An optional extension (Part C) will continue until a
+   long-term safety study begins.
+
+   WHY IT MATTERS: A successful subcutaneous non-inferiority readout would
+   enable Sanofi to offer a more convenient route of administration for
+   frexalimab, enhancing its competitive positioning against IV- and SC-
+   administered disease-modifying therapies in RMS and nrSPMS.
+   https://clinicaltrials.gov/study/NCT07325292
+
+4. A Study to Asses Efficacy, Safety and Tolerability of Monthly Long-acting
+IM Injection of GA Depot in Subjects With RMS
+   Impact 4/5 | ClinicalTrials.gov | 05 Aug 2026 | Phase 3 | Completed | Mapi
+   Pharma Ltd. | NCT04121221
+
+   Mapi Pharma has completed its multinational, randomized, double-blind,
+   placebo-controlled Phase 3 trial (NCT04121221) evaluating GA Depot, a long-
+   acting glatiramer acetate intramuscular injection administered once every
+   four weeks. The study assessed the efficacy, safety, and tolerability of
+   the monthly formulation in patients with Relapsing Forms of Multiple
+   Sclerosis (RMS).
+
+   WHY IT MATTERS: A successful monthly glatiramer acetate depot offers a
+   reduced dosing frequency compared to daily or thrice-weekly Copaxone
+   formulations, potentially disrupting the glatiramer acetate market segment
+   and challenging established RMS disease-modifying therapies.
+   https://clinicaltrials.gov/study/NCT04121221
+
+5. A Study to Evaluate Efficacy, Safety, and Tolerability of Alemtuzumab in
+Pediatric Patients With RRMS With Disease Activity on Prior DMT
+   Impact 3/5 | ClinicalTrials.gov | 04 Aug 2026 | Phase 3 | Terminated |
+   Genzyme, a Sanofi Company | NCT03368664
+
+   Sanofi company Genzyme has terminated its Phase 3 trial (NCT03368664)
+   evaluating intravenous alemtuzumab in pediatric patients aged 10 to under
+   18 with relapsing-remitting multiple sclerosis (RRMS) who experienced
+   disease activity on prior disease-modifying therapy. The study was designed
+   to evaluate efficacy, safety, and tolerability as primary objectives, along
+   with pharmacokinetics, pharmacodynamics, anti-drug antibody formation,
+   cognition, and quality-of-life outcomes as secondary objectives.
+
+   WHY IT MATTERS: The termination halts Sanofi's clinical development of
+   alemtuzumab in pediatric RRMS patients who fail initial disease-modifying
+   therapies, limiting the drug's label expansion opportunities in younger
+   populations.
+   https://clinicaltrials.gov/study/NCT03368664
+
+------------------------------------------------------------------------------
+COMMERCIAL/CORPORATE  (nothing featured)
+------------------------------------------------------------------------------
+1 item screened in this category, none clearing the impact threshold. Listed
+under Also tracked below.
+
+------------------------------------------------------------------------------
+ALSO TRACKED THIS WEEK  (29 items)
+------------------------------------------------------------------------------
+Screened and scored below the impact threshold. Listed for completeness.
+
+- The Effect of a Probiotic Administration as an add-on Treatment in Multiple
+Sclerosis
+  ClinicalTrials.gov | Hospital Universitari Vall d'Hebron Research Institute
+  https://clinicaltrials.gov/study/NCT07168772
+
+- Magnetic Resonance Imaging (MRI) to Evaluate Activity of Multiple Sclerosis
+(MS)
+  ClinicalTrials.gov | National Institute of Neurological Disorders and Stroke
+  (NINDS)
+  https://clinicaltrials.gov/study/NCT00001248
+
+- Cladribine Tablets Level of Response Predictors in Clinical Practice
+(CLODINA)
+  ClinicalTrials.gov | Merck Healthcare KGaA, Darmstadt, Germany, an affiliate
+  of Merck KGaA, Darmstadt, Germany
+  https://clinicaltrials.gov/study/NCT05797740
+
+- A Study to Assess Bioequivalence of Two Subcutaneous (SC) Formulations of
+Ocrelizumab in Participants With Multiple Sclerosis (MS)
+  ClinicalTrials.gov | Hoffmann-La Roche
+  https://clinicaltrials.gov/study/NCT07074886
+
+- WEBCAMS: Walking Exercise for Brain and Cognition in Adults With Multiple
+Sclerosis
+  ClinicalTrials.gov | Kessler Foundation
+  https://clinicaltrials.gov/study/NCT05755061
+
+- A Clinical Study to Evaluate the Safety and Efficacy of GT802 Injection in
+the Treatment of Relapsing/Refractory Multiple Sclerosis
+  ClinicalTrials.gov | Daishi Tian
+  https://clinicaltrials.gov/study/NCT07748637
+
+- Acute Effects of Walking Exercise on Brain Functioning in Multiple Sclerosis
+  ClinicalTrials.gov | Kessler Foundation
+  https://clinicaltrials.gov/study/NCT06233370
+
+- A Study to Evaluate Pharmacokinetics, Safety, Tolerability, Immunogenicity
+and Pharmacodynamic Effects of Subcutaneous Ocrelizumab Administration in
+Children and Adolescents With Relapsing-remitting Multiple Sclerosis (RRMS)
+  ClinicalTrials.gov | Hoffmann-La Roche
+  https://clinicaltrials.gov/study/NCT07503340
+
+- A Study of Subcutaneously Administered RO7845860 in Participants With
+Relapsing Multiple Sclerosis
+  ClinicalTrials.gov | Hoffmann-La Roche
+  https://clinicaltrials.gov/study/NCT07749157
+
+- Mental Rotation and Motor Imagery Training in Multiple Sclerosis
+  ClinicalTrials.gov | Abant Izzet Baysal University
+  https://clinicaltrials.gov/study/NCT07749690
+
+- Traditional Versus Early Aggressive Therapy for Multiple Sclerosis Trial
+  ClinicalTrials.gov | Johns Hopkins University
+  https://clinicaltrials.gov/study/NCT03500328
+
+- Electrical Brain Stimulation for Treatment of Secondary Symptoms in Multiple
+Sclerosis
+  ClinicalTrials.gov | The National Brain Mapping Laboratory (NBML)
+  https://clinicaltrials.gov/study/NCT06401928
+
+- The SetPoint System as a Pro-Remyelination Therapy for Relapsing-Remitting
+Multiple Sclerosis: A Pilot Study
+  ClinicalTrials.gov | SetPoint Medical Corporation
+  https://clinicaltrials.gov/study/NCT06796504
+
+- Safety and Efficacy of S103 Cells in Progressive/Refractory Multiple
+Sclerosis
+  ClinicalTrials.gov | Xijing Hospital
+  https://clinicaltrials.gov/study/NCT07587125
+
+- A Novel Combinatory Approach to Maximize Functional Recovery of Learning and
+Memory in Multiple Sclerosis
+  ClinicalTrials.gov | Kessler Foundation
+  https://clinicaltrials.gov/study/NCT06197685
+
+- Cognitive Disability and Quality of Life of Patients Suffering From Multiple
+Sclerosis and Treatment With Immunosuppressant
+  ClinicalTrials.gov | University Hospital, Clermont-Ferrand
+  https://clinicaltrials.gov/study/NCT01392872
+
+- This Study Involves a Positron Emission Tomography (PET) Scan Using a New
+Investigational Radioactive Tracer, [18F]-FZTA, to Detect Inflammation in the
+Brain. The Tracer Will be Tested in Healthy Younger Adults and Individuals
+With Multiple Sclerosis.
+  ClinicalTrials.gov | Washington University School of Medicine
+  https://clinicaltrials.gov/study/NCT07115017
+
+- An Open-label Study to Assess the Safety, Efficacy, and Cellular Kinetics of
+YTB323 in Relapsing Multiple Sclerosis
+  ClinicalTrials.gov | Novartis Pharmaceuticals
+  https://clinicaltrials.gov/study/NCT06617793
+
+- In Vivo Characterization of Inflammation With Ferumoxytol, an Ultrasmall
+Superparamagnetic Iron Oxide Nanoparticle, on 7 Tesla Magnetic Resonance
+Imaging
+  ClinicalTrials.gov | National Institute of Neurological Disorders and Stroke
+  (NINDS)
+  https://clinicaltrials.gov/study/NCT02511028
+
+- Cognition Evolution and MRI Markers in PPMS Patients on 2 Years
+  ClinicalTrials.gov | University Hospital, Bordeaux
+  https://clinicaltrials.gov/study/NCT03455582
+
+- Oculis Receives Positive FDA Feedback for Privosegtor Development in Acute
+Multiple Sclerosis Relapses
+  Quiver Quantitative
+  https://www.quiverquant.com/news/Oculis+Receives+Positive+FDA+Feedback+for+Privosegtor+Development+in+Acute+Multiple+Sclerosis+Relapses
+
+- Wiltshire actor 'hopeful' for MS drug despite unviability chance
+  BBC
+  https://www.bbc.co.uk/news/articles/c4g63dl2l47o
+
+- Feasibility of Remote Exercise Training for Hispanics/Latinos With MS
+  ClinicalTrials.gov | University of Illinois at Chicago
+  https://clinicaltrials.gov/study/NCT05998616
+
+- Relating Genetic and Environmental Risk Scores to Multiple Sclerosis
+Susceptibility
+  ClinicalTrials.gov | National Institute of Neurological Disorders and Stroke
+  (NINDS)
+  https://clinicaltrials.gov/study/NCT01617395
+
+- User-friendliness of a Portable Driving Simulator
+  ClinicalTrials.gov | University of Kansas Medical Center
+  https://clinicaltrials.gov/study/NCT03969927
+
+- Objective Longitudinal Assessment of Postural Stability and Gait of Stroke,
+Parkinson's Disease and Multiple Sclerosis Using Instrumented Posturography
+and Three Dimensional Motion Analysis
+  ClinicalTrials.gov | Somogy Megyei Kaposi Mór Teaching Hospital
+  https://clinicaltrials.gov/study/NCT07411664
+
+- Delivery of a Culturally Tailored Exercise Training Intervention for
+Hispanics With Multiple Sclerosis
+  ClinicalTrials.gov | The University of Texas Health Science Center, Houston
+  https://clinicaltrials.gov/study/NCT07606742
+
+- Effect of Sensory Integration Therapy on Gait Variability and Quality Of
+Life in Patients With Multiple Sclerosis
+  ClinicalTrials.gov | Cairo University
+  https://clinicaltrials.gov/study/NCT07390201
+
+- Comprehensive Multimodal Analysis of Neuroimmunological Diseases of the
+Central Nervous System
+  ClinicalTrials.gov | National Institute of Allergy and Infectious Diseases
+  (NIAID)
+  https://clinicaltrials.gov/study/NCT00794352
+
+==============================================================================
+Generated automatically from ClinicalTrials.gov API v2, three U.S. FDA RSS
+feeds (press releases, drugs, MedWatch), and curated news. Summaries,
+categories and impact scores generated by Google Gemini (gemini-3.6-flash).
+Compiled 2026-08-10 04:16 UTC.
+This briefing summarises public information for competitive intelligence
+purposes and is not medical, investment or regulatory advice.
+==============================================================================
