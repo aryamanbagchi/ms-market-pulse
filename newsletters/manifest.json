@@ -1,6 +1,20 @@
 {
   "issues": [
     {
+      "number": 4,
+      "date": "2026-08-17",
+      "path": "newsletters/2026-08-17/index.html",
+      "text_path": "newsletters/2026-08-17/newsletter.txt",
+      "item_count": 4,
+      "screened_count": 31,
+      "categories": {
+        "Clinical": 4
+      },
+      "top_headline": "Non-inferiority Study of Frexalimab Subcutaneous Administration Compared to Intravenous Administration in Adult Participants With Multiple Sclerosis",
+      "ai_enabled": true,
+      "generated_at": "2026-08-17T03:28:42Z"
+    },
+    {
       "number": 3,
       "date": "2026-08-10",
       "path": "newsletters/2026-08-10/index.html",
