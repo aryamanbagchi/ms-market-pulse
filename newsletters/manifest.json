@@ -1,6 +1,22 @@
 {
   "issues": [
     {
+      "number": 5,
+      "date": "2026-08-24",
+      "path": "newsletters/2026-08-24/index.html",
+      "text_path": "newsletters/2026-08-24/newsletter.txt",
+      "item_count": 12,
+      "screened_count": 27,
+      "categories": {
+        "Regulatory": 1,
+        "Clinical": 10,
+        "Commercial/Corporate": 1
+      },
+      "top_headline": "A Study to Evaluate the Pharmacokinetics, Pharmacodynamics, Safety, Radiological and Clinical Effects of Subcutaneous Ublituximab in Participants With Relapsing Multiple Sclerosis (RMS)",
+      "ai_enabled": true,
+      "generated_at": "2026-08-24T03:31:27Z"
+    },
+    {
       "number": 4,
       "date": "2026-08-17",
       "path": "newsletters/2026-08-17/index.html",
