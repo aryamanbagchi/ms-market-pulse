@@ -1,0 +1,207 @@
+==============================================================================
+MS MARKET PULSE
+Weekly competitive intelligence for the Multiple Sclerosis market
+==============================================================================
+Issue 6  |  24 Aug - 31 Aug 2026
+19 items screened  |  4 featured
+
+------------------------------------------------------------------------------
+EDITOR'S TAKE
+------------------------------------------------------------------------------
+Zenas BioPharma has aggressively expanded the late-stage progressive MS
+pipeline by initiating two global Phase 3 trials for its CNS-penetrable BTK
+inhibitor, orelabrutinib, targeting primary progressive and non-active
+secondary progressive populations against placebo. This double move
+underscores a broader competitive effort across the market to challenge
+dominant anti-CD20 therapies and capture non-relapsing indications where unmet
+need remains highest. Concurrently, both Novartis and TG Therapeutics are
+running Phase 3b trials designed to carve out market share from established
+anti-CD20 regimens: Novartis is testing remibrutinib directly in patients
+switching off ocrelizumab, while TG Therapeutics is evaluating modified dosing
+schedules for ublituximab, including in patients with suboptimal prior anti-
+CD20 responses. Together, these developments signal a pivotal shift toward
+head-to-head positioning against anti-CD20 standard-of-care and expansion into
+progressive forms of the disease. Industry observers should watch for
+enrollment momentum across Zenas's progressive MS programs and initial switch
+dynamics from Novartis's remibrutinib trial.
+
+------------------------------------------------------------------------------
+REGULATORY  (nothing featured)
+------------------------------------------------------------------------------
+No FDA actions affecting the MS market in this window. Sources checked: FDA
+press releases, drugs and MedWatch feeds.
+
+------------------------------------------------------------------------------
+CLINICAL  (4 items)
+------------------------------------------------------------------------------
+
+1. A Study of Orelabrutinib in Patients With Primary Progressive Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 28 Aug 2026 | Phase 3 | Recruiting |
+   Zenas BioPharma (USA), LLC | NCT07067463
+
+   Zenas BioPharma has initiated recruitment for a global Phase 3 trial
+   (NCT07067463) evaluating its CNS-penetrable BTK inhibitor, orelabrutinib,
+   in patients with primary progressive multiple sclerosis (PPMS). The
+   randomized, double-blind, placebo-controlled study will enroll
+   approximately 705 subjects in a 2:1 ratio, with treatment durations ranging
+   from 30 to 60 months and a minimum duration of 12 months.
+
+   WHY IT MATTERS: The advancement of orelabrutinib into Phase 3 development
+   introduces a novel oral BTK inhibitor into the primary progressive MS
+   pipeline, directly threatening Roche's market exclusivity with Ocrevus in
+   PPMS and intensifying late-stage competition among BTKi developers.
+   https://clinicaltrials.gov/study/NCT07067463
+
+2. Study to Evaluate Safety, Efficacy and Pharmacokinetics (PK) of a Modified
+Regimen of Ublituximab
+   Impact 4/5 | ClinicalTrials.gov | 27 Aug 2026 | Phase 3 | Recruiting | TG
+   Therapeutics, Inc. | NCT05877963
+
+   TG Therapeutics is currently recruiting participants for a Phase 3b trial
+   (NCT05877963) evaluating a modified regimen of its anti-CD20 therapy,
+   ublituximab, in relapsing multiple sclerosis (RMS). The three-part study
+   assesses efficacy based on T1 Gadolinium-enhancing lesions in Part A,
+   pharmacokinetics in Part B, and efficacy in patients with a suboptimal
+   experience on prior anti-CD20 therapy in Part C. Part A and Part C are
+   single-arm open-label, while Part B is a randomized, double-blind, placebo-
+   controlled design.
+
+   WHY IT MATTERS: Demonstrating clinical utility for a modified regimen or in
+   patients with prior suboptimal anti-CD20 response could differentiate TG
+   Therapeutics' ublituximab against entrenched anti-CD20 competitors like
+   Roche's Ocrevus and Novartis' Kesimpta.
+   https://clinicaltrials.gov/study/NCT05877963
+
+3. Efficacy and Safety of Remibrutinib After Switching From Ocrelizumab in
+Participants Living With Relapsing Multiple Sclerosis.
+   Impact 4/5 | ClinicalTrials.gov | 26 Aug 2026 | Phase 3 | Recruiting |
+   Novartis Pharmaceuticals | NCT06846281
+
+   Novartis has initiated recruitment for a Phase 3b study (NCT06846281)
+   evaluating remibrutinib in patients with relapsing multiple sclerosis. The
+   trial assesses the efficacy, safety, and tolerability of switching patients
+   to remibrutinib following prior ocrelizumab therapy compared to maintaining
+   continuous ocrelizumab treatment.
+
+   WHY IT MATTERS: A successful switch strategy could allow Novartis to
+   position its oral BTK inhibitor remibrutinib directly against Roche's
+   market-leading anti-CD20 therapy ocrelizumab in relapsing MS.
+   https://clinicaltrials.gov/study/NCT06846281
+
+4. A Study of Orelabrutinib in Patients With Secondary Progressive Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 25 Aug 2026 | Phase 3 | Recruiting |
+   Zenas BioPharma (USA), LLC | NCT07299019
+
+   Zenas BioPharma has initiated recruitment for a global Phase 3 trial
+   (NCT07299019) evaluating its CNS-penetrable BTK inhibitor, orelabrutinib,
+   in non-active secondary progressive multiple sclerosis. The randomized,
+   double-blind study will enroll approximately 990 patients in a 2:1 ratio
+   against placebo, with treatment duration ranging from 24 to 60 months
+   (minimum 12 months).
+
+   WHY IT MATTERS: Zenas BioPharma's Phase 3 trial advances a novel CNS-
+   penetrable BTK inhibitor into the non-active SPMS space, threatening
+   established progressive MS pipelines and expanding competition against
+   late-stage BTKi developers like Sanofi and Roche.
+   https://clinicaltrials.gov/study/NCT07299019
+
+------------------------------------------------------------------------------
+COMMERCIAL/CORPORATE  (nothing featured)
+------------------------------------------------------------------------------
+No qualifying deal, earnings or pricing coverage in this window. Source
+checked: curated industry news.
+
+------------------------------------------------------------------------------
+ALSO TRACKED THIS WEEK  (15 items)
+------------------------------------------------------------------------------
+Screened and scored below the impact threshold. Listed for completeness.
+
+- Evaluation of the Safety and Efficacy of a Full-Body Electrostimulation
+Garment for Individuals With Neurological and Neuromuscular Conditions That
+Cause Spasticity, Hyperreflexia, and Pain
+  ClinicalTrials.gov | Shirley Ryan AbilityLab
+  https://clinicaltrials.gov/study/NCT07132775
+
+- In Vivo Characterization of Inflammation With Ferumoxytol, an Ultrasmall
+Superparamagnetic Iron Oxide Nanoparticle, on 7 Tesla Magnetic Resonance
+Imaging
+  ClinicalTrials.gov | National Institute of Neurological Disorders and Stroke
+  (NINDS)
+  https://clinicaltrials.gov/study/NCT02511028
+
+- Impact of Annual Versus Biannual Infusions of Ocrelizumab in Patients With
+Active MS,After 2 Years of Initial Treatment, on Freedom From Radiological
+Disease Activity at Two Years: a Multicenter Randomized Controlled Non-
+inferiority Trial
+  ClinicalTrials.gov | Fondation Ophtalmologique Adolphe de Rothschild
+  https://clinicaltrials.gov/study/NCT05999604
+
+- Targeting Residual Activity By Precision, Biomarker-Guided Combination
+Therapies of Multiple Sclerosis (TRAP-MS)
+  ClinicalTrials.gov | National Institute of Allergy and Infectious Diseases
+  (NIAID)
+  https://clinicaltrials.gov/study/NCT03109288
+
+- Effect of Corticosteroids on Inflammation at the Edge of Acute Multiple
+Sclerosis Plaques
+  ClinicalTrials.gov | National Institute of Neurological Disorders and Stroke
+  (NINDS)
+  https://clinicaltrials.gov/study/NCT02784210
+
+- Synbiotic Supplementation as a Part of Dietary Modification in Multiple
+Sclerosis
+  ClinicalTrials.gov | Hacettepe University
+  https://clinicaltrials.gov/study/NCT07789171
+
+- Identifying and Characterizing Preclinical MS
+  ClinicalTrials.gov | Yale University
+  https://clinicaltrials.gov/study/NCT05787795
+
+- The Role of the FCRL5 Protein in the Pathophysiology of Multiple Sclerosis
+and Response to Treatment
+  ClinicalTrials.gov | Université Catholique de Louvain
+  https://clinicaltrials.gov/study/NCT07788573
+
+- Intermittent Theta-Burst Stimulation for Lower-Limb Spasticity and Pain in
+Multiple Sclerosis
+  ClinicalTrials.gov | Comenius University
+  https://clinicaltrials.gov/study/NCT07786506
+
+- An Open-label Study of AZD0120 in Adults With Multiple Sclerosis
+  ClinicalTrials.gov | AstraZeneca
+  https://clinicaltrials.gov/study/NCT07224373
+
+- Comprehensive Multimodal Analysis of Neuroimmunological Diseases of the
+Central Nervous System
+  ClinicalTrials.gov | National Institute of Allergy and Infectious Diseases
+  (NIAID)
+  https://clinicaltrials.gov/study/NCT00794352
+
+- Emotional Processing, Family Life, Friendship and Social Integration in
+Patients With Multiple Sclerosis
+  ClinicalTrials.gov | University Hospital, Bordeaux
+  https://clinicaltrials.gov/study/NCT02708927
+
+- Reliability and Validity of Three DT-TUG Protocols in MS
+  ClinicalTrials.gov | Afyonkarahisar Health Sciences University
+  https://clinicaltrials.gov/study/NCT07788859
+
+- Development of Pain Management JITAI Content in Multiple Sclerosis and
+Spinal Cord Injury
+  ClinicalTrials.gov | University of Michigan
+  https://clinicaltrials.gov/study/NCT07663266
+
+- Cone Evasion Walk Test in Multiple Sclerosis
+  ClinicalTrials.gov | Hacettepe University
+  https://clinicaltrials.gov/study/NCT07786987
+
+==============================================================================
+Generated automatically from ClinicalTrials.gov API v2, three U.S. FDA RSS
+feeds (press releases, drugs, MedWatch), and curated news. Summaries,
+categories and impact scores generated by Google Gemini (gemini-3.6-flash).
+Compiled 2026-08-31 08:52 UTC.
+This briefing summarises public information for competitive intelligence
+purposes and is not medical, investment or regulatory advice.
+==============================================================================
