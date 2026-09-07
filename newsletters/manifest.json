@@ -1,6 +1,22 @@
 {
   "issues": [
     {
+      "number": 7,
+      "date": "2026-09-07",
+      "path": "newsletters/2026-09-07/index.html",
+      "text_path": "newsletters/2026-09-07/newsletter.txt",
+      "item_count": 17,
+      "screened_count": 40,
+      "categories": {
+        "Regulatory": 1,
+        "Clinical": 15,
+        "Commercial/Corporate": 1
+      },
+      "top_headline": "Experimental MS drug bests approved therapy in cutting relapses in 2 trials",
+      "ai_enabled": true,
+      "generated_at": "2026-09-07T07:28:34Z"
+    },
+    {
       "number": 6,
       "date": "2026-08-31",
       "path": "newsletters/2026-08-31/index.html",
