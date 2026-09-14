@@ -1,6 +1,21 @@
 {
   "issues": [
     {
+      "number": 8,
+      "date": "2026-09-14",
+      "path": "newsletters/2026-09-14/index.html",
+      "text_path": "newsletters/2026-09-14/newsletter.txt",
+      "item_count": 6,
+      "screened_count": 25,
+      "categories": {
+        "Regulatory": 1,
+        "Clinical": 5
+      },
+      "top_headline": "A Study of Orelabrutinib in Patients With Primary Progressive Multiple Sclerosis",
+      "ai_enabled": true,
+      "generated_at": "2026-09-14T08:02:33Z"
+    },
+    {
       "number": 7,
       "date": "2026-09-07",
       "path": "newsletters/2026-09-07/index.html",

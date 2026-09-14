@@ -1,0 +1,246 @@
+==============================================================================
+MS MARKET PULSE
+Weekly competitive intelligence for the Multiple Sclerosis market
+==============================================================================
+Issue 8  |  07 Sep - 14 Sep 2026
+25 items screened  |  6 featured
+
+------------------------------------------------------------------------------
+EDITOR'S TAKE
+------------------------------------------------------------------------------
+Zenas BioPharma stole the spotlight this week by advancing its CNS-penetrable
+BTK inhibitor, orelabrutinib, directly into two Phase 3 trials targeting
+primary progressive and non-active secondary progressive multiple sclerosis.
+This aggressive move highlights a broader clinical push into underserved
+progressive and pediatric MS populations, moving past traditional relapsing-
+remitting paradigms. Parallel developments reinforce this focus, with Roche
+initiating a Phase 2 trial for its own BTK inhibitor, fenebrutinib, in
+pediatric relapsing MS, and Bristol-Myers Squibb recruiting for a Phase 3
+trial comparing ozanimod to fingolimod in young patients. Meanwhile, Quantum
+BioPharma secured FDA IND clearance for Lucid-MS to enter Phase 2, and Queen
+Mary University of London continues to evaluate cladribine in advanced, high-
+EDSS populations. Strategy teams should now monitor whether Zenas's bold 2:1
+placebo-controlled trials in progressive MS can establish BTK inhibition as
+the definitive standard for halting non-relapsing disease progression.
+
+------------------------------------------------------------------------------
+REGULATORY  (1 item)
+------------------------------------------------------------------------------
+
+1. Quantum BioPharma Ltd. Secures FDA Clearance to Begin Phase 2 Trial of
+Lucid-MS for Multiple Sclerosis
+   Impact 3/5 | Quiver Quantitative | 09 Sep 2026
+
+   Quantum BioPharma Ltd. has secured IND clearance from the U.S. FDA to
+   initiate a Phase 2 clinical trial evaluating its asset Lucid-MS for the
+   treatment of Multiple Sclerosis. The clearance marks the candidate's
+   transition into mid-stage clinical development following regulatory review.
+
+   WHY IT MATTERS: The clearance allows Quantum BioPharma to enter Phase 2
+   testing, introducing a new pipeline candidate into the clinical-stage
+   competitive landscape for Multiple Sclerosis.
+   https://www.quiverquant.com/news/Quantum+BioPharma+Ltd.+Secures+FDA+Clearance+to+Begin+Phase+2+Trial+of+Lucid-MS+for+Multiple+Sclerosis
+
+------------------------------------------------------------------------------
+CLINICAL  (5 items)
+------------------------------------------------------------------------------
+
+1. A Study of Orelabrutinib in Patients With Primary Progressive Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 10 Sep 2026 | Phase 3 | Recruiting |
+   Zenas BioPharma (USA), LLC | NCT07067463
+
+   Zenas BioPharma has initiated recruiting for a global Phase 3 randomized,
+   double-blind study evaluating its CNS-penetrable BTK inhibitor,
+   orelabrutinib, against placebo in approximately 705 patients with primary
+   progressive multiple sclerosis (PPMS). Participants will receive treatment
+   in a 2:1 ratio for 30 to 60 months, with a minimum required duration of 12
+   months. The multicenter trial (NCT07067463) will assess the efficacy and
+   safety of the pipeline asset in this non-relapsing population.
+
+   WHY IT MATTERS: The initiation of a Phase 3 trial for orelabrutinib in PPMS
+   expands late-stage competition in the BTK inhibitor class against
+   incumbents like Roche, Sanofi, Novartis, and Merck KGaA targeting
+   progressive MS indications.
+   https://clinicaltrials.gov/study/NCT07067463
+
+2. A Study of Orelabrutinib in Patients With Secondary Progressive Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 10 Sep 2026 | Phase 3 | Recruiting |
+   Zenas BioPharma (USA), LLC | NCT07299019
+
+   Zenas BioPharma has initiated a global Phase 3, randomized, double-blind
+   study (NCT07299019) evaluating its CNS-penetrable BTK inhibitor,
+   orelabrutinib, in patients with non-active secondary progressive multiple
+   sclerosis. The trial plans to recruit approximately 990 subjects globally,
+   randomizing them 2:1 against placebo for a treatment period ranging between
+   24 and 60 months.
+
+   WHY IT MATTERS: The initiation of Phase 3 testing for orelabrutinib
+   introduces a new competitive BTK inhibitor into clinical development
+   targeting non-active SPMS, challenging established MS players advancing
+   therapies in progressive disease populations.
+   https://clinicaltrials.gov/study/NCT07299019
+
+3. Study to Evaluate the Effectiveness and Safety of Ozanimod Compared to
+Fingolimod in Children and Adolescents With Relapsing Remitting Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 10 Sep 2026 | Phase 3 | Recruiting |
+   Bristol-Myers Squibb | NCT06408259
+
+   Bristol-Myers Squibb is recruiting for a Phase 3 study evaluating the
+   effectiveness, safety, tolerability, drug levels, and drug effects of
+   ozanimod compared to fingolimod. The trial focuses on pediatric patients,
+   specifically children and adolescents diagnosed with relapsing remitting
+   multiple sclerosis (RRMS).
+
+   WHY IT MATTERS: Bristol-Myers Squibb's Phase 3 head-to-head trial aims to
+   position ozanimod as a pediatric RRMS option directly competing against
+   Novartis's established fingolimod in this younger patient demographic.
+   https://clinicaltrials.gov/study/NCT06408259
+
+4. A Pharmacokinetics (PK), Pharmacodynamics (PD), Safety and Tolerability
+Study of Fenebrutinib in Children and Adolescents With Relapsing Multiple
+Sclerosis (RMS)
+   Impact 3/5 | ClinicalTrials.gov | 10 Sep 2026 | Phase 2 | Recruiting |
+   Hoffmann-La Roche | NCT07161258
+
+   Hoffmann-La Roche has initiated recruitment for an open-label, single-arm
+   Phase 2 trial (NCT07161258) evaluating fenebrutinib in pediatric patients
+   with relapsing multiple sclerosis aged 10 to under 18 years. The study
+   assesses the pharmacokinetics, pharmacodynamics, safety, and tolerability
+   of the asset across a Dose Exploration Period followed by an Optional
+   Extension Period.
+
+   WHY IT MATTERS: Roche's extension of its BTK inhibitor fenebrutinib into
+   pediatric RMS positions the asset to potentially compete in younger patient
+   demographics currently targeted by established disease-modifying therapies.
+   https://clinicaltrials.gov/study/NCT07161258
+
+5. ChariotMS - Cladribine to Halt Deterioration in People With Advanced
+Multiple Sclerosis
+   Impact 3/5 | ClinicalTrials.gov | 08 Sep 2026 | Phase 2, Phase 3 | Active
+   Not Recruiting | Queen Mary University of London | NCT04695080
+
+   Queen Mary University of London is running ChariotMS, an active, non-
+   recruiting Phase 2b multi-centre, randomised, double-blind, placebo-
+   controlled trial evaluating cladribine tablets (MAVENCLAD) in advanced
+   multiple sclerosis (pwAMS). The trial evaluates a 3.5mg/kg dose over 24
+   months to test safety, efficacy, cost-effectiveness, and mechanism of
+   action in patients with an EDSS of 6.5 to 8.5. Cladribine is not currently
+   used in this advanced population, which relies on wheelchair assistance or
+   experiences severe disability.
+
+   WHY IT MATTERS: Demonstrating clinical benefit and cost-effectiveness of
+   oral cladribine in patients with EDSS 6.5-8.5 could expand Merck KGaA's
+   addressable market into advanced MS populations currently lacking approved
+   disease-modifying therapies.
+   https://clinicaltrials.gov/study/NCT04695080
+
+------------------------------------------------------------------------------
+COMMERCIAL/CORPORATE  (nothing featured)
+------------------------------------------------------------------------------
+No qualifying deal, earnings or pricing coverage in this window. Source
+checked: curated industry news.
+
+------------------------------------------------------------------------------
+ALSO TRACKED THIS WEEK  (19 items)
+------------------------------------------------------------------------------
+Screened and scored below the impact threshold. Listed for completeness.
+
+- Effect of High Intensity Training on Motor and Cognitive Functions
+  ClinicalTrials.gov | Fondazione Don Carlo Gnocchi ETS
+  https://clinicaltrials.gov/study/NCT06219304
+
+- VIGIP-SEP2: Training of Patients by Nurses on ADR Reporting by RRMS Patient
+Via an App
+  ClinicalTrials.gov | University Hospital, Caen
+  https://clinicaltrials.gov/study/NCT04116424
+
+- Cannabis (THC vs. CBD) in Multiple Sclerosis
+  ClinicalTrials.gov | University of Calgary
+  https://clinicaltrials.gov/study/NCT06261489
+
+- Exploring the Utility of [18F]3F4AP for Demyelination Imaging
+  ClinicalTrials.gov | Yale University
+  https://clinicaltrials.gov/study/NCT06999434
+
+- A Study to Evaluate the Efficacy, Safety and Tolerability of BMS-986368 in
+Participants With Multiple Sclerosis Spasticity
+  ClinicalTrials.gov | Celgene
+  https://clinicaltrials.gov/study/NCT06782490
+
+- A Safety and Efficacy Study Evaluating CTX112 in Subjects With Refractory
+Neurologic Autoimmune Disease
+  ClinicalTrials.gov | CRISPR Therapeutics
+  https://clinicaltrials.gov/study/NCT07804004
+
+- Multiple Sclerosis Drug Patch Moves Closer to Clinical Trials
+  Technology Networks
+  https://www.technologynetworks.com/drug-discovery/news/multiple-sclerosis-drug-patch-moves-closer-to-clinical-trials-416318
+
+- A Study of Ocrelizumab Administered Subcutaneously in Participants With
+Multiple Sclerosis Who Switch From an Approved Anti-CD20 Therapy
+  ClinicalTrials.gov | Genentech, Inc.
+  https://clinicaltrials.gov/study/NCT07609719
+
+- Magnetic Resonance Imaging (MRI) to Evaluate Activity of Multiple Sclerosis
+(MS)
+  ClinicalTrials.gov | National Institute of Neurological Disorders and Stroke
+  (NINDS)
+  https://clinicaltrials.gov/study/NCT00001248
+
+- SIZOMUS Safety of Ixazomib Targeting Plasma Cells in Multiple Sclerosis
+  ClinicalTrials.gov | Queen Mary University of London
+  https://clinicaltrials.gov/study/NCT03783416
+
+- Early Detection of Selected Neuropathologies in Motor Vehicle Drivers
+  ClinicalTrials.gov | University Hospital Olomouc
+  https://clinicaltrials.gov/study/NCT07360886
+
+- Clinical Investigation to Validate the Safety and Performance of Integrating
+Functional Electrical Stimulation Into the ABLE Exoskeleton
+  ClinicalTrials.gov | ABLE Human Motion S.L.
+  https://clinicaltrials.gov/study/NCT07550699
+
+- Aerobic Fitness in Multiple Sclerosis: The Relationship Between Balance and
+Sensory Dual-Tasking
+  ClinicalTrials.gov | Suleyman Demirel University
+  https://clinicaltrials.gov/study/NCT07815990
+
+- The Mediating Role of Balance in the Relationship Between Fatigue and Fear
+of Falling in Individuals With Multiple Sclerosis
+  ClinicalTrials.gov | Uskudar University
+  https://clinicaltrials.gov/study/NCT07680049
+
+- Digital App for Speech & Health Monitoring
+  ClinicalTrials.gov | University of Edinburgh
+  https://clinicaltrials.gov/study/NCT06450418
+
+- Emerging Indications for Hyperbaric Oxygen Treatment
+  ClinicalTrials.gov | Jay C. Buckey Jr.
+  https://clinicaltrials.gov/study/NCT07240649
+
+- Human Amniotic Mesenchymal Cell Secretome for Neurodegeneration and
+Neuroinflammation
+  ClinicalTrials.gov | Fondazione Policlinico Universitario Agostino Gemelli
+  IRCCS
+  https://clinicaltrials.gov/study/NCT06551649
+
+- Clinical Pilates for Balance and Function in Multiple Sclerosis
+  ClinicalTrials.gov | University of Patras
+  https://clinicaltrials.gov/study/NCT07800039
+
+- Driving Performance in Parkinson's Disease and Multiple Sclerosis Using a
+Driving Simulator
+  ClinicalTrials.gov | University Hospital Olomouc
+  https://clinicaltrials.gov/study/NCT07809828
+
+==============================================================================
+Generated automatically from ClinicalTrials.gov API v2, three U.S. FDA RSS
+feeds (press releases, drugs, MedWatch), and curated news. Summaries,
+categories and impact scores generated by Google Gemini (gemini-3.6-flash).
+Compiled 2026-09-14 08:02 UTC.
+This briefing summarises public information for competitive intelligence
+purposes and is not medical, investment or regulatory advice.
+==============================================================================
