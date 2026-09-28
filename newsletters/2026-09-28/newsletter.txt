@@ -1,0 +1,319 @@
+==============================================================================
+MS MARKET PULSE
+Weekly competitive intelligence for the Multiple Sclerosis market
+==============================================================================
+Issue 10  |  21 Sep - 28 Sep 2026
+40 items screened  |  6 featured
+
+------------------------------------------------------------------------------
+EDITOR'S TAKE
+------------------------------------------------------------------------------
+Late-stage pipeline expansion into progressive multiple sclerosis takes center
+stage as Zenas BioPharma initiates Phase 3 recruitment for its CNS-penetrable
+BTK inhibitor, orelabrutinib, across both non-active SPMS and PPMS cohorts.
+This double-pronged push underscores an industry-wide prioritization of BTK
+inhibition to address neurodegeneration, a theme further echoed by Roche's
+fenebrutinib trial advancing to active, non-recruiting status in relapsing MS.
+Concurrently, the anti-CD20 standard of care faces impending margin pressure
+as Amgen progresses its Phase 3 trial for ABP 692, a proposed biosimilar to
+Roche's market-leading Ocrevus. With foundational paradigm shifts being
+evaluated alongside Johns Hopkins' newly completed TREAT-MS trial on early
+aggressive therapy, the market's focus now shifts to whether novel mechanisms
+like orelabrutinib can successfully unlock efficacy in progressive disease
+states where traditional anti-inflammatory agents fall short.
+
+------------------------------------------------------------------------------
+REGULATORY  (nothing featured)
+------------------------------------------------------------------------------
+1 item screened in this category, none clearing the impact threshold. Listed
+under Also tracked below.
+
+------------------------------------------------------------------------------
+CLINICAL  (6 items)
+------------------------------------------------------------------------------
+
+1. A Study of Orelabrutinib in Patients With Secondary Progressive Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 23 Sep 2026 | Phase 3 | Recruiting |
+   Zenas BioPharma (USA), LLC | NCT07299019
+
+   Zenas BioPharma is recruiting for a global Phase 3, randomized, double-
+   blind study (NCT07299019) evaluating orelabrutinib against placebo in
+   approximately 990 patients with non-active secondary progressive multiple
+   sclerosis. Orelabrutinib is a CNS-penetrable Bruton's tyrosine kinase (BTK)
+   inhibitor, and patients will be randomized 2:1 to receive treatment for 24
+   to 60 months with a minimum duration of 12 months.
+
+   WHY IT MATTERS: Zenas BioPharma's initiation of a pivotal Phase 3 trial for
+   orelabrutinib advances a novel CNS-penetrant BTK inhibitor into non-active
+   SPMS, directly challenging competitors developing late-stage BTK inhibitors
+   for progressive MS populations.
+   https://clinicaltrials.gov/study/NCT07299019
+
+2. Comparison Between ABP 692 and Ocrevus® (Ocrelizumab)
+   Impact 4/5 | ClinicalTrials.gov | 22 Sep 2026 | Phase 3 | Active Not
+   Recruiting | Amgen | NCT06700343
+
+   Amgen has advanced its Phase 3 trial (NCT06700343) evaluating its proposed
+   biosimilar, ABP 692, into the Active, Not Recruiting stage. The study's
+   primary objectives are to demonstrate pharmacokinetic similarity between
+   ABP 692 and both US- and EU-sourced Ocrevus (ocrelizumab).
+
+   WHY IT MATTERS: Progress in this Phase 3 trial directly threatens Roche's
+   Ocrevus franchise by accelerating biosimilar competition for high-efficacy
+   anti-CD20 therapy in multiple sclerosis.
+   https://clinicaltrials.gov/study/NCT06700343
+
+3. A Study of Orelabrutinib in Patients With Primary Progressive Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 22 Sep 2026 | Phase 3 | Recruiting |
+   Zenas BioPharma (USA), LLC | NCT07067463
+
+   Zenas BioPharma is recruiting approximately 705 subjects for a global Phase
+   3, randomized, double-blind study evaluating its CNS-penetrable BTK
+   inhibitor, orelabrutinib, against placebo in Primary Progressive Multiple
+   Sclerosis (PPMS). Patients will undergo 2:1 randomized treatment for 30 to
+   60 months with a 12-month minimum duration (NCT07067463).
+
+   WHY IT MATTERS: The progression of orelabrutinib into Phase 3 PPMS
+   development directly impacts Roche, which holds the only currently approved
+   disease-modifying therapy for PPMS with Ocrevus, as well as rival BTKi
+   developers in late-stage non-relapsing MS trials.
+   https://clinicaltrials.gov/study/NCT07067463
+
+4. Study to Evaluate the Safety and Efficacy of PIPE-307 in Subjects With
+Relapsing-Remitting Multiple Sclerosis
+   Impact 3/5 | ClinicalTrials.gov | 25 Sep 2026 | Phase 2 | Completed |
+   Janssen Research & Development, LLC | NCT06083753
+
+   Janssen Research & Development completed its Phase 2 randomized, double-
+   blind study (NCT06083753) evaluating the safety and efficacy of PIPE-307 in
+   subjects with relapsing-remitting multiple sclerosis. The trial evaluated
+   two dose levels of PIPE-307 against placebo across three cohorts over a
+   30-week duration.
+
+   WHY IT MATTERS: Completion of this Phase 2 trial advances Janssen's
+   PIPE-307, positioning it as an emerging pipeline asset within the
+   competitive relapsing-remitting multiple sclerosis disease-modifying
+   therapy landscape.
+   https://clinicaltrials.gov/study/NCT06083753
+
+5. A Study to Investigate the Efficacy of Fenebrutinib in Relapsing Multiple
+Sclerosis (RMS)
+   Impact 3/5 | ClinicalTrials.gov | 25 Sep 2026 | Phase 2 | Active Not
+   Recruiting | Hoffmann-La Roche | NCT05119569
+
+   Hoffmann-La Roche's Phase 2 trial (NCT05119569) evaluating fenebrutinib in
+   participants with relapsing multiple sclerosis (RMS) is currently active,
+   not recruiting. The placebo-controlled study assesses the effect of the BTK
+   inhibitor on brain MRI parameters, safety, and pharmacokinetics across a
+   double-blind treatment phase and an optional open-label extension. The
+   primary target completion date for the trial is September 25, 2026.
+
+   WHY IT MATTERS: Completion of this Phase 2 study will provide critical MRI
+   efficacy and safety data for Roche's non-covalent BTK inhibitor
+   fenebrutinib, informing its competitive positioning against rival BTK
+   inhibitors from Sanofi and Merck KGaA in relapsing MS.
+   https://clinicaltrials.gov/study/NCT05119569
+
+6. Traditional Versus Early Aggressive Therapy for Multiple Sclerosis Trial
+   Impact 3/5 | ClinicalTrials.gov | 23 Sep 2026 | N/A | Completed | Johns
+   Hopkins University | NCT03500328
+
+   Johns Hopkins University has completed the pragmatic, randomized controlled
+   TREAT-MS trial (NCT03500328). The study evaluated whether an early
+   aggressive treatment strategy versus a traditional first-line therapy
+   approach reduces intermediate-term disability risk in higher- and lower-
+   risk relapsing MS patients. Additionally, it assessed outcomes in lower-
+   risk patients with breakthrough disease who switched to high-efficacy
+   versus alternative first-line therapies.
+
+   WHY IT MATTERS: Data comparing early aggressive intervention against
+   escalation models could shift physician prescribing paradigms toward high-
+   efficacy DMTs earlier in the relapsing MS treatment sequence.
+   https://clinicaltrials.gov/study/NCT03500328
+
+------------------------------------------------------------------------------
+COMMERCIAL/CORPORATE  (nothing featured)
+------------------------------------------------------------------------------
+3 items screened in this category, none clearing the impact threshold. Listed
+under Also tracked below.
+
+------------------------------------------------------------------------------
+ALSO TRACKED THIS WEEK  (34 items)
+------------------------------------------------------------------------------
+Screened and scored below the impact threshold. Listed for completeness.
+
+- Quantum BioPharma Advances Lucid-MS Toward Phase 2 Trial Following FDA IND
+Clearance
+  Pulse 2.0
+  https://pulse2.com/quantum-biopharma-advances-lucid-ms-toward-phase-2-trial-following-fda-ind-clearance/
+
+- Experimental MS drug reverses vision loss, paralysis in mice, study finds
+  WSVN
+  https://wsvn.com/news/us-world/uva-researchers-find-ms-breakthrough/
+
+- This is an Extension Study of the Roche P-trials to Investigate Safety and
+Effectiveness of Ocrelizumab in Participants With Multiple Sclerosis (MS)
+  ClinicalTrials.gov | Hoffmann-La Roche
+  https://clinicaltrials.gov/study/NCT03599245
+
+- Understanding the Impact of Meal Timing on Neurological Health in Adults
+With Multiple Sclerosis
+  ClinicalTrials.gov | University of Alabama at Birmingham
+  https://clinicaltrials.gov/study/NCT07475377
+
+- Clinical Investigation of the Quality of Life Benefit of Using a Home
+Walking Exoskeleton for a Population of Multiple Sclerosis Patients.
+  ClinicalTrials.gov | Pôle Saint Hélier
+  https://clinicaltrials.gov/study/NCT05835622
+
+- A Phase 2a Study of SUN-627 in Participants With Non-Active Secondary
+Progressive and Primary Progressive Multiple Sclerosis (SPMS/PPMS)
+  ClinicalTrials.gov | Sundance Biosciences, Inc.
+  https://clinicaltrials.gov/study/NCT07840326
+
+- The CanISleepinMS Study: Effect of Cannabidiol (CBD) on Sleep Quality in
+Patients With Multiple Sclerosis
+  ClinicalTrials.gov | Wageningen University
+  https://clinicaltrials.gov/study/NCT07840924
+
+- Expanded Access to Intrathecal Administration of Autologous Mesenchymal Stem
+Cell-derived Neural Progenitors (MSC-NP) in Progressive Multiple Sclerosis
+  ClinicalTrials.gov | Tisch Multiple Sclerosis Research Center of New York
+  https://clinicaltrials.gov/study/NCT03822858
+
+- Fighting Fatigue in Multiple Sclerosis: TMS vs. tDCS Efficacy.
+  ClinicalTrials.gov | Universitat Oberta de Catalunya
+  https://clinicaltrials.gov/study/NCT07842302
+
+- Switching to Subcutaneous Ocrelizumab for MS Could Free 883 Chair Hours in a
+Year
+  AJMC
+  https://www.ajmc.com/view/switching-to-subcutaneous-ocrelizumab-for-ms-could-free-883-chair-hours-in-a-year
+
+- UVA drug reverses paralysis, vision loss in MS mouse model
+  WVIR
+  https://www.29news.com/video/2026/09/24/uva-drug-reverses-paralysis-vision-loss-ms-mouse-model/
+
+- Experimental UVA Drug Reversed Paralysis and Vision Loss in Mice with MS-
+Like Disease, but Human Trials Still Needed
+  Medical Daily
+  https://www.medicaldaily.com/uva-k9-drug-multiple-sclerosis-mice-paralysis-vision-479063
+
+- A Study to Evaluate the Safety, Tolerability, and Efficacy of BIIB017
+(Peginterferon Beta-1a) in Pediatric Participants for the Treatment of
+Relapsing-Remitting Multiple Sclerosis
+  ClinicalTrials.gov | Biogen
+  https://clinicaltrials.gov/study/NCT03958877
+
+- A Study Evaluating the Presence and Concentration of BRIUMVI™ (Ublituximab)
+in Breast Milk
+  ClinicalTrials.gov | TG Therapeutics, Inc.
+  https://clinicaltrials.gov/study/NCT06143514
+
+- Modified HIV drug reverses vision loss and paralysis in multiple sclerosis
+model
+  National Institutes of Health (NIH) | (.gov)
+  https://www.nih.gov/news-events/news-releases/modified-hiv-drug-reverses-vision-loss-paralysis-multiple-sclerosis-model
+
+- Experimental drug reverses paralysis and vision loss in multiple sclerosis
+model
+  Medical Xpress
+  https://medicalxpress.com/news/2026-09-experimental-drug-reverses-paralysis-vision.html
+
+- Aerobic Exercise for Remyelination in Multiple Sclerosis
+  ClinicalTrials.gov | Oregon Health and Science University
+  https://clinicaltrials.gov/study/NCT04539002
+
+- An Extension Study of Ublituximab in Participants With Relapsing Multiple
+Sclerosis
+  ClinicalTrials.gov | TG Therapeutics, Inc.
+  https://clinicaltrials.gov/study/NCT04130997
+
+- TWEAK, a New Biomarker for Predicting Inflammatory Relapses in Multiple
+Sclerosis
+  ClinicalTrials.gov | Assistance Publique Hopitaux De Marseille
+  https://clinicaltrials.gov/study/NCT03974997
+
+- A Study Evaluating the Real World Experience of Participants Treated With
+BRIUMVI® (Ublituximab-xiiy) for Relapsing Multiple Sclerosis (RMS)
+  ClinicalTrials.gov | TG Therapeutics, Inc.
+  https://clinicaltrials.gov/study/NCT06433752
+
+- The Effects of High-Intensity Interval Training on Gait, Balance, and
+Cognitive Functions in Individuals With Multiple Sclerosis
+  ClinicalTrials.gov | Hacettepe University
+  https://clinicaltrials.gov/study/NCT07578740
+
+- A Study of LY3541860 in Adult Participants With Relapsing Multiple Sclerosis
+  ClinicalTrials.gov | Eli Lilly and Company
+  https://clinicaltrials.gov/study/NCT06220669
+
+- Propionic Acid for Multiple Sclerosis: Safety and Benefits
+  ClinicalTrials.gov | Salzburger Landeskliniken
+  https://clinicaltrials.gov/study/NCT07595081
+
+- Clinnova-MS: A Prospective Cohort Study of Patients With Multiple Sclerosis:
+A Trans-regional Digital Health Effort Unlocking the Potential of Artificial
+Intelligence and Data Science in Health Care
+  ClinicalTrials.gov | Luxembourg Institute of Health
+  https://clinicaltrials.gov/study/NCT07280871
+
+- Fatigue Alleviation Through Neuromodulating Therapy in Multiple Sclerosis
+  ClinicalTrials.gov | Danish Research Centre for Magnetic Resonance
+  https://clinicaltrials.gov/study/NCT06569550
+
+- Multiple Sclerosis Severity and Caregiver Health Outcomes
+  ClinicalTrials.gov | Süleyman Korkusuz
+  https://clinicaltrials.gov/study/NCT07842744
+
+- AIM's Writing for Healing: A Workshop for Individuals Living With Paralysis
+  ClinicalTrials.gov | University of Alabama at Birmingham
+  https://clinicaltrials.gov/study/NCT04721717
+
+- Investigation of the Prevalence of Sarcopenia and Dynapenia According to
+Disease Stage in Patients With Multiple Sclerosis and Evaluation of the
+Relationship Between Sarcopenia Severity and Clinical and Functional
+Parameters
+  ClinicalTrials.gov | Atılım University
+  https://clinicaltrials.gov/study/NCT07842731
+
+- Global Multiple Sclerosis Treatment Market to Grow at 5.8% CAGR, Reaching
+USD 44.45 Billion by 2034 as Advanced Therapies and Disease-Modifying
+Treatments Gain Momentum, Says Maximize Market Research
+  Yahoo Finance
+  https://finance.yahoo.com/healthcare/articles/global-multiple-sclerosis-treatment-market-213000160.html
+
+- Experimental Drug Could Reverse Multiple Sclerosis Damage
+  Inside Precision Medicine
+  https://www.insideprecisionmedicine.com/topics/translational-research/experimental-drug-could-reverse-multiple-sclerosis-damage/
+
+- A Study to Evaluate White Matter Hyperintensities in Migraine
+  ClinicalTrials.gov | Mayo Clinic
+  https://clinicaltrials.gov/study/NCT05112289
+
+- Quantum BioPharma (QNTM) Pursues a New Path for Better Multiple Sclerosis
+Treatments
+  NewMediaWire
+  https://www.newmediawire.com/news/quantum-biopharma-qntm-pursues-a-new-path-for-better-multiple-sclerosis-treatments-7089968
+
+- Testing an Immunotherapy Anti-cancer Drug, Nivolumab, for Advanced Cancers
+in Patients With Autoimmune Disorders, AIM-NIVO
+  ClinicalTrials.gov | National Cancer Institute (NCI)
+  https://clinicaltrials.gov/study/NCT03816345
+
+- Comprehensive Multimodal Analysis of Neuroimmunological Diseases of the
+Central Nervous System
+  ClinicalTrials.gov | National Institute of Allergy and Infectious Diseases
+  (NIAID)
+  https://clinicaltrials.gov/study/NCT00794352
+
+==============================================================================
+Generated automatically from ClinicalTrials.gov API v2, three U.S. FDA RSS
+feeds (press releases, drugs, MedWatch), and curated news. Summaries,
+categories and impact scores generated by Google Gemini (gemini-3.6-flash).
+Compiled 2026-09-28 08:52 UTC.
+This briefing summarises public information for competitive intelligence
+purposes and is not medical, investment or regulatory advice.
+==============================================================================
