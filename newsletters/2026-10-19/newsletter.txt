@@ -1,0 +1,239 @@
+==============================================================================
+MS MARKET PULSE
+Weekly competitive intelligence for the Multiple Sclerosis market
+==============================================================================
+Issue 13  |  12 Oct - 19 Oct 2026
+26 items screened  |  4 featured
+
+------------------------------------------------------------------------------
+EDITOR'S TAKE
+------------------------------------------------------------------------------
+Phase 3 clinical trial initiations for Bruton's tyrosine kinase (BTK)
+inhibitors in progressive multiple sclerosis took center stage this week,
+signaling an aggressive push into populations with high unmet need. Zenas
+BioPharma launched a global Phase 3 study evaluating orelabrutinib in primary
+progressive MS, while Novartis initiated Phase 3 recruiting for remibrutinib
+in secondary progressive MS. Alongside these BTK inhibitor advances, Sanofi
+initiated a Phase 3 study evaluating a subcutaneous formulation of frexalimab,
+reinforcing a broader market movement toward optimizing delivery methods and
+novel oral or targeted mechanisms. Roche also maintained its lifecycle defense
+of ocrelizumab with a Phase 2 bioequivalence study testing a new subcutaneous
+formulation across RMS and PPMS cohorts. Moving forward, industry observers
+should monitor recruitment momentum in these progressive MS studies to gauge
+how rapidly next-generation oral and subcutaneous candidates can challenge
+established parenteral standards.
+
+------------------------------------------------------------------------------
+REGULATORY  (nothing featured)
+------------------------------------------------------------------------------
+No FDA actions affecting the MS market in this window. Sources checked: FDA
+press releases, drugs and MedWatch feeds.
+
+------------------------------------------------------------------------------
+CLINICAL  (4 items)
+------------------------------------------------------------------------------
+
+1. Non-inferiority Study of Frexalimab Subcutaneous Administration Compared to
+Intravenous Administration in Adult Participants With Multiple Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 13 Oct 2026 | Phase 3 | Recruiting |
+   Sanofi | NCT07325292
+
+   Sanofi is recruiting for a randomized, open-label, 2-arm Phase 3 trial
+   (NCT07325292) comparing subcutaneous (SC) to intravenous (IV)
+   administration of frexalimab administered every 4 weeks in adult
+   participants aged 18 to 60 with RMS and nrSPMS. The trial features a
+   48-week study intervention duration across Parts A and B, followed by an
+   optional Part C and a 6-month safety follow-up period for patients who
+   discontinue treatment.
+
+   WHY IT MATTERS: Sanofi's trial evaluates an every-4-week subcutaneous
+   administration option for frexalimab, which could provide a more convenient
+   dosing route relative to IV administration for RMS and nrSPMS patients.
+   https://clinicaltrials.gov/study/NCT07325292
+
+2. A Study of Orelabrutinib in Patients With Primary Progressive Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 13 Oct 2026 | Phase 3 | Recruiting |
+   Zenas BioPharma (USA), LLC | NCT07067463
+
+   Zenas BioPharma has initiated a global Phase 3, randomized, double-blind
+   study evaluating its CNS-penetrable BTK inhibitor, orelabrutinib, versus
+   placebo in approximately 705 patients with primary progressive multiple
+   sclerosis (PPMS). Patients will undergo 2:1 randomization (orelabrutinib to
+   placebo) with treatment lasting between 30 and 60 months and a 12-month
+   minimum duration.
+
+   WHY IT MATTERS: The initiation of a Phase 3 trial in PPMS positions
+   orelabrutinib as a direct future competitor to Roche's Ocrevus and other
+   late-stage BTK inhibitors targeting progressive MS populations.
+   https://clinicaltrials.gov/study/NCT07067463
+
+3. A Study to Evaluate the Efficacy and Safety of Remibrutinib in Secondary
+Progressive Multiple Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 13 Oct 2026 | Phase 3 | Recruiting |
+   Novartis Pharmaceuticals | NCT07225504
+
+   Novartis has initiated recruitment for a Phase 3 trial (NCT07225504)
+   evaluating its BTK inhibitor, remibrutinib, in patients with secondary
+   progressive multiple sclerosis (SPMS). The study is designed to generate
+   efficacy and safety data for the asset in this progressive MS population.
+
+   WHY IT MATTERS: The progression of remibrutinib into Phase 3 for SPMS
+   advances Novartis's BTK inhibitor strategy into non-relapsing progressive
+   disease, directly competing with late-stage oral pipeline assets from
+   Sanofi and Roche.
+   https://clinicaltrials.gov/study/NCT07225504
+
+4. A Study to Assess Bioequivalence of Two Subcutaneous (SC) Formulations of
+Ocrelizumab in Participants With Multiple Sclerosis (MS)
+   Impact 3/5 | ClinicalTrials.gov | 15 Oct 2026 | Phase 2 | Active Not
+   Recruiting | Hoffmann-La Roche | NCT07074886
+
+   Hoffmann-La Roche is conducting a Phase 2 trial (NCT07074886) evaluating
+   the bioequivalence of a new subcutaneous (SC) test formulation of
+   ocrelizumab compared to the marketed ocrelizumab SC reference formulation.
+   The study is active but not recruiting and encompasses participants with
+   relapsing multiple sclerosis (RMS) or primary progressive multiple
+   sclerosis (PPMS). It features a controlled phase with a single dose of
+   either the test or reference formulation, followed by a continuation phase
+   where all participants receive the test formulation.
+
+   WHY IT MATTERS: A successful bioequivalence readout allows Roche to
+   optimize or update its subcutaneous ocrelizumab formulation, defending its
+   high-efficacy franchise against competing anti-CD20 agents and subcutaneous
+   therapies in RMS and PPMS.
+   https://clinicaltrials.gov/study/NCT07074886
+
+------------------------------------------------------------------------------
+COMMERCIAL/CORPORATE  (nothing featured)
+------------------------------------------------------------------------------
+1 item screened in this category, none clearing the impact threshold. Listed
+under Also tracked below.
+
+------------------------------------------------------------------------------
+ALSO TRACKED THIS WEEK  (22 items)
+------------------------------------------------------------------------------
+Screened and scored below the impact threshold. Listed for completeness.
+
+- Obe-cel in Refractory Progressive Forms of Multiple Sclerosis
+  ClinicalTrials.gov | Autolus Limited
+  https://clinicaltrials.gov/study/NCT07139743
+
+- Sacral Neuromodulation for Neurogenic Lower Urinary Tract, Bowel and Sexual
+Dysfunction
+  ClinicalTrials.gov | Odense University Hospital
+  https://clinicaltrials.gov/study/NCT05380856
+
+- Autologous Hematopoietic Stem Cell Transplantation for Refractory Multiple
+Sclerosis
+  ClinicalTrials.gov | Tianjin Medical University General Hospital
+  https://clinicaltrials.gov/study/NCT06228781
+
+- Early Versus Delayed Start of Ocrevus Zunovo for Relapsing Multiple
+Sclerosis
+  ClinicalTrials.gov | Oklahoma Medical Research Foundation
+  https://clinicaltrials.gov/study/NCT07878923
+
+- Relating Genetic and Environmental Risk Scores to Multiple Sclerosis
+Susceptibility
+  ClinicalTrials.gov | National Institute of Neurological Disorders and Stroke
+  (NINDS)
+  https://clinicaltrials.gov/study/NCT01617395
+
+- Central Vein Sign: a Diagnostic Biomarker in Multiple Sclerosis
+  ClinicalTrials.gov | The Cleveland Clinic
+  https://clinicaltrials.gov/study/NCT04495556
+
+- Role of Microglial Activation and Norepinephrine Transporter Abnormalities
+in Pathogenesis of MS-related Fatigue
+  ClinicalTrials.gov | Brigham and Women's Hospital
+  https://clinicaltrials.gov/study/NCT04144257
+
+- Autologous CD19/BCMA Dual-Target CAR-T for Relapsed/Refractory Autoimmune
+Diseases
+  ClinicalTrials.gov | Beijing Boren Hospital
+  https://clinicaltrials.gov/study/NCT07361094
+
+- A Study to Learn More About The Safety of Diroximel Fumarate (VUMERITY®) in
+Participants Who Took it During Pregnancy And About the Health of Their Babies
+  ClinicalTrials.gov | Biogen
+  https://clinicaltrials.gov/study/NCT05688436
+
+- Evaluation of the NEUROSWING Orthosis on Walking Speed in a Population With
+Dorsal and/or Plantar Flexor Deficits, With a View to a Reimbursement
+Application
+  ClinicalTrials.gov | ÖSSUR France
+  https://clinicaltrials.gov/study/NCT07108088
+
+- A Study to Evaluate Pharmacokinetics, Safety, Tolerability, Immunogenicity
+and Pharmacodynamic Effects of Subcutaneous Ocrelizumab Administration in
+Children and Adolescents With Relapsing-remitting Multiple Sclerosis (RRMS)
+  ClinicalTrials.gov | Hoffmann-La Roche
+  https://clinicaltrials.gov/study/NCT07503340
+
+- A Study to Investigate Effects of Ocrelizumab Treatment on Neurofilament
+Light Chain (NfL) Levels and Participant Satisfaction in Participants With
+Multiple Sclerosis (MS)
+  ClinicalTrials.gov | Hoffmann-La Roche
+  https://clinicaltrials.gov/study/NCT06780150
+
+- C-CAR168, an Autologous Anti-CD20/BCMA Chimeric Antigen Receptor T-Cell
+Therapy, in Participants With Progressive Multiple Sclerosis Refractory to
+Standard Therapy
+  ClinicalTrials.gov | AbelZeta Inc.
+  https://clinicaltrials.gov/study/NCT07825389
+
+- In Vivo Characterization of Inflammation With Ferumoxytol, an Ultrasmall
+Superparamagnetic Iron Oxide Nanoparticle, on 7 Tesla Magnetic Resonance
+Imaging
+  ClinicalTrials.gov | National Institute of Neurological Disorders and Stroke
+  (NINDS)
+  https://clinicaltrials.gov/study/NCT02511028
+
+- Comparing Telehealth-Delivered CBT-I to Web-Based CBT-I to Enhance Sleep,
+Reduce Fatigue, and Promote Neuroprotection
+  ClinicalTrials.gov | University of Kansas Medical Center
+  https://clinicaltrials.gov/study/NCT06434571
+
+- A Study to Evaluate the Safety, Tolerability, Cellular Kinetics, and
+Pharmacodynamics of P-CD19CD20-ALLO1 in Participants With Multiple Sclerosis
+  ClinicalTrials.gov | Genentech, Inc.
+  https://clinicaltrials.gov/study/NCT07008378
+
+- A Pharmacokinetics (PK), Pharmacodynamics (PD), Safety and Tolerability
+Study of Fenebrutinib in Children and Adolescents With Relapsing Multiple
+Sclerosis (RMS)
+  ClinicalTrials.gov | Hoffmann-La Roche
+  https://clinicaltrials.gov/study/NCT07161258
+
+- Dual-Task Balance Training in People With Multiple Sclerosis: a Randomized
+Feasibility Study
+  ClinicalTrials.gov | Universita di Verona
+  https://clinicaltrials.gov/study/NCT07878702
+
+- Mental Rotation and Motor Imagery Training in Multiple Sclerosis
+  ClinicalTrials.gov | Abant Izzet Baysal University
+  https://clinicaltrials.gov/study/NCT07749690
+
+- Evaluation of a Self-management Programme to Prevent Falls in People With
+Multiple Sclerosis
+  ClinicalTrials.gov | Karolinska Institutet
+  https://clinicaltrials.gov/study/NCT05789225
+
+- An Online Tailored Cognitive Therapy-Based Intervention for Depression in
+Multiple Sclerosis: ACTION-MS Online
+  ClinicalTrials.gov | University of Melbourne
+  https://clinicaltrials.gov/study/NCT07875309
+
+- The Road Ahead for Precision Medicine in Multiple Sclerosis
+  NeurologyLive
+  https://www.neurologylive.com/view/the-road-ahead-for-precision-medicine-multiple-sclerosis
+
+==============================================================================
+Generated automatically from ClinicalTrials.gov API v2, three U.S. FDA RSS
+feeds (press releases, drugs, MedWatch), and curated news. Summaries,
+categories and impact scores generated by Google Gemini (gemini-3.6-flash).
+Compiled 2026-10-19 08:00 UTC.
+This briefing summarises public information for competitive intelligence
+purposes and is not medical, investment or regulatory advice.
+==============================================================================
