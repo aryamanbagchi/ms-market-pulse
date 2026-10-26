@@ -1,6 +1,21 @@
 {
   "issues": [
     {
+      "number": 14,
+      "date": "2026-10-26",
+      "path": "newsletters/2026-10-26/index.html",
+      "text_path": "newsletters/2026-10-26/newsletter.txt",
+      "item_count": 11,
+      "screened_count": 30,
+      "categories": {
+        "Regulatory": 1,
+        "Clinical": 10
+      },
+      "top_headline": "Novartis Multiple Sclerosis Pill Missed Expectations in Key Study",
+      "ai_enabled": true,
+      "generated_at": "2026-10-26T08:00:30Z"
+    },
+    {
       "number": 13,
       "date": "2026-10-19",
       "path": "newsletters/2026-10-19/index.html",

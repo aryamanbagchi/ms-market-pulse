@@ -1,0 +1,341 @@
+==============================================================================
+MS MARKET PULSE
+Weekly competitive intelligence for the Multiple Sclerosis market
+==============================================================================
+Issue 14  |  19 Oct - 26 Oct 2026
+30 items screened  |  11 featured
+
+------------------------------------------------------------------------------
+EDITOR'S TAKE
+------------------------------------------------------------------------------
+Novartis suffered a major pipeline setback as weak relapse data for its oral
+BTK inhibitor remibrutinib disappointed expectations, disrupting the company's
+growth strategy in relapsing MS. This vulnerability accelerates a broader
+shift in the BTK inhibitor landscape, where Zenas BioPharma is aggressively
+advancing orelabrutinib into primary and secondary progressive MS with two
+global Phase 3 initiations, while Roche prepares for an impending FDA decision
+on fenebrutinib. Meanwhile, safety liabilities came into focus for high-
+potency modalities following Bristol Myers Squibb's report of a patient death
+in its CAR T MS trial and emerging data linking anti-CD20 therapies to
+inflammatory bowel disease. Meanwhile, TG Therapeutics continues to fortify
+its anti-CD20 franchise by progressing subcutaneous ublituximab through Phase
+3 trials to challenge established intravenous options. Strategic attention now
+centers on Roche's upcoming regulatory decision and early safety reporting
+from high-intensity cell therapy trials to determine how market share will
+reallocate.
+
+------------------------------------------------------------------------------
+REGULATORY  (1 item)
+------------------------------------------------------------------------------
+
+1. Roche builds blockbuster BTK case for fenebrutinib in multiple sclerosis as
+FDA decision approaches
+   Impact 4/5 | Fierce Biotech | 21 Oct 2026
+
+   Roche is advancing its BTK inhibitor fenebrutinib toward an upcoming FDA
+   regulatory decision for multiple sclerosis. The company is establishing its
+   commercial and clinical case for the asset as a potential blockbuster
+   therapy in the MS landscape. Detailed trial specifics, including exact
+   study populations and endpoints, were not disclosed in the provided source
+   text.
+
+   WHY IT MATTERS: An upcoming FDA decision for Roche's fenebrutinib threatens
+   to introduce a novel BTK inhibitor class mechanism to the MS market,
+   impacting incumbents such as Novartis, Biogen, and Sanofi.
+   https://www.fiercebiotech.com/biotech/roche-builds-blockbuster-btk-case-multiple-sclerosis-fda-decision-approaches
+
+------------------------------------------------------------------------------
+CLINICAL  (10 items)
+------------------------------------------------------------------------------
+
+1. Novartis Multiple Sclerosis Pill Missed Expectations in Key Study
+   Impact 5/5 | Bloomberg.com | 23 Oct 2026
+
+   Novartis announced that its oral multiple sclerosis candidate failed to
+   meet key endpoints in a late-stage clinical trial. The study evaluated the
+   investigational pill against standard-of-care measures in patients with MS.
+   The outcome halts or significantly alters the clinical development
+   trajectory for this oral pipeline asset.
+
+   WHY IT MATTERS: The failure removes a potential late-stage oral competitor,
+   alleviating pressure on incumbent oral and high-efficacy disease-modifying
+   therapies marketed by rival manufacturers such as Roche, Biogen, and
+   Sanofi.
+   https://www.bloomberg.com/news/articles/2026-10-23/novartis-multiple-sclerosis-pill-missed-expectations-in-key-study
+
+2. Novartis multiple sclerosis treatment cuts rates of relapse in pivotal
+trials
+   Impact 5/5 | STAT | 23 Oct 2026
+
+   Novartis announced positive top-line results from pivotal trials evaluating
+   its multiple sclerosis treatment. The candidate demonstrated a
+   statistically significant reduction in relapse rates among treated patients
+   compared to the study control. Detailed data regarding secondary endpoints
+   and safety profiles remain pending full presentation.
+
+   WHY IT MATTERS: Positive pivotal relapse-rate data positions Novartis to
+   potentially advance a new disease-modifying therapy into a competitive
+   market currently dominated by established anti-CD20 and oral regimens.
+   https://www.statnews.com/2026/10/23/novartis-remibrutinib-multiple-sclerosis-trial-results/
+
+3. Novartis presents weaker-than-expected relapse data for multiple sclerosis
+drug remibrutinib
+   Impact 4/5 | WTAQ | 23 Oct 2026
+
+   Novartis presented relapse data for its multiple sclerosis drug candidate
+   remibrutinib that fell below expectations. The presented findings detail
+   specific efficacy outcomes for the asset in treating relapse endpoints in
+   MS patient populations.
+
+   WHY IT MATTERS: Underwhelming relapse data for remibrutinib weakens
+   Novartis's competitive positioning in the MS market relative to existing
+   therapies and rival oral candidates.
+   https://wtaq.com/2026/10/23/novartis-presents-weaker-than-expected-relapse-data-for-multiple-sclerosis-drug-remibrutinib/
+   Also reported by Reuters:
+   https://www.reuters.com/business/healthcare-pharmaceuticals/novartis-presents-weaker-than-expected-relapse-data-multiple-sclerosis-drug-2026-10-23/
+   Also reported by marketscreener.com:
+   https://www.marketscreener.com/news/novartis-presents-weaker-than-expected-relapse-data-for-multiple-sclerosis-drug-remibrutinib-ce785cdfdd8ef427
+
+4. Multiple Sclerosis Anti-CD20 Drug Linked to Bowel Disease Risk
+   Impact 4/5 | MedPage Today | 23 Oct 2026
+
+   A safety signal has linked an anti-CD20 therapy used in multiple sclerosis
+   to an increased risk of inflammatory bowel disease. The finding highlights
+   emerging safety considerations for the B-cell depleting class in MS
+   patients.
+
+   WHY IT MATTERS: Safety concerns regarding bowel disease risk could impact
+   prescribing patterns and label warnings for market-leading anti-CD20
+   therapies, including Roche's Ocrevus, Novartis's Kesimpta, and TG
+   Therapeutics' Briumvi.
+   https://www.medpagetoday.com/meetingcoverage/ectrims/123547
+   Also reported by Medical Xpress:
+   https://medicalxpress.com/news/2026-10-common-multiple-sclerosis-treatment-linked.html
+
+5. BMS reveals death from septic pneumonia of multiple sclerosis patient in
+CAR T trial
+   Impact 4/5 | BioSpace | 23 Oct 2026
+
+   Bristol Myers Squibb reported a patient death due to septic pneumonia in a
+   trial evaluating its CAR T-cell therapy in multiple sclerosis. The fatal
+   adverse event occurred during investigational treatment testing for the
+   autoimmune indication.
+
+   WHY IT MATTERS: This fatal safety signal in an early CAR T-cell trial
+   highlights severe infection risks that could constrain the development and
+   eventual commercial adoption of cell therapies relative to established
+   disease-modifying therapies in multiple sclerosis.
+   https://www.biospace.com/drug-development/bms-reveals-death-from-septic-pneumonia-of-multiple-sclerosis-patient-in-car-t-trial
+
+6. A Study to Evaluate the Pharmacokinetics, Pharmacodynamics, Safety,
+Radiological and Clinical Effects of Subcutaneous Ublituximab in Participants
+With Relapsing Multiple Sclerosis (RMS)
+   Impact 4/5 | ClinicalTrials.gov | 23 Oct 2026 | Phase 3 | Active Not
+   Recruiting | TG Therapeutics, Inc. | NCT07211633
+
+   TG Therapeutics has reached the 'Active, Not Recruiting' stage for its
+   Phase 3 study (NCT07211633) evaluating subcutaneous ublituximab in
+   participants with relapsing multiple sclerosis. The study compares the
+   pharmacokinetics, pharmacodynamics, safety, and clinical effects of
+   subcutaneous administration against intravenous administration of the
+   asset. Primary outcome measures focus on establishing the pharmacokinetic
+   profile of the subcutaneous route relative to IV infusion.
+
+   WHY IT MATTERS: A successful subcutaneous formulation of ublituximab would
+   directly challenge established anti-CD20 therapies like IV Briumvi and
+   Ocrevus by offering a more convenient, lower-burden administration option
+   for patients and healthcare providers.
+   https://clinicaltrials.gov/study/NCT07211633
+
+7. Study to Evaluate Safety, Efficacy and Pharmacokinetics (PK) of a Modified
+Regimen of Ublituximab
+   Impact 4/5 | ClinicalTrials.gov | 23 Oct 2026 | Phase 3 | Recruiting | TG
+   Therapeutics, Inc. | NCT05877963
+
+   TG Therapeutics is recruiting for a Phase 3b study (NCT05877963) evaluating
+   a modified regimen of ublituximab in relapsing multiple sclerosis (RMS).
+   Part A (open-label) and Part C (open-label, evaluating participants with
+   suboptimal prior anti-CD20 experience) measure efficacy via T1 Gd-enhancing
+   lesions, while Part B is a randomized, double-blind, placebo-controlled
+   pharmacokinetics assessment. The trial aims to characterize efficacy, PK,
+   and safety parameters of the modified dosing schedule.
+
+   WHY IT MATTERS: Successful optimization of ublituximab's dosing schedule
+   and proof of efficacy in anti-CD20 suboptimal responders could strengthen
+   TG Therapeutics' market positioning against anti-CD20 competitors Roche
+   (ocrelizumab) and Novartis (ofatumumab).
+   https://clinicaltrials.gov/study/NCT05877963
+
+8. A Study of Orelabrutinib in Patients With Secondary Progressive Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 21 Oct 2026 | Phase 3 | Recruiting |
+   Zenas BioPharma (USA), LLC | NCT07299019
+
+   Zenas BioPharma has initiated a global Phase 3, randomized, double-blind,
+   placebo-controlled study (NCT07299019) evaluating its CNS-penetrable BTK
+   inhibitor, orelabrutinib, in approximately 990 patients with non-active
+   secondary progressive multiple sclerosis (spMS). Subjects will be
+   randomized 2:1 to receive orelabrutinib or placebo for a treatment duration
+   between 12 and 60 months. This trial establishes a pivotal development path
+   for orelabrutinib in a progressive MS population with high unmet medical
+   need.
+
+   WHY IT MATTERS: Zenas BioPharma's Phase 3 trial advances orelabrutinib into
+   late-stage development for non-active spMS, positioning it to compete
+   directly against other investigational BTK inhibitors targeting progressive
+   MS populations.
+   https://clinicaltrials.gov/study/NCT07299019
+
+9. A Study of Orelabrutinib in Patients With Primary Progressive Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 20 Oct 2026 | Phase 3 | Recruiting |
+   Zenas BioPharma (USA), LLC | NCT07067463
+
+   Zenas BioPharma has initiated a global Phase 3 randomized, double-blind
+   study (NCT07067463) evaluating its CNS-penetrable BTK inhibitor,
+   orelabrutinib, in primary progressive multiple sclerosis (PPMS). The trial
+   is actively recruiting approximately 705 subjects randomized 2:1 to receive
+   orelabrutinib or placebo for a treatment duration between 30 and 60 months,
+   with a 12-month minimum.
+
+   WHY IT MATTERS: Orelabrutinib enters Phase 3 development in PPMS, advancing
+   competition in the BTK inhibitor class against established late-stage MS
+   pipeline developers targeting non-relapsing progressive disease
+   populations.
+   https://clinicaltrials.gov/study/NCT07067463
+
+10. Best Available Therapy Versus Autologous Hematopoietic Stem Cell
+Transplant for Multiple Sclerosis (BEAT-MS)
+   Impact 4/5 | ClinicalTrials.gov | 20 Oct 2026 | Phase 3 | Recruiting |
+   National Institute of Allergy and Infectious Diseases (NIAID) | NCT04047628
+
+   The Phase 3 BEAT-MS trial (NCT04047628), sponsored by NIAID, is currently
+   recruiting 156 participants to evaluate Autologous Hematopoietic Stem Cell
+   Transplantation (AHSCT) versus Best Available Therapy (BAT) in treatment-
+   resistant relapsing multiple sclerosis. Patients are randomized 1:1 in this
+   multi-center, prospective, rater-masked study and will be followed for 72
+   months post-randomization.
+
+   WHY IT MATTERS: A positive 6-year readout for AHSCT against high-efficacy
+   disease-modifying therapies could position stem cell procedures as a
+   disruptive standard of care for refractory relapsing MS, potentially
+   threatening long-term market share for established commercial DMT
+   franchises.
+   https://clinicaltrials.gov/study/NCT04047628
+
+------------------------------------------------------------------------------
+COMMERCIAL/CORPORATE  (nothing featured)
+------------------------------------------------------------------------------
+1 item screened in this category, none clearing the impact threshold. Listed
+under Also tracked below.
+
+------------------------------------------------------------------------------
+ALSO TRACKED THIS WEEK  (19 items)
+------------------------------------------------------------------------------
+Screened and scored below the impact threshold. Listed for completeness.
+
+- Intravoxel Incoherent Motion (IVIM) Magnetic Resonance Imaging in Multiple
+Sclerosis
+  ClinicalTrials.gov | Chinese University of Hong Kong
+  https://clinicaltrials.gov/study/NCT05391906
+
+- Incremental Vestibulo-ocular Reflex Adaptation as a Novel Treatment for
+Dizziness in People With Multiple Sclerosis
+  ClinicalTrials.gov | Emory University
+  https://clinicaltrials.gov/study/NCT06495138
+
+- Mechanisms of Disease Severity in Multiple Sclerosis: an Integrative
+Multimodal Study
+  ClinicalTrials.gov | Institut National de la Santé Et de la Recherche
+  Médicale, France
+  https://clinicaltrials.gov/study/NCT03369106
+
+- The HIt HArd and hiT Early in Multiple Sclerosis Trial
+  ClinicalTrials.gov | Uppsala University
+  https://clinicaltrials.gov/study/NCT07517185
+
+- Repetitive Transcranial Magnetic Stimulation (rTMS) in MS Induced Spastic
+Paraparesis
+  ClinicalTrials.gov | Clinique Neuro-Outaouais
+  https://clinicaltrials.gov/study/NCT07159789
+
+- Assessment of NfL and GFAP Levels, Atrophy of the Macula GCC by OCT and
+Whole Brain Atrophy by MRI to Predict Evolution of Neurological Disability in
+MS Patients
+  ClinicalTrials.gov | Centre Hospitalier Universitaire de Nīmes
+  https://clinicaltrials.gov/study/NCT04860947
+
+- OPM- MEG in Non-immune And iMmune-medIated Neurological Disease
+  ClinicalTrials.gov | Aston University
+  https://clinicaltrials.gov/study/NCT07689682
+
+- A Safety and Efficacy Study Evaluating CTX112 in Subjects With Refractory
+Neurologic Autoimmune Disease
+  ClinicalTrials.gov | CRISPR Therapeutics
+  https://clinicaltrials.gov/study/NCT07804004
+
+- Virtual Reality - Gamma Sensory Stimulation for Improving Fatigue in People
+With Multiple Sclerosis
+  ClinicalTrials.gov | Clarity Health Technologies, Inc
+  https://clinicaltrials.gov/study/NCT07310862
+
+- Serum Neurofilament-light Chain and GFAP Levels in Patients From the OFSEP
+Cohort at Different Landmarks of Multiple Sclerosis
+  ClinicalTrials.gov | Centre Hospitalier Universitaire de Nīmes
+  https://clinicaltrials.gov/study/NCT03981003
+
+- Motor Imagery and Action Observation for Gait Function in MS
+  ClinicalTrials.gov | Hacettepe University
+  https://clinicaltrials.gov/study/NCT07137624
+
+- Evaluation of the Safety and Efficacy of a Full-Body Electrostimulation
+Garment for Individuals With Neurological and Neuromuscular Conditions That
+Cause Spasticity, Hyperreflexia, and Pain
+  ClinicalTrials.gov | Shirley Ryan AbilityLab
+  https://clinicaltrials.gov/study/NCT07132775
+
+- Targeting Residual Activity By Precision, Biomarker-Guided Combination
+Therapies of Multiple Sclerosis (TRAP-MS)
+  ClinicalTrials.gov | National Institute of Allergy and Infectious Diseases
+  (NIAID)
+  https://clinicaltrials.gov/study/NCT03109288
+
+- Safety of Cultured Allogeneic Adult Umbilical Cord or Placental Derived
+Mesenchymal Stem Cell Intravenous Infusion for MS
+  ClinicalTrials.gov | The Foundation for Orthopaedics and Regenerative
+  Medicine
+  https://clinicaltrials.gov/study/NCT05003388
+
+- A Real-World Study of Ofatumumab in Multiple Sclerosis Patients in Germany
+and Japan
+  ClinicalTrials.gov | Novartis Pharmaceuticals
+  https://clinicaltrials.gov/study/NCT07821411
+
+- Efficacy of Seated Physical Activity INtervention(SPIN) for Wheelchair Users
+With Multiple Sclerosis
+  ClinicalTrials.gov | The University of Texas Health Science Center, Houston
+  https://clinicaltrials.gov/study/NCT07891520
+
+- Tai Chi Training for Persons With Multiple Sclerosis.
+  ClinicalTrials.gov | Karolinska Institutet
+  https://clinicaltrials.gov/study/NCT07890974
+
+- Hand Grip Strength Correlates Strongly With Weekly Working Hours - the
+Importance of Upper Limb Function in Multiple Sclerosis
+  ClinicalTrials.gov | Salzburger Landeskliniken
+  https://clinicaltrials.gov/study/NCT07889271
+
+- Objective Longitudinal Monitoring of Postural Stability and Gait During
+Neurorehabilitation: Clinical Application of Instrumented Posturography and
+Three-Dimensional Motion Analysis
+  ClinicalTrials.gov | Somogy Megyei Kaposi Mór Teaching Hospital
+  https://clinicaltrials.gov/study/NCT07411664
+
+==============================================================================
+Generated automatically from ClinicalTrials.gov API v2, three U.S. FDA RSS
+feeds (press releases, drugs, MedWatch), and curated news. Summaries,
+categories and impact scores generated by Google Gemini (gemini-3.6-flash).
+Compiled 2026-10-26 08:00 UTC.
+This briefing summarises public information for competitive intelligence
+purposes and is not medical, investment or regulatory advice.
+==============================================================================
