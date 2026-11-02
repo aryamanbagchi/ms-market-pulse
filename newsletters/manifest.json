@@ -1,6 +1,20 @@
 {
   "issues": [
     {
+      "number": 15,
+      "date": "2026-11-02",
+      "path": "newsletters/2026-11-02/index.html",
+      "text_path": "newsletters/2026-11-02/newsletter.txt",
+      "item_count": 6,
+      "screened_count": 33,
+      "categories": {
+        "Clinical": 6
+      },
+      "top_headline": "Study to Assess Effects of Ublituximab in Pediatric Participants With Relapsing Forms of Multiple Sclerosis",
+      "ai_enabled": true,
+      "generated_at": "2026-11-02T09:47:23Z"
+    },
+    {
       "number": 14,
       "date": "2026-10-26",
       "path": "newsletters/2026-10-26/index.html",

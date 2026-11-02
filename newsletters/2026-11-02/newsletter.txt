@@ -1,0 +1,286 @@
+==============================================================================
+MS MARKET PULSE
+Weekly competitive intelligence for the Multiple Sclerosis market
+==============================================================================
+Issue 15  |  26 Oct - 02 Nov 2026
+33 items screened  |  6 featured
+
+------------------------------------------------------------------------------
+EDITOR'S TAKE
+------------------------------------------------------------------------------
+Zenas BioPharma's dual Phase 3 initiations for its CNS-penetrable BTK
+inhibitor, orelabrutinib, in primary progressive and non-active secondary
+progressive MS mark a decisive shift toward high-unmet-need progressive
+populations. This focus on advanced disease is further reflected by Sundance
+Biosciences advancing SUN-627 into Phase 2a safety trials for progressive
+cohorts. Concurrently, TG Therapeutics is defending and extending its
+ublituximab franchise through a Phase 2/3 pediatric relapsing trial alongside
+Phase 2 subcutaneous autoinjector studies designed to improve delivery
+convenience. Beyond disease modification, Celgene is targeting symptomatic
+management by actively recruiting a Phase 2 trial for BMS-986368 in MS
+spasticity. Strategy teams should watch whether Zenas can sustain rapid
+enrollment across its ambitious progressive MS studies, where clinical
+efficacy has historically proven difficult to establish.
+
+------------------------------------------------------------------------------
+REGULATORY  (nothing featured)
+------------------------------------------------------------------------------
+No FDA actions affecting the MS market in this window. Sources checked: FDA
+press releases, drugs and MedWatch feeds.
+
+------------------------------------------------------------------------------
+CLINICAL  (6 items)
+------------------------------------------------------------------------------
+
+1. Study to Assess Effects of Ublituximab in Pediatric Participants With
+Relapsing Forms of Multiple Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 29 Oct 2026 | Phase 2, Phase 3 |
+   Recruiting | TG Therapeutics, Inc. | NCT07220252
+
+   TG Therapeutics has initiated a Phase 2/3 trial (NCT07220252) evaluating
+   ublituximab in pediatric participants aged 10 to under 18 years with
+   relapsing forms of multiple sclerosis (RMS). Part A will assess the
+   pharmacokinetics and pharmacodynamics of ublituximab, Part B will evaluate
+   its non-inferiority against fingolimod, and Part C will examine long-term
+   safety and efficacy during an extension period.
+
+   WHY IT MATTERS: If successful, TG Therapeutics could expand ublituximab's
+   label into pediatric RMS, directly competing against Novartis's fingolimod
+   and established anti-CD20 therapies in a specialized patient segment.
+   https://clinicaltrials.gov/study/NCT07220252
+
+2. A Study of Orelabrutinib in Patients With Primary Progressive Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 27 Oct 2026 | Phase 3 | Recruiting |
+   Zenas BioPharma (USA), LLC | NCT07067463
+
+   Zenas BioPharma has initiated recruitment for a global Phase 3 clinical
+   trial (NCT07067463) evaluating its CNS-penetrable BTK inhibitor,
+   orelabrutinib, in primary progressive multiple sclerosis (PPMS). The
+   randomized, double-blind, placebo-controlled study plans to enroll
+   approximately 705 subjects in a 2:1 ratio, with treatment durations ranging
+   from 30 to 60 months and a minimum exposure of 12 months.
+
+   WHY IT MATTERS: Progress in Phase 3 trials for orelabrutinib advances
+   another CNS-penetrating BTK inhibitor into late-stage development for PPMS,
+   intensifying competition for established players like Roche and other BTK
+   developers targeting non-relapsing disease populations.
+   https://clinicaltrials.gov/study/NCT07067463
+
+3. A Study of Orelabrutinib in Patients With Secondary Progressive Multiple
+Sclerosis
+   Impact 4/5 | ClinicalTrials.gov | 27 Oct 2026 | Phase 3 | Recruiting |
+   Zenas BioPharma (USA), LLC | NCT07299019
+
+   Zenas BioPharma has initiated recruitment for a global Phase 3, randomized,
+   double-blind study (NCT07299019) evaluating the CNS-penetrable BTK
+   inhibitor orelabrutinib in non-active secondary progressive multiple
+   sclerosis. The multicenter trial aims to enroll approximately 990 patients
+   in a 2:1 ratio against placebo, with treatment duration ranging from 24 to
+   60 months and a minimum treatment period of 12 months.
+
+   WHY IT MATTERS: This trial advances a late-stage BTK inhibitor into the
+   non-active SPMS population, directly challenging established and pipeline
+   therapies targeting progressive disease forms with limited treatment
+   options.
+   https://clinicaltrials.gov/study/NCT07299019
+
+4. A Phase 2a Study of SUN-627 in Participants With Non-Active Secondary
+Progressive and Primary Progressive Multiple Sclerosis (SPMS/PPMS)
+   Impact 3/5 | ClinicalTrials.gov | 30 Oct 2026 | Phase 2 | Recruiting |
+   Sundance Biosciences, Inc. | NCT07840326
+
+   Sundance Biosciences has initiated recruitment for a Phase 2a clinical
+   trial evaluating SUN-627 in adult patients aged 18 to 70 with non-active
+   secondary progressive (SPMS) and primary progressive multiple sclerosis
+   (PPMS). The study's primary objectives focus on assessing the safety and
+   tolerability of the asset in these progressive MS populations.
+
+   WHY IT MATTERS: Sundance Biosciences' Phase 2a trial targeting non-active
+   SPMS and PPMS addresses a high-unmet-need segment where established anti-
+   CD20 and DMT options offer limited efficacy.
+   https://clinicaltrials.gov/study/NCT07840326
+
+5. A Study to Evaluate Pharmacokinetics (PK) and Safety of Subcutaneous (SC)
+Ublituximab Administered at Various Injection Sites and Relative
+Bioavailability Via Autoinjector (AI) Versus Syringe Subcutaneously in
+Participants With Multiple Sclerosis (MS)
+   Impact 3/5 | ClinicalTrials.gov | 29 Oct 2026 | Phase 2 | Recruiting | TG
+   Therapeutics, Inc. | NCT07503873
+
+   TG Therapeutics has initiated recruitment for a Phase 2 trial (NCT07503873)
+   evaluating a subcutaneous formulation of ublituximab in participants with
+   Multiple Sclerosis. The study will assess the asset's pharmacokinetics and
+   safety across various administration sites, as well as its relative
+   bioavailability when delivered via a prefilled autoinjector pen versus a
+   syringe. The primary focus of the trial is establishing the pharmacokinetic
+   profile and delivery dynamics for SC administration.
+
+   WHY IT MATTERS: Successful subcutaneous autoinjector delivery of
+   ublituximab would enhance patient convenience and positioning for TG
+   Therapeutics against established anti-CD20 therapies like Roche's Ocrevus
+   and Novartis's Kesimpta.
+   https://clinicaltrials.gov/study/NCT07503873
+
+6. A Study to Evaluate the Efficacy, Safety and Tolerability of BMS-986368 in
+Participants With Multiple Sclerosis Spasticity
+   Impact 3/5 | ClinicalTrials.gov | 27 Oct 2026 | Phase 2 | Recruiting |
+   Celgene | NCT06782490
+
+   Celgene is actively recruiting participants for a Phase 2 clinical trial
+   (NCT06782490) to evaluate BMS-986368. The study aims to assess the
+   efficacy, safety, and tolerability of the asset specifically in patients
+   presenting with multiple sclerosis spasticity. Primary completion and study
+   completion are anticipated for late 2026.
+
+   WHY IT MATTERS: This trial positions Bristol Myers Squibb/Celgene to
+   potentially expand its MS portfolio into symptomatic management by
+   targeting spasticity, a high-unmet-need complication of the disease.
+   https://clinicaltrials.gov/study/NCT06782490
+
+------------------------------------------------------------------------------
+COMMERCIAL/CORPORATE  (nothing featured)
+------------------------------------------------------------------------------
+3 items screened in this category, none clearing the impact threshold. Listed
+under Also tracked below.
+
+------------------------------------------------------------------------------
+ALSO TRACKED THIS WEEK  (27 items)
+------------------------------------------------------------------------------
+Screened and scored below the impact threshold. Listed for completeness.
+
+- An Extension Study of Ublituximab in Participants With Relapsing Multiple
+Sclerosis
+  ClinicalTrials.gov | TG Therapeutics, Inc.
+  https://clinicaltrials.gov/study/NCT04130997
+
+- A Study Evaluating the Real World Experience of Participants Treated With
+BRIUMVI® (Ublituximab-xiiy) for Relapsing Multiple Sclerosis (RMS)
+  ClinicalTrials.gov | TG Therapeutics, Inc.
+  https://clinicaltrials.gov/study/NCT06433752
+
+- Non-interventional Study of Subcutaneous Ocrelizumab in Persons With
+Relapsing-Remitting Multiple Sclerosis
+  ClinicalTrials.gov | Hoffmann-La Roche
+  https://clinicaltrials.gov/study/NCT07827586
+
+- A Study of Ocrelizumab Administered Subcutaneously in Participants With
+Multiple Sclerosis Who Switch From an Approved Anti-CD20 Therapy
+  ClinicalTrials.gov | Genentech, Inc.
+  https://clinicaltrials.gov/study/NCT07609719
+
+- ADAs to Alemtuzumab
+  ClinicalTrials.gov | Queen Mary University of London
+  https://clinicaltrials.gov/study/NCT06310343
+
+- Switch to Ofatumumab and Level of Immunoglobulins
+  ClinicalTrials.gov | University Hospital, Lille
+  https://clinicaltrials.gov/study/NCT07625800
+
+- Oral Cladribine B-cell Study
+  ClinicalTrials.gov | Queen Mary University of London
+  https://clinicaltrials.gov/study/NCT06415864
+
+- A Study Evaluating the Effect of BRIUMVI® (Ublituximab) on Pregnancy and
+Infant Outcomes in Participants With Multiple Sclerosis (MS)
+  ClinicalTrials.gov | TG Therapeutics, Inc.
+  https://clinicaltrials.gov/study/NCT06433765
+
+- Relating Genetic and Environmental Risk Scores to Multiple Sclerosis
+Susceptibility
+  ClinicalTrials.gov | National Institute of Neurological Disorders and Stroke
+  (NINDS)
+  https://clinicaltrials.gov/study/NCT01617395
+
+- Dry Needling in Multiple Sclerosis
+  ClinicalTrials.gov | University of South Florida
+  https://clinicaltrials.gov/study/NCT07615725
+
+- Short Sprint Interval Training in People With Multiple Sclerosis
+  ClinicalTrials.gov | Universidad de León
+  https://clinicaltrials.gov/study/NCT07804264
+
+- MS patient left in 'horrific' pain amid UK wide medicine shortage
+  BBC
+  https://www.bbc.co.uk/news/articles/cr20w5vx39peo
+
+- Early Versus Late Ofatumumab (Kesimpta®) Use in Austrian RMS-Patients Over 2
+Years
+  ClinicalTrials.gov | Novartis Pharmaceuticals
+  https://clinicaltrials.gov/study/NCT05776888
+
+- An Extension Study to Assess Impact of Multiple Sclerosis (MS) on Physical
+Function and Provide Continued Ocrelizumab Treatment
+  ClinicalTrials.gov | Hoffmann-La Roche
+  https://clinicaltrials.gov/study/NCT06675955
+
+- Multiple Sclerosis Patient Experience on Kesimpta and Ocrevus Subcutaneous
+Formulation
+  ClinicalTrials.gov | Novartis Pharmaceuticals
+  https://clinicaltrials.gov/study/NCT06668324
+
+- A Rollover Study to Evaluate the Long-Term Safety and Efficacy of
+Ocrelizumab In Patients With Multiple Sclerosis
+  ClinicalTrials.gov | Hoffmann-La Roche
+  https://clinicaltrials.gov/study/NCT05269004
+
+- Neurogenetics and Multi-omics of Neuroinflammatory Diseases in Multiplex
+Families to Improve Patients Health
+  ClinicalTrials.gov | Institut National de la Santé Et de la Recherche
+  Médicale, France
+  https://clinicaltrials.gov/study/NCT07902479
+
+- A Study Evaluating the Presence and Concentration of BRIUMVI™ (Ublituximab)
+in Breast Milk
+  ClinicalTrials.gov | TG Therapeutics, Inc.
+  https://clinicaltrials.gov/study/NCT06143514
+
+- Evaluating the Effects of the EXOPULSE Suit on Mobility, Walking Ability,
+and Balance in People With Multiple Sclerosis
+  ClinicalTrials.gov | Otto Bock Healthcare Products GmbH
+  https://clinicaltrials.gov/study/NCT07897760
+
+- REAL-MS: Observational Database Study of AHSCT and MS Therapies
+  ClinicalTrials.gov | Imperial College London
+  https://clinicaltrials.gov/study/NCT07899502
+
+- Effect of a Mobile Health App on Pain and Quality of Life in Patients With
+Neuropathic Pain in Multiple Sclerosis
+  ClinicalTrials.gov | Meryem Kocaslan Toran
+  https://clinicaltrials.gov/study/NCT06982742
+
+- Study of Ovarian Reserve Concerning Patients With Multiple Sclerosis (MS),
+Compared to a Control Group
+  ClinicalTrials.gov | University Hospital, Bordeaux
+  https://clinicaltrials.gov/study/NCT05754593
+
+- A Study to Describe Multiple Sclerosis Patients Treated With Tolebrutinib as
+Per Label in a Real-world Setting
+  ClinicalTrials.gov | Sanofi
+  https://clinicaltrials.gov/study/NCT07898371
+
+- iConquerMS™ - A Patient-Powered Research Network for Multiple Sclerosis
+  ClinicalTrials.gov | Accelerated Cure Project for Multiple Sclerosis
+  https://clinicaltrials.gov/study/NCT02486562
+
+- Tai Chi Training for Persons With Multiple Sclerosis.
+  ClinicalTrials.gov | Karolinska Institutet
+  https://clinicaltrials.gov/study/NCT07890974
+
+- Evaluation of the Effect of Mental Imagery Training Combined With Modified
+Constraint-Induced Movement Therapy in Individuals With Multiple Sclerosis
+  ClinicalTrials.gov | Hacettepe University
+  https://clinicaltrials.gov/study/NCT07899411
+
+- Biobank For MS And Other Demyelinating Diseases
+  ClinicalTrials.gov | Accelerated Cure Project for Multiple Sclerosis
+  https://clinicaltrials.gov/study/NCT00445367
+
+==============================================================================
+Generated automatically from ClinicalTrials.gov API v2, three U.S. FDA RSS
+feeds (press releases, drugs, MedWatch), and curated news. Summaries,
+categories and impact scores generated by Google Gemini (gemini-3.6-flash).
+Compiled 2026-11-02 09:47 UTC.
+This briefing summarises public information for competitive intelligence
+purposes and is not medical, investment or regulatory advice.
+==============================================================================
